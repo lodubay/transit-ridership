@@ -1,0 +1,681 @@
+,Name,City,State,NTD ID,Reporter Type,Primary UZA Population,Guideway,Stations,Administrative Buildings,Maintenance Buildings,Passenger Vehicles,Other Vehicles,Fare Collection Equipment,Communication & Information Systems,Other,Reduced Reporter Expenses,Total
+0,MTA New York City Transit,New York,NY,20008,Full Reporter,18351295,693512674,838892516,13976558,126272788,210601391,10109713,69930235,580099710,190562965,0,2733958550
+1,New Jersey Transit Corporation,Newark,NJ,20080,Full Reporter,18351295,94815183,31733712,6802303,21365247,154653001,3115589,35884316,62844705,46605289,0,457819345
+2,Los Angeles County Metropolitan Transportation Authority dba: Metro,Los Angeles,CA,90154,Full Reporter,12150996,1060477265,139823316,3821923,110293044,299112510,11113190,564754,26669954,0,0,1651875956
+3,Washington Metropolitan Area Transit Authority,Washington,DC,30030,Full Reporter,4586770,173841196,140533494,18958101,104795333,384743042,7263038,35277642,82139991,2439102,0,949990939
+4,King County Department of Transportation,Seattle,WA,1,Full Reporter,3059393,1160403,2408143,1748966,7999956,233106853,4084698,326902,4802648,16917426,0,272555995
+5,Chicago Transit Authority,Chicago,IL,50066,Full Reporter,8608208,64765148,130337079,4605833,17904085,151470453,173707,1709926,13585728,9674178,0,394226137
+6,Massachusetts Bay Transportation Authority,Boston,MA,10003,Full Reporter,4181019,260259397,117640942,0,9766913,258135159,2407582,8465979,53781689,0,0,710457661
+7,Southeastern Pennsylvania Transportation Authority,Philadelphia,PA,30019,Full Reporter,5441567,148528623,86170806,387034,30641888,184901106,5229326,19293763,71160910,0,0,546313456
+8,"Metropolitan Transit Authority of Harris County, Texas",Houston,TX,60008,Full Reporter,4944332,47860994,9018996,4489645,9703109,34026442,1784323,226864,20064390,4793377,0,131968140
+9,Access Services,El Monte,CA,90157,Full Reporter,12150996,0,0,0,0,3099285,0,0,404228,115959,0,3619472
+11,Maryland Transit Administration,Baltimore,MD,30034,Full Reporter,2203663,177347031,14297675,4951072,39731951,66212053,369298,471201,17817590,10033990,0,331231861
+12,Pace - Suburban Bus Division,Arlington Heights,IL,50113,Full Reporter,8608208,0,3901719,356074,10160037,54143972,725152,217001,2361413,2061792,0,73927160
+13,Orange County Transportation Authority,Orange,CA,90036,Full Reporter,12150996,0,0,0,2670029,34350672,236835,0,1309236,0,0,38566772
+14,Denver Regional Transportation District,Denver,CO,80006,Full Reporter,2374203,345027578,70759786,15698,6716529,142000715,2985448,1150628,121502262,0,0,690158644
+15,Miami-Dade Transit,Miami,FL,40034,Full Reporter,5502379,22237560,6149811,0,701094,57298599,344774,3203477,8289564,2228296,0,100453175
+16,"Metro-North Commuter Railroad Company, dba: MTA Metro-North Railroad",New York,NY,20078,Full Reporter,18351295,145552964,36184433,8761321,75411525,6822960,6351643,339660,50617167,30075214,0,360116887
+17,MTA Bus Company,New York,NY,20188,Full Reporter,18351295,0,0,13611195,11011163,55134012,211908,0,24230,0,0,79992508
+18,Utah Transit Authority,Salt Lake City,UT,80001,Full Reporter,1021243,34484465,1312518,1232047,4307929,4491664,576924,319903,366328,0,0,47091778
+19,Dallas Area Rapid Transit,Dallas,TX,60056,Full Reporter,5121892,111008546,5349623,613397,1870778,19278890,2857069,3967883,5862908,312474,0,151121568
+20,Northeast Illinois Regional Commuter Railroad Corporation dba: Metra Rail,Chicago,IL,50118,Full Reporter,8608208,112591472,8286508,11206458,6263218,98721081,5170704,0,1837548,0,0,244076989
+21,MTA Long Island Rail Road,Jamaica,NY,20100,Full Reporter,18351295,372157975,26253079,0,12082153,41500271,0,0,0,34646268,0,486639746
+22,Metropolitan Atlanta Rapid Transit Authority,Atlanta,GA,40022,Full Reporter,4515419,37269353,36026699,1896323,23199730,32729160,2965530,10649,24550137,40297,0,158687878
+23,San Francisco Municipal Railway,San Francisco,CA,90015,Full Reporter,3281212,175022447,4332115,49884,3963688,200696277,0,32571,29329846,0,0,413426828
+24,Tri-County Metropolitan Transportation District of Oregon,Portland,OR,8,Full Reporter,1849898,22952765,10932070,240912,4749718,60540863,1447324,16270884,15755055,789097,0,133678688
+26,Port Authority of Allegheny County,Pittsburgh,PA,30022,Full Reporter,1733853,27626653,3552395,0,5601277,39859271,1424968,591852,5034943,268807,0,83960166
+27,Metro Transit,Minneapolis,MN,50027,Full Reporter,2650890,100961088,20177890,2183807,10465956,54303999,0,3953497,5173931,4726327,0,201946495
+28,VIA Metropolitan Transit,San Antonio,TX,60011,Full Reporter,1758210,0,10753021,1485598,2032996,9895491,85780,830974,3350162,5086026,0,33520048
+29,City and County of Honolulu Department of Transportation Services,Honolulu,HI,90002,Full Reporter,802459,467321202,23496068,0,82664981,52683526,5295729,781196,28498820,951844,0,661693366
+30,San Diego Metropolitan Transit System,San Diego,CA,90026,Full Reporter,2956746,84968182,7101723,85915,1036376,37500381,0,0,7050273,81389,0,137824239
+31,Capital Metropolitan Transportation Authority,Austin,TX,60048,Full Reporter,1362416,8013636,1527560,0,4662196,28435514,165167,33770,1933467,286942,0,45058252
+33,Alameda-Contra Costa Transit District,Oakland,CA,90014,Full Reporter,3281212,15660444,81588,853912,2228007,30325469,0,535864,1648126,318691,0,51652101
+34,Santa Clara Valley Transportation Authority,San Jose,CA,90013,Full Reporter,1664496,431560969,5116593,0,6460252,2334575,0,0,12660108,99246,0,458231743
+36,Regional Transportation Commission of Southern Nevada,Las Vegas,NV,90045,Full Reporter,1886011,96862236,3212271,297610,3760957,41345910,0,0,0,288961,0,145767945
+37,Snohomish County Public Transportation Benefit Area Corporation,Everett,WA,29,Full Reporter,3059393,0,0,1188563,1128802,17283586,178410,0,3386261,4316409,0,27482031
+38,Central Florida Regional Transportation Authority,Orlando,FL,40035,Full Reporter,1510516,9894688,44559,0,576635,24985196,215450,452563,1336188,3905534,0,41410813
+39,City of Phoenix Public Transit Department dba Valley Metro,Phoenix,AZ,90032,Full Reporter,3629114,22193,4276728,1647016,11514811,31910330,0,10440,1928439,1664637,0,52974594
+41,The Greater Cleveland Regional Transit Authority,Cleveland,OH,50015,Full Reporter,1780673,8913630,31359306,0,1968610,8197278,0,0,363931,3626367,0,54429122
+42,San Francisco Bay Area Rapid Transit District,Oakland,CA,90003,Full Reporter,3281212,251782433,86083321,4016238,47530779,36065754,2322863,10082537,8907792,0,0,446791717
+43,"VRide, Inc. - Michigan",Farmington Hills,MI,50193,Full Reporter,3734090,0,0,0,0,270791,0,0,0,0,0,270791
+44,Pierce County Transportation Benefit Area Authority,Tacoma,WA,3,Full Reporter,3059393,0,670849,1030,56418,10959069,651220,360105,1552619,152791,0,14404101
+45,Potomac and Rappahannock Transportation Commission,Woodbridge,VA,30070,Full Reporter,4586770,0,0,84443,455436,5560901,26486,0,1121295,19334,0,7267895
+46,Delaware Transit Corporation,Dover,DE,30075,Full Reporter,5441567,0,0,2153952,3062870,8668847,0,0,600386,1807926,0,16293981
+47,"Bi-State Development Agency of the Missouri-Illinois Metropolitan District, d.b.a.(St. Louis) Metro",St. Louis,MO,70006,Full Reporter,2150706,17634241,1205903,968393,5620345,23689137,182957,3295152,4848236,1250021,0,58694385
+48,Broward County Transit Division,Plantation,FL,40029,Full Reporter,5502379,0,52610,0,7374575,8335979,151270,0,3778901,2830167,0,22523502
+49,Metro Mobility,St. Paul,MN,50155,Full Reporter,2650890,0,0,0,0,6565789,0,0,0,0,0,6565789
+50,City of Detroit Department of Transportation,Detroit,MI,50119,Full Reporter,3734090,0,0,0,81227,8428676,0,0,307310,135200,0,8952413
+51,Ben Franklin Transit,Richland,WA,18,Full Reporter,210975,0,40276,20235,153168,1682888,51754,0,892,8645,0,1957858
+52,"Board of County Commissioners, Palm Beach County, PalmTran, Inc.",West Palm Beach,FL,40037,Full Reporter,5502379,0,0,179892,29773,3542777,0,0,139028,25419,0,3916889
+53,Milwaukee County Transit System,Milwaukee,WI,50008,Full Reporter,1376476,0,0,0,1173739,14264460,153569,0,1268984,69860,0,16930612
+54,Charlotte Area Transit System,Charlotte,NC,40008,Full Reporter,1249442,230466450,12910695,1269543,1139713,13794255,271115,4240586,6457872,32675649,0,303225878
+56,"Regional Public Transportation Authority, dba: Valley Metro",Phoenix,AZ,90136,Full Reporter,3629114,0,0,115261,0,3306188,49141,0,0,0,0,3470590
+57,San Mateo County Transit District,San Carlos,CA,90009,Full Reporter,3281212,0,0,1647459,1598472,0,2323039,0,7245050,7023,0,12821043
+58,Central Puget Sound Regional Transit Authority,Seattle,WA,40,Full Reporter,3059393,777188344,49294569,0,20154380,28335538,121312,1284069,19500139,1015298,0,896893649
+59,Transportation District Commission of Hampton Roads,Hampton,VA,30083,Full Reporter,1439666,0,0,220261,0,24737380,114903,44952,2451146,658772,0,28227414
+60,Central Ohio Transit Authority,Columbus,OH,50016,Full Reporter,1368035,2274256,1110493,59116,3318011,11414659,492905,0,2767884,458999,0,21896323
+61,City of Los Angeles Department of Transportation,Los Angeles,CA,90147,Full Reporter,12150996,0,0,0,0,21260548,0,0,0,6476782,0,27737330
+62,Niagara Frontier Transportation Authority,Buffalo,NY,20004,Full Reporter,935906,1198013,1025982,0,8120932,12121854,687767,275656,2085445,454714,0,25970363
+63,Nassau Inter County Express,Garden City,NY,20206,Full Reporter,18351295,0,0,0,5780324,17535722,62171,0,1172270,76900,0,24627387
+64,Southwest Ohio Regional Transit Authority,Cincinnati,OH,50012,Full Reporter,1624827,0,1019622,0,207665,10628984,106707,0,285312,121244,0,12369534
+65,Lane Transit District,Eugene,OR,7,Full Reporter,247421,34623589,209741,420446,725700,9449631,128416,0,1369375,457000,0,47383898
+66,Westchester County Bee-Line System,Mount Vernon,NY,20076,Full Reporter,18351295,0,0,0,557794,1464390,0,0,1137770,0,0,3159954
+67,City of Tuscon,Tucson   ,AZ,90033,Full Reporter,843168,0,491608,237711,4116254,10986588,0,699989,29986,4927001,0,21489137
+68,Cape Cod Regional Transit Authority,Hyannis,MA,10105,Full Reporter,246695,0,198915,0,0,3777055,23225,0,207196,139665,0,4346056
+69,Greater Richmond Transit Company,Richmond,VA,30006,Full Reporter,953556,1605510,337379,0,1001540,1135420,0,233456,754858,0,0,5068163
+70,Foothill Transit,West Covina,CA,90146,Full Reporter,12150996,0,776378,49143,674174,23447357,113654,91123,2031664,203395,0,27386888
+71,Suburban Mobility Authority for Regional Transportation,Detroit,MI,50031,Full Reporter,3734090,0,0,0,2498556,27994680,164751,0,695851,703290,0,32057128
+72,Transit Authority of River City,Louisville,KY,40018,Full Reporter,972546,0,732457,136527,2927576,7358261,0,240048,608080,168125,0,12171074
+73,Spokane Transit Authority,Spokane,WA,2,Full Reporter,387847,1129081,4296577,272958,251349,3424488,166186,239187,3092250,257806,0,13129882
+74,Port Authority Trans-Hudson Corporation,Jersey City,NJ,20098,Full Reporter,18351295,176880319,168065460,41892,19888275,7341303,0,0,81812870,0,0,454030119
+75,Suffolk County Department of Public Works - Transportation Division,Yaphank,NY,20072,Full Reporter,18351295,0,0,0,0,0,0,0,1599282,515401,0,2114683
+76,Kansas City Area Transportation Authority,Kansas City,MO,70005,Full Reporter,1519417,0,0,434067,404752,2098936,155337,0,1350088,808034,0,5251214
+77,Capital Area Transit,Raleigh,NC,40007,Full Reporter,884891,0,2428717,0,0,0,0,0,0,0,0,2428717
+78,Pinellas Suncoast Transit Authority,St. Petersburg,FL,40027,Full Reporter,2441770,0,739580,0,0,0,92838,64345,289544,185997,0,1372304
+79,Rhode Island Public Transit Authority,Providence,RI,10001,Full Reporter,1190956,0,690824,0,231017,12247037,134201,0,795799,57605,0,14156483
+80,Intercity Transit,Olympia,WA,19,Full Reporter,176617,0,0,8775,631306,1115525,54445,0,386124,32376,0,2228551
+81,Ride-On Montgomery County Transit,Rockville,MD,30051,Full Reporter,4586770,0,0,0,0,27220324,0,0,0,0,0,27220324
+83,Capital District Transportation Authority,Albany,NY,20002,Full Reporter,594962,0,0,0,306020,9024369,0,1152559,248412,67470,0,10798830
+84,Victor Valley Transit Authority,Hesperia,CA,90148,Full Reporter,328454,0,0,0,3715509,8105945,6811,409695,359519,281833,0,12879312
+85,Salem Area Mass Transit District,Salem,OR,25,Full Reporter,236632,0,87527,65241,0,258657,0,17500,61223,1053310,0,1543458
+86,Riverside Transit Agency,Riverside,CA,90031,Full Reporter,1932666,0,0,486003,1177621,15804931,0,328891,1910818,795789,0,20504053
+87,Omnitrans,San Bernardino,CA,90029,Full Reporter,1932666,6936456,1076404,150644,866485,10572007,481728,0,2207266,129038,0,22420028
+88,Pioneer Valley Transit Authority,Springfield,MA,10008,Full Reporter,621300,0,2915706,0,2310861,11089529,233546,816737,3298223,211175,0,20875777
+89,Toledo Area Regional Transit Authority,Toledo,OH,50022,Full Reporter,507643,0,3540,31446,102300,0,0,3775,5865,0,0,146926
+90,Metropolitan Transit Authority,Nashville,TN,40004,Full Reporter,969587,0,822177,659211,2659511,3139,52559,15941,3580598,969696,0,8762832
+91,Kitsap Transit,Bremerton,WA,20,Full Reporter,198979,0,4460465,0,8106589,6310445,76229,0,388616,0,0,19342344
+92,RTS - Monroe County,Rochester,NY,20113,Full Reporter,720572,0,1627840,0,5633162,1835146,67576,0,1282055,0,0,10445779
+94,Metro Transit System,Madison,WI,50005,Full Reporter,401661,0,0,0,0,6475545,26271,0,153315,109362,0,6764493
+95,Jacksonville Transportation Authority,Jacksonville,FL,40040,Full Reporter,1065219,9721618,7953726,1059835,1393164,8286652,70472,0,1336777,244095,0,30066339
+96,Interurban Transit Partnership,Grand Rapids,MI,50033,Full Reporter,569935,0,1836214,5352,4146444,3218928,35802,4871,1395329,74832,0,10717772
+97,Connecticut Department of Transportation - CTTRANSIT - Hartford Division,Hartford,CT,10048,Full Reporter,924859,69418536,0,717600,0,1164218,0,2099156,0,442668,0,73842178
+98,Sacramento Regional Transit District,Sacramento,CA,90019,Full Reporter,1723634,24878781,1937744,11353,283466,31984319,268905,1305524,657736,0,0,61327828
+99,North County Transit District,Oceanside,CA,90030,Full Reporter,2956746,120179274,294297,118902,487682,2840604,6096,0,11976392,49798,0,135953045
+100,Des Moines Area Regional Transit Authority,Des Moines,IA,70010,Full Reporter,450070,0,0,0,1686565,3632328,141769,67149,535298,218559,0,6281668
+101,Fairfax Connector Bus System,Fairfax,VA,30068,Full Reporter,4586770,0,0,0,14623,8995290,0,0,0,0,0,9009913
+103,Metropolitan Council,St. Paul,MN,50154,Full Reporter,2650890,0,11506760,0,0,11736762,0,0,439775,0,0,23683297
+104,Central New York Regional Transportation Authority,Syracuse,NY,20018,Full Reporter,412317,0,0,186854,106439,3990248,82389,737481,1070039,274983,0,6448433
+105,METRO Regional Transit Authority,Akron,OH,50010,Full Reporter,569499,0,120755,5000,5233607,6709359,0,0,0,2270174,0,14338895
+106,Blue Water Area Transportation Commission,Port Huron,MI,50148,Full Reporter,87106,0,3898826,55127,11025,21790,0,0,0,0,0,3986768
+107,Regional Transportation Commission of Washoe County,Reno,NV,90001,Full Reporter,392141,0,101863,739115,4724362,3747356,45989,0,325775,285492,0,9969952
+108,Indianapolis and Marion County Public Transportation,Indianapolis,IN,50050,Full Reporter,1487483,0,0,6432338,102695,8963457,0,0,0,0,0,15498490
+109,Mass Transportation Authority,Flint,MI,50032,Full Reporter,356218,0,0,238825,2810877,4260030,123279,146729,44446,0,0,7624186
+110,Hillsborough Area Regional Transit Authority,Tampa,FL,40041,Full Reporter,2441770,0,0,585055,321645,7223935,125008,0,3322818,707318,0,12285779
+111,Long Beach Transit,Long Beach,CA,90023,Full Reporter,12150996,0,0,522699,110020,5762610,239562,122283,1703677,532801,0,8993652
+112,Southern California Regional Rail Authority dba: Metrolink,Los Angeles,CA,90151,Full Reporter,12150996,19071331,11458771,0,548656,29163138,68962,801187,15974821,4891043,0,81977909
+113,City of Albuquerque Transit Department,Albuquerque,NM,60019,Full Reporter,741318,0,3289719,1094919,68490,15220139,0,0,138629,0,0,19811896
+115,Fort Worth Transportation Authority,Fort Worth,TX,60007,Full Reporter,5121892,19688483,15277164,174597,1739364,29610405,359315,52461,1690859,311628,0,68904276
+117,Mass Transit Department - City of El Paso,El Paso,TX,60006,Full Reporter,803086,0,3380475,0,0,40208,0,97159,415484,157913,0,4091239
+118,Greater Dayton Regional Transit Authority,Dayton,OH,50017,Full Reporter,724091,1454187,947491,1778150,616417,12729618,1579399,0,9082335,200850,0,28388447
+119,York County Transportation Authority,York,PA,30027,Full Reporter,232045,0,431345,12030496,0,1006679,0,0,713316,497733,0,14679569
+120,Capital Area Transportation Authority,Lansing,MI,50036,Full Reporter,313532,0,0,0,0,3155120,0,0,0,0,0,3155120
+121,Clark County Public Transportation Benefit Area Authority,Vancouver,WA,24,Full Reporter,1849898,0,0,0,8306314,24673081,25912,3261395,2119684,24640936,0,63027322
+122,Lehigh and Northampton Transportation Authority,Allentown,PA,30010,Full Reporter,664651,0,67326,17253,0,5180910,0,0,0,193165,0,5458654
+124,Santa Monica's Big Blue Bus,Santa Monica,CA,90008,Full Reporter,12150996,0,169594,1088799,100433,21173432,139158,3088005,1306043,3244008,0,30309472
+125,Wichita Transit,Wichita,KS,70015,Full Reporter,472870,0,301831,0,0,1524361,0,0,291874,76917,0,2194983
+126,Montachusett Regional Transit Authority,Fitchburg,MA,10061,Full Reporter,116960,0,503824,111394,382838,2353061,78000,6265,335387,116242,0,3887011
+127,Mountain Metropolitan Transit,Colorado Springs,CO,80005,Full Reporter,559409,0,0,33985,135359,3910861,0,64439,101881,354680,0,4601205
+129,New Orleans Regional Transit Authority,New Orleans,LA,60032,Full Reporter,899703,645644,126417,41133,4824568,1301939,8172,59429,667055,324576,0,7998933
+130,"Hudson Transit Lines, Inc.",Mahwah,NJ,20126,Full Reporter,18351295,0,0,0,0,7317595,0,0,0,0,0,7317595
+131,Ann Arbor Area Transportation Authority,Ann Arbor,MI,50040,Full Reporter,306022,0,337844,0,132846,10641087,166130,5618,2312449,243296,0,13839270
+135,Research Triangle Regional Public Transportation Authority,Research Triangle Park,NC,40108,Full Reporter,347602,0,0,0,0,469914,0,0,250705,198777,0,919396
+136,Space Coast Area Transit,Cocoa,FL,40063,Full Reporter,452791,0,0,135207,40935,2118165,0,0,147616,83700,0,2525623
+137,"Golden Gate Bridge, Highway and Transportation District",San Francisco,CA,90016,Full Reporter,3281212,0,10731288,10341,1193050,9066103,0,0,4934415,370775,0,26305972
+138,Municipality of Anchorage - Public Transportation Department,Anchorage,AK,12,Full Reporter,251243,0,0,0,20648,890938,0,0,165853,617395,0,1694834
+139,Memphis Area Transit Authority,Memphis,TN,40003,Full Reporter,1060061,1127378,251835,174275,536602,3261681,73665,0,62410,1093448,0,6581294
+140,Madison County Transit District,Granite City,IL,50146,Full Reporter,2150706,0,0,77444,7386,99815,0,825691,138330,909038,0,2057704
+141,Greater Hartford Transit District,Hartford,CT,10017,Full Reporter,924859,0,0,5361623,0,2310983,0,0,275475,10262672,0,18210753
+142,Central Contra Costa Transit Authority,Concord,CA,90078,Full Reporter,615968,0,332836,3000,169582,16524989,183534,0,345828,39654,0,17599423
+143,Gainesville Regional Transit System,Gainesville,FL,40030,Full Reporter,187781,0,3527466,894550,128117,1540698,0,0,238549,27347,0,6356727
+145,Peninsula Corridor Joint Powers Board dba: Caltrain,San Carlos,CA,90134,Full Reporter,3281212,67810424,2110502,0,31201,10856497,0,619690,52303584,418823,0,134150721
+146,"Paratransit, Inc.",Sacramento,CA,90223,Full Reporter,1723634,0,0,458824,0,574,0,0,556339,25838,0,1041575
+147,Minnesota Valley Transit Authority,Burnsville,MN,50519,Full Reporter,2650890,0,118414,0,405125,2281853,0,0,65081,27581,0,2898054
+148,"County of Volusia, dba: VOTRAN",South Daytona,FL,40032,Full Reporter,349064,0,0,181534,131067,935426,115623,0,226371,765091,0,2355112
+150,Mid-Cumberland Human Resource Agency,Nashville,TN,40204,Reduced Reporter,133228,0,0,0,0,0,0,0,0,0,663100,663100
+151,Fresno Area Express,Fresno,CA,90027,Full Reporter,654628,0,0,363203,347612,1098,270055,148282,98725,2162303,0,3391278
+152,Prince George's County Transit,Largo,MD,30085,Full Reporter,4586770,0,0,0,0,0,0,0,0,741512,0,741512
+154,Hill Country Transit District,San Saba,TX,60091,Full Reporter,217630,0,0,0,73177,0,0,0,370157,30156,0,473490
+155,Champaign-Urbana Mass Transit District,Urbana,IL,50060,Full Reporter,145361,0,116437,30097,7124655,217570,0,0,12391,9638,0,7510788
+156,Rides Mass Transit District,Harrisburg,IL,50211,Full Reporter,67821,0,0,0,227344,2999813,0,0,0,16470,0,3243627
+157,Metropolitan Bus Authority,San Juan,PR,40086,Full Reporter,2148346,0,33485,16026,41748,0,0,0,191178,14433,0,296870
+158,Santa Cruz Metropolitan Transit District,Santa Cruz,CA,90006,Full Reporter,163703,0,80949,7437229,131451,2489,0,10863,2905,184435,0,7850321
+159,Erie Metropolitan Transit Authority,Erie,PA,30013,Full Reporter,196611,0,0,50164,6105049,89611,0,0,38601,0,0,6283425
+160,Denton County Transportation Authority,Lewisville,TX,60101,Full Reporter,366174,8105379,772025,0,75626,2608725,0,18315,95107,444305,0,12119482
+161,Greater Attleboro-Taunton Regional Transit Authority,Taunton,MA,10064,Full Reporter,1190956,0,1613954,0,0,3041772,0,22641,35565,326944,0,5040876
+162,Centre Area Transportation Authority,State College,PA,30054,Full Reporter,87454,0,0,5768432,6168432,1456876,266619,0,52459,19146,0,13731964
+164,Transit Authority of Northern Kentucky,Fort Wright,KY,40019,Full Reporter,1624827,0,155307,35952,49083,4334322,72034,0,229859,0,0,4876557
+165,Transit Authority of Omaha,Omaha,NE,70002,Full Reporter,725008,0,0,440303,1325615,586997,0,0,0,38921,0,2391836
+167,Cumberland Dauphin-Harrisburg Transit Authority,Harrisburg,PA,30014,Full Reporter,444474,0,0,7871,281888,1001215,0,0,332494,17782,0,1641250
+169,"East Tennessee Human Resource Agency, Inc.",Knoxville,TN,40190,Reduced Reporter,59036,0,0,0,0,0,0,0,0,0,1031934,1031934
+170,Lexington Transit Authority,Lexington,KY,40017,Full Reporter,290263,0,0,4904946,4501328,3247216,0,0,14390,20153,0,12688033
+171,Montebello Bus Lines,Montebello,CA,90041,Full Reporter,12150996,0,0,61827,189502,1091298,0,42161,341470,0,0,1726258
+172,Monterey-Salinas Transit,Monterey,CA,90062,Full Reporter,114237,0,0,1022746,1088141,764261,57135,38327,728740,1232539,0,4931889
+174,Sarasota County Area Transit,Sarasota,FL,40046,Full Reporter,643260,0,0,0,69777,5341810,0,0,0,744651,0,6156238
+175,San Joaquin Regional Transit District,Stockton,CA,90012,Full Reporter,370583,0,2676795,0,3237453,755094,0,0,97872,1777224,0,8544438
+177,Worcester Regional Transit Authority,Worcester,MA,10014,Full Reporter,486514,0,584753,0,47653349,2238893,57420,0,376425,1224970,0,52135810
+178,Cobb County Department of Transportation,Marietta,GA,40078,Full Reporter,4515419,0,0,34243,0,18896413,98441,0,834256,329463,0,20192816
+180,Corpus Christi Regional Transportation Authority,Corpus Christi,TX,60051,Full Reporter,320069,0,143898,8536171,0,139358,0,0,906221,276415,0,10002063
+181,Whatcom Transportation Authority,Bellingham,WA,21,Full Reporter,114473,0,6388,321582,13033,4833957,59403,394325,439858,5399,0,6073945
+183,Georgia Regional Transportation Authority,Atlanta,GA,40135,Full Reporter,4515419,0,162039,0,6292290,137156,0,0,1824531,0,0,8416016
+184,Birmingham-Jefferson County Transit Authority,Birmingham,AL,40042,Full Reporter,749495,0,0,0,0,1963374,0,144373,0,0,0,2107747
+185,City of Alexandria,Alexandria,VA,30071,Full Reporter,4586770,0,1868880,0,0,1243032,0,0,0,0,0,3111912
+186,Connecticut Department of Transportation - CTTRANSIT New Haven Division,Hartford,CT,10055,Full Reporter,562839,0,0,8236,3297531,0,32972,0,0,0,0,3338739
+188,Lee County Transit,Fort Myers,FL,40028,Full Reporter,530290,0,278513,1421729,0,6194774,0,0,841905,1448730,0,10185651
+189,Charleston Area Regional Transportation Authority,Charleston,SC,40110,Full Reporter,548404,0,0,0,57435,3764476,0,0,0,0,0,3821911
+190,Berks Area Regional Transportation Authority,Reading,PA,30024,Full Reporter,266254,0,0,25513,0,2329127,0,0,156594,48077,0,2559311
+192,Virginia Railway Express,Alexandria,VA,30073,Full Reporter,4586770,16744196,5112253,0,0,24549525,0,315108,0,0,0,46721082
+193,Red Rose Transit Authority,Lancaster,PA,30018,Full Reporter,402004,0,139233,0,83239,4557081,0,0,138235,25737,0,4943525
+195,Westmoreland County Transit Authority,Greensburg,PA,30044,Full Reporter,1733853,0,0,0,0,1221298,0,72509,20532,0,0,1314339
+196,Laketran,Grand River,OH,50117,Full Reporter,1780673,0,113221,0,187971,9665931,200102,89614,75427,52957,0,10385223
+197,Metropolitan Tulsa Transit Authority,Tulsa,OK,60018,Full Reporter,655479,0,139525,8946,0,1066934,0,0,239979,8015,0,1463399
+199,Norwalk Transit District,Norwalk,CT,10057,Full Reporter,923311,0,0,50000,0,4714054,127191,0,763557,0,0,5654802
+201,Loudoun County Commuter Bus Service - Office of Transportation Services,Leesburg,VA,30081,Full Reporter,4586770,0,0,0,0,2321315,0,53033,0,191871,0,2566219
+204,Durham Area Transit Authority,Durham,NC,40087,Full Reporter,347602,0,73236,0,40569,154980,0,0,6218,0,0,275003
+206,Skagit Transit,Burlington,WA,44,Full Reporter,62966,0,477227,3343,11029,1191766,90466,0,597884,3870,0,2375585
+207,Santa Clarita Transit,Santa Clarita,CA,90171,Full Reporter,258653,0,272935,0,1225,3503082,0,0,0,0,0,3777242
+209,Tampa Bay Area Regional Transportation Authority,Tampa,FL,40200,Full Reporter,2441770,0,0,0,0,245092,0,0,0,0,0,245092
+210,Pasco County Public Transportation,Port Richey,FL,40074,Full Reporter,2441770,0,0,0,5709,1906641,0,13898,293266,260961,0,2480475
+211,"City Transit Management Company, Inc.",Lubbock,TX,60010,Full Reporter,237356,0,5630,57377,15884,278171,0,0,298649,0,0,655711
+213,"Johnson County Kansas, aka: Johnson County Transit",Olathe,KS,70035,Full Reporter,1519417,0,0,145868,0,2187843,0,0,0,340000,0,2673711
+214,SunLine Transit Agency,Thousand Palms,CA,90079,Full Reporter,345580,0,0,793698,81075,2555677,0,45908,1013412,522327,0,5012097
+216,Santa Barbara Metropolitan Transit District,Santa Barbara,CA,90020,Full Reporter,195861,0,97267,57763,272640,2448997,0,70634,2431837,46576,0,5425714
+217,Rio Metro Regional Transit District,Albuquerque,NM,60111,Full Reporter,741318,1346375,0,0,0,417300,27882,78749,0,0,0,1870306
+221,Brockton Area Transit Authority,Brockton,MA,10004,Full Reporter,4181019,0,0,0,18817,800084,28367,0,219514,143552,0,1210334
+223,Arlington Transit - Arlington County,Arlington,VA,30080,Full Reporter,4586770,3636275,506494,0,6388606,5052305,0,0,144519,2826141,0,18554340
+224,Ames Transit Agency dba CyRide,Ames,IA,70041,Full Reporter,60438,0,0,0,14995,59687,37579,0,0,116029,0,228290
+225,Torrance Transit System,Torrance,CA,90010,Full Reporter,12150996,0,0,286376,400579,13757507,0,0,418304,1265525,0,16128291
+226,Greensboro Transit Authority,Greensboro,NC,40093,Full Reporter,311810,0,0,0,0,6111722,0,0,0,88396,0,6200118
+227,MetroWest Regional Transit Authority,Framingham,MA,10118,Full Reporter,4181019,0,37447,0,3074066,0,80608,0,364456,21177,0,3577754
+228,Greater Peoria Mass Transit District,Peoria,IL,50056,Full Reporter,266921,0,0,0,0,0,41420,117265,0,455970,0,614655
+229,The Greater New Haven Transit District,Hamden,CT,10049,Full Reporter,562839,0,0,64811,0,1345962,78931,0,86316,329797,0,1905817
+230,Golden Empire Transit District,Bakersfield,CA,90004,Full Reporter,523994,0,109574,26096,24139,0,137056,18651,733019,46090,0,1094625
+231,Marin County Transit District,San Rafael,CA,90234,Full Reporter,3281212,0,387412,0,0,9976490,0,37936,98787,0,0,10500625
+234,Piedmont Authority for Regional Transportation,Greensboro,NC,40173,Full Reporter,311810,0,2202884,0,0,369191,0,0,0,0,0,2572075
+235,Chatham Area Transit Authority,Savannah,GA,40025,Full Reporter,260677,0,444590,0,190394,736900,100000,0,97810,0,0,1569694
+236,"Hampton Jitney, Inc.",Southampton,NY,20217,Full Reporter,18351295,0,0,1045595,50452,4250492,117300,0,162798,0,0,5626637
+237,Chattanooga Area Regional Transportation Authority,Chattanooga,TN,40001,Full Reporter,381112,611005,429017,0,196439,173715,0,0,619973,0,0,2030149
+238,Kentuckiana Regional Planning and Development Agency,Louisville,KY,40196,Full Reporter,972546,0,0,0,0,383734,0,0,0,0,0,383734
+239,County of Maui - Dept. of Transportation,Wailuku,HI,90241,Full Reporter,55934,0,712810,0,750000,190000,0,0,0,0,0,1652810
+241,"Audubon Area Community Services, Inc.",Owensboro,KY,41105,Full Reporter,70543,0,0,0,0,298975,0,0,0,0,0,298975
+242,Port Authority Transit Corporation,Lindenwold,NJ,20075,Full Reporter,5441567,365252,269760,0,0,1503659,0,0,0,0,0,2138671
+243,Capital Area Transit System,Baton Rouge,LA,60022,Full Reporter,594309,0,0,0,1384294,5258192,27224,0,34872,982361,0,7686943
+244,StarTran,Lincoln,NE,70001,Full Reporter,258719,0,109429,0,42248,0,0,0,28707,102775,0,283159
+245,Knoxville Area Transit,Knoxville,TN,40002,Full Reporter,558696,0,149869,0,285384,925377,0,0,564839,0,0,1925469
+246,Lowell Regional Transit Authority,Lowell,MA,10005,Full Reporter,4181019,0,2063785,0,307287,161573,62050,0,0,28167,0,2622862
+248,Luzerne County Transportation Authority,Kingston,PA,30015,Full Reporter,381502,0,0,0,0,616357,0,0,39259,76571,0,732187
+250,Central Oklahoma Transportation and Parking Authority,Oklahoma City,OK,60017,Full Reporter,861505,5872810,0,58434,506419,2409132,58699,1475,225095,384171,0,9516235
+251,"Rockland Coaches, Inc.",Westwood,NJ,20149,Full Reporter,18351295,0,0,131963,11529,36000,0,0,0,0,0,179492
+252,Antelope Valley Transit Authority,Lancaster,CA,90121,Full Reporter,341219,0,0,105489,1921106,1858909,537285,0,410405,167571,0,5000765
+253,Brazos Transit District,Bryan,TX,60059,Full Reporter,171345,0,693580,0,38515,649265,0,0,0,0,0,1381360
+254,Chittenden County Transportation Authority,Burlington,VT,10066,Full Reporter,108740,0,6990521,0,40169,592412,40341,0,568752,32544,0,8264739
+257,Southeastern Regional Transit Authority,New Bedford,MA,10006,Full Reporter,149443,0,36254,0,395923,2646275,23739,0,82186,78762,0,3263139
+260,The Eastern Contra Costa Transit Authority,Antioch,CA,90162,Full Reporter,277634,0,0,0,0,958876,0,0,50509,182038,0,1191423
+263,Ms Coast Transportation Authority,Gulfport,MS,40014,Full Reporter,208948,0,55889,23637,341256,29628,0,1865,0,0,0,452275
+265,Central Arkansas Transit Authority,North Little Rock,AR,60033,Full Reporter,431388,0,0,18742,43045,1363096,0,0,249764,489791,0,2164438
+266,STAR Transit,Terrell,TX,60114,Full Reporter,5121892,0,0,144394,0,770275,17171,0,0,0,0,931840
+267,Transport of Rockland,Pomona,NY,20084,Full Reporter,18351295,0,0,0,0,0,0,0,97980,34048,0,132028
+268,Gwinnett County Board of Commissioners,Lawrenceville,GA,40138,Full Reporter,4515419,0,199690,0,0,12278107,0,52135,86765,57390,0,12674087
+270,Somerset County Transportation,Somerville,NJ,20209,Full Reporter,18351295,0,0,0,0,692958,0,0,0,0,0,692958
+272,Connecticut Department of Transportation- CTTransit Waterbury- NET,Waterbury,CT,10128,Full Reporter,194535,0,0,0,0,1988169,0,0,152884,0,0,2141053
+273,Northern Indiana Commuter Transportation District,Chesterton,IN,50104,Full Reporter,8608208,44048551,2702294,0,0,807632,1605578,0,0,0,0,49164055
+275,Kalamazoo Metro Transit System,Kalamazoo,MI,50035,Full Reporter,209703,0,0,0,2650,634435,0,0,39916,13706,0,690707
+276,Bergen County Community Transportation,Lodi,NJ,20192,Full Reporter,18351295,0,0,0,0,421068,0,0,0,1049,0,422117
+278,Washington County Transportation Authority,Washington,PA,30111,Full Reporter,1733853,0,0,0,0,914638,0,0,0,0,0,914638
+280,Gold Coast Transit,Oxnard,CA,90035,Full Reporter,367260,0,0,639921,0,4449010,54142,53500,161082,0,0,5357655
+281,Regional Transportation Authority,Nashville,TN,40159,Full Reporter,969587,670974,160582,0,0,19172,0,17569,0,0,0,868297
+282,Merrimack Valley Regional Transit Authority,Haverhill,MA,10013,Full Reporter,4181019,0,0,0,331418,4699794,0,0,498530,10250,0,5539992
+283,Escambia County Area Transit,Pensacola,FL,40038,Full Reporter,340067,0,29900,17256,19923,358156,48807,13250,26950,236767,0,751009
+285,Sonoma County Transit,Santa Rosa,CA,90089,Full Reporter,308231,0,895654,0,269506,3978390,0,40962,188109,319280,0,5691901
+286,North Front Range Metropolitan Planning Organization,Fort Collins,CO,80106,Full Reporter,264465,0,0,0,0,198825,0,0,27220,0,0,226045
+287,Winston-Salem Transit Authority - Trans-Aid of Forsyth County,Winston-Salem,NC,40012,Full Reporter,391024,0,0,0,21479,8869140,96880,0,45788,207897,0,9241184
+288,SouthWest Transit,Eden Prairie,MN,50518,Full Reporter,2650890,0,0,0,609320,403409,0,0,0,0,0,1012729
+289,South Florida Regional Transportation Authority,Pompano Beach,FL,40077,Full Reporter,5502379,12847570,31881418,12653736,7604,11322050,113525,182463,1431686,702747,0,71142799
+293,Livermore / Amador Valley Transit Authority,Livermore,CA,90144,Full Reporter,615968,0,14596,147541,12206,51077,0,0,26925,19854,0,272199
+294,Greater Bridgeport Transit Authority,Bridgeport,CT,10050,Full Reporter,923311,0,249145,27309,47176,0,129289,0,78596,482485,0,1014000
+295,"JAUNT, Inc.",Charlottesville,VA,30045,Full Reporter,92359,0,0,137429,0,1614242,0,0,47249,0,0,1798920
+296,Stark Area Regional Transit Authority,Canton,OH,50011,Full Reporter,279245,0,15745,199886,1842177,11659695,9156,0,97936,3987561,0,17812156
+297,Modesto Area Express,Modesto,CA,90007,Full Reporter,358172,0,161079,0,65809,652389,0,0,0,66016,0,945293
+298,Anaheim Transportation Network,Anaheim,CA,90211,Full Reporter,12150996,0,0,0,0,0,0,0,0,42378,0,42378
+299,Yakima Transit,Yakima,WA,6,Full Reporter,129534,0,0,0,0,2135116,28897,0,0,7198,0,2171211
+300,County of Lackawanna Transit System,Scranton,PA,30025,Full Reporter,381502,0,5389990,0,34899,1239656,0,0,49997,0,0,6714542
+303,Tompkins Consolidated Area Transit,Ithaca,NY,20145,Full Reporter,53661,0,6629,0,56304,2273127,0,0,1101569,170273,0,3607902
+304,Rock Island County Metropolitan Mass Transit District,Moline ,IL,50057,Full Reporter,280051,0,4807541,0,368921,0,0,0,159926,0,0,5336388
+305,Lakeland Area Mass Transit District,Lakeland,FL,40031,Full Reporter,262596,0,4860,0,100742,0,0,0,188279,0,0,293881
+307,Greater Lafayette Public Transportation Corporation,Lafayette,IN,50051,Full Reporter,147725,0,621337,20819,46402,4326579,0,100715,328294,427653,0,5871799
+308,Valley Regional Transit,Meridian,ID,11,Full Reporter,349684,0,3100587,0,535427,2403200,77,0,260639,11473,0,6311403
+309,Springfield Mass Transit District,Springfield,IL,50059,Full Reporter,161316,0,739505,0,178980,338612,0,0,23680,9814,0,1290591
+312,Transit Authority of Central Kentucky,Elizabethtown,KY,40191,Full Reporter,73467,0,0,0,0,34484,0,0,152156,95159,0,281799
+316,Everett Transit,Everett,WA,5,Full Reporter,3059393,0,28110,225686,184450,261649,51430,0,15350,0,0,766675
+319,DDOT - Progressive Transportation Services Administration,Washington,DC,30112,Full Reporter,4586770,787506,0,90500,26876393,1129625,0,223679,136521,5827657,0,35071881
+321,Duluth Transit Authority,Duluth,MN,50025,Full Reporter,120378,0,4107950,74797,25607,2666416,11348,0,398057,37889,0,7322064
+331,"Laredo Transit Management, Inc.",Laredo,TX,60009,Full Reporter,235730,0,0,0,1074560,76664,0,0,0,128231,0,1279455
+332,Broome County Department of Public Transportation,Vestal,NY,20003,Full Reporter,158084,0,0,0,0,0,0,0,0,6455,0,6455
+334,Kanawha Valley Regional Transportation Authority,Charleston,WV,30001,Full Reporter,153199,0,0,40843,52024,344365,21938,0,7449,17450,0,484069
+335,Yuma County Intergovernmental Public Transportation Authority,Yuma,AZ,90233,Full Reporter,135267,0,0,0,0,904274,0,0,0,0,0,904274
+336,Transfort,Fort Collins,CO,80011,Full Reporter,264465,385259,250342,0,453038,26883,0,0,184353,6671,0,1306546
+337,Shreveport Area Transit System,Shreveport,LA,60024,Full Reporter,298317,0,1277489,4971,111084,867053,0,15930,10120,37688,0,2324335
+338,Cambria County Transit Authority,Johnstown,PA,30012,Full Reporter,69014,98728,72663,66624,2915,0,33286,0,91818,277178,0,643212
+339,City of Elk Grove,Elk Grove,CA,90205,Full Reporter,1723634,0,0,0,34304,4469763,0,0,70265,0,0,4574332
+341,Greater Roanoke Transit Company,Roanoke,VA,30007,Full Reporter,210111,0,0,58275,0,0,0,0,0,473705,0,531980
+342,St. Cloud Metropolitan Transit Commission,St. Cloud,MN,50028,Full Reporter,110621,0,16259,16293,189391,160629,0,0,78011,0,0,460583
+343,Douglas County Rideshare,Douglasville,GA,40082,Full Reporter,4515419,0,0,30936,0,339195,0,0,0,43144,0,413275
+345,Portage Area Regional Transportation Authority,Kent,OH,50021,Full Reporter,569499,0,0,0,757661,1227100,0,0,481127,17558,0,2483446
+347,Bay Metropolitan Transit Authority,Bay City,MI,50029,Full Reporter,70585,0,0,0,1589,201370,41377,0,10410,5615,0,260361
+348,Transit Joint Powers Authority for Merced County,Merced,CA,90173,Full Reporter,136969,0,0,54555,0,4255779,0,0,619904,633667,0,5563905
+350,University of Georgia Transit System,Athens,GA,40180,Full Reporter,128754,0,0,45744,17142,2016722,0,0,58904,0,0,2138512
+351,Rockford Mass Transit District,Rockford,IL,50058,Full Reporter,296863,0,0,497980,0,241657,0,0,188925,190138,0,1118700
+352,Western Reserve Transit Authority,Youngstown,OH,50024,Full Reporter,387550,0,0,0,766275,5119417,0,46122,1229690,344660,0,7506164
+357,"Trans-Bridge Lines, Inc.",Bethlehem,PA,20169,Full Reporter,18351295,0,0,0,0,2410155,0,0,0,0,0,2410155
+358,Concho Valley Transit District,San Angelo,TX,60102,Full Reporter,92984,0,60787,0,0,660855,62593,0,0,48990,0,833225
+360,Western Piedmont Regional Transit Authority,Conover,NC,40172,Full Reporter,212195,0,0,0,0,64288,0,0,0,17729,0,82017
+361,City of Gardena Transportation Department,Gardena,CA,90042,Full Reporter,12150996,0,0,0,0,1817486,0,0,21011,12475,0,1850972
+363,West Virginia University - Morgantown Personal Rapid Transit,Morgantown,WV,30107,Full Reporter,70350,2615531,6200,0,1594527,7516872,0,0,2555216,0,0,14288346
+365,Yolo County Transportation District,Woodland,CA,90090,Full Reporter,1723634,0,0,0,0,3418180,0,0,105559,213493,0,3737232
+366,The Wave Transit System,Mobile,AL,40043,Full Reporter,326183,0,30293,72562,20639,589572,0,116523,464058,0,0,1293647
+367,Lower Rio Grande Valley Development Council,Weslaco,TX,60090,Full Reporter,728825,315738,0,105969,936980,60845,0,0,544196,391471,0,2355199
+368,Western Contra Costa Transit Authority,Pinole,CA,90159,Full Reporter,3281212,0,0,0,57534,712837,41133,0,8764,0,0,820268
+369,Central Oregon Intergovernmental Council,Bend,OR,57,Full Reporter,83794,0,56004,0,41813,1944004,47317,0,89692,8648,0,2187478
+370,Wake County DSS,Raleigh,NC,40222,Full Reporter,884891,0,0,0,0,329522,0,0,0,0,0,329522
+371,Butte County Association of Governments,Chico,CA,90208,Full Reporter,98176,0,0,0,780522,20985,0,0,581137,0,0,1382644
+372,Okaloosa County Board of County Commissioners,Fort Walton Beach,FL,40128,Full Reporter,191917,0,0,114691,0,0,0,192279,350970,548747,0,1206687
+373,South Bend Public Transportation Corporation,South Bend,IN,50052,Full Reporter,278165,0,232700,2260881,0,1427170,19048,13472,40411,24279,0,4017961
+375,Fort Bend County Public Transportation,Sugar Land,TX,60103,Full Reporter,4944332,0,0,0,516378,140809,0,0,0,34253,0,691440
+377,Culver City Municipal Bus Lines,Culver City,CA,90039,Full Reporter,12150996,0,0,27797,946200,159351,35647,99632,155067,82038,0,1505732
+380,Manatee County Area Transit,Bradenton,FL,40026,Full Reporter,643260,0,0,9507893,0,2336868,0,0,0,433689,0,12278450
+384,The Tri-County Council for the Lower Eastern Shore of Maryland,Salisbury,MD,30096,Full Reporter,98081,0,0,0,39903,0,0,0,0,40217,0,80120
+385,"Staten Island Rapid Transit Operating Authority, dba: MTA Staten Island Railway",Staten Island,NY,20099,Full Reporter,18351295,66790061,13384052,1851094,29467,0,0,0,445332,172588,0,82672594
+386,Link Transit,Wenatchee,WA,43,Full Reporter,67227,0,53152,75826,301508,490225,68851,0,0,0,0,989562
+387,Jefferson Parish Department of Transit Administration,Gretna,LA,60088,Full Reporter,899703,0,0,0,0,0,0,0,3961,122060,0,126021
+388,Ventura Intercity Service Transit Authority,Ventura,CA,90164,Full Reporter,367260,0,0,0,0,627163,0,18108,500987,0,0,1146258
+391,"Clay County Council on Aging, Inc., dba Clay Transit",Green Cove Springs,FL,40245,Full Reporter,1065219,0,0,0,0,55809,0,0,0,0,0,55809
+392,San Luis Obispo Regional Transit Authority,San Luis Obispo,CA,90206,Full Reporter,59219,0,0,0,0,650667,0,76626,453201,75425,0,1255919
+393,"Spartanburg Regional Health Services, Inc.",Spartanburg,SC,40244,Full Reporter,180786,0,0,0,0,486212,0,0,0,0,0,486212
+394,Santee Wateree Regional Transportation Authority,Sumter,SC,40100,Full Reporter,73107,0,54909,0,0,437534,34870,0,63801,63541,0,654655
+395,Napa Valley Transportation Authority,Napa,CA,90088,Full Reporter,83913,0,71405,0,20000,4975092,0,0,1603842,0,0,6670339
+396,Housatonic Area Regional Transit,Danbury,CT,10051,Full Reporter,168136,0,0,68099,0,693057,31715,0,30966,0,0,823837
+397,Cape Fear Public Transportation Authority,Wilmington,NC,40006,Full Reporter,219957,0,77320,0,214013,2456775,18669,0,0,65426,0,2832203
+398,Clermont Transportation Connection,Batavia,OH,50166,Full Reporter,1624827,0,0,0,0,910782,0,0,0,0,0,910782
+399,Connecticut Department of Transportation,Newington,CT,10102,Full Reporter,924859,0,0,0,0,1111437,0,0,0,0,0,1111437
+400,Wiregrass Transit Authority,Dothan,AL,40103,Full Reporter,68781,0,0,0,0,0,0,0,69300,0,0,69300
+403,Blacksburg Transit,Blacksburg,VA,30091,Full Reporter,88542,0,691922,293792,0,1424335,57215,0,119338,89658,0,2676260
+406,Connecticut Department of Transportation - CTTRANSIT Stamford Division,Hartford,CT,10056,Full Reporter,923311,0,0,0,0,0,52650,0,0,0,0,52650
+407,City of Rochester Public Transportation,Rochester,MN,50092,Full Reporter,107677,0,0,0,0,0,0,35778,0,138523,0,174301
+408,Monroe County Transportation Authority,Scotrun,PA,30137,Full Reporter,54316,0,0,0,6200,337944,0,0,47028,0,0,391172
+412,Su Tran LLC dba: Sioux Area Metro,Sioux Falls,SD,80002,Full Reporter,156777,0,21525,0,343144,0,0,0,0,0,0,364669
+414,Fort Wayne Public Transportation Corporation,Fort Wayne,IN,50044,Full Reporter,313492,0,9000,0,0,650556,25475,0,3688,0,0,688719
+416,Lake County Board of County Commissioners,Tavares,FL,40158,Full Reporter,131337,0,0,0,0,0,0,0,37,235029,0,235066
+418,City of Fairfield - Fairfield and Suisun Transit,Fairfield,CA,90092,Full Reporter,133683,0,26093969,43550,0,476614,0,111254,431793,258878,0,27416058
+420,Greene County Transit Board,Xenia,OH,50165,Full Reporter,724091,0,0,0,11531,217271,0,0,1417,0,0,230219
+424,Butler County Regional Transit Authority,Hamilton,OH,50157,Full Reporter,1624827,0,0,0,0,1873024,0,0,0,91442,0,1964466
+426,City of Waukesha Transit Commission,Waukesha,WI,50096,Full Reporter,1376476,0,0,57751,74545,1236939,0,0,0,0,0,1369235
+427,Martz Trailways,Wilkes Barre,PA,30102,Full Reporter,18351295,0,0,0,109314,0,17993,0,93376,131945,0,352628
+428,Dutchess County Division of Mass Transportation,Poughkeepsie,NY,20010,Full Reporter,423566,0,0,105452,0,8269842,0,0,0,0,0,8375294
+429,River Bend Transit,Davenport,IA,70049,Full Reporter,280051,0,0,0,20744,0,0,0,1775,6485,0,29004
+432,Fayetteville Area System of Transit,Fayetteville,NC,40009,Full Reporter,310282,0,5664276,0,50459,13701,97477,0,58709,330730,0,6215352
+435,Pennsylvania Department of Transportation,Harrisburg,PA,30057,Full Reporter,5441567,34683682,8142101,0,0,0,0,0,0,286615,0,43112398
+436,Baldwin County Commission,Bay Minette ,AL,40928,Full Reporter,57383,0,0,0,0,67936,0,0,0,0,0,67936
+439,Solano County Transit,Vallejo,CA,90232,Full Reporter,165074,0,5161857,0,2006522,512192,78237,0,1430935,5004,0,9194747
+442,City of Visalia - Visalia City Coach,Visalia,CA,90091,Full Reporter,219454,0,0,0,96742,1365937,0,0,45021,0,0,1507700
+443,Collier Area Transit,Naples,FL,40140,Full Reporter,310298,0,0,1658813,0,928667,0,101375,41210,174641,0,2904706
+445,City of Harrisonburg Department of Public Transportation,Harrisonburg,VA,30094,Full Reporter,66784,0,0,4441,122197,437301,24422,0,9474,0,0,597835
+446,Belle Urban System - Racine,Racine,WI,50006,Full Reporter,133700,0,0,20682,6376,228861,21748,0,0,0,0,277667
+447,Alaska Railroad Corporation,Anchorage,AK,41,Full Reporter,251243,15651382,335866,145769,976555,1668543,1829544,0,25939168,0,0,46546827
+450,"Valley Metro Rail, Inc.",Phoenix,AZ,90209,Full Reporter,3629114,42010924,6493950,0,120435,257607,476701,1199031,15461553,289637,0,66309838
+451,Bloomington Public Transportation Corporation,Bloomington,IN,50110,Full Reporter,108657,0,0,0,0,1066541,0,0,0,125686,0,1192227
+452,University of Michigan Parking and Transportation Services,Ann Arbor,MI,50158,Full Reporter,306022,0,0,0,0,3318485,0,0,0,0,0,3318485
+453,Licking County Transit Board,Newark,OH,50163,Full Reporter,76068,0,0,0,0,97948,0,0,0,0,0,97948
+454,Placer County Department of Public Works and Facilities,Auburn,CA,90196,Full Reporter,1723634,0,0,0,329908,5351648,0,0,25183,30716,0,5737455
+455,Green Bay Metro,Green Bay,WI,50002,Full Reporter,206520,0,125000,0,0,0,103376,0,0,73427,0,301803
+456,Buncombe County,Asheville ,NC,40224,Full Reporter,280648,0,0,0,0,484866,0,0,75841,0,0,560707
+458,Rogue Valley Transportation District,Medford,OR,34,Full Reporter,154081,0,0,0,176549,196815,15500,9542,0,0,0,398406
+460,Alamo Area Council of Governments,San Antonio ,TX,60130,Full Reporter,1758210,0,0,0,0,0,12843,0,0,0,0,12843
+461,Beaver County Transit Authority,Rochester,PA,30023,Full Reporter,1733853,0,0,58262,0,696065,0,0,445030,298746,0,1498103
+465,City of Lawrence,Lawrence,KS,70048,Full Reporter,88053,0,0,0,0,59500,0,0,0,0,0,59500
+466,City of Plymouth,City of Plymouth,MN,50516,Full Reporter,2650890,0,228919,0,0,645520,0,0,0,0,0,874439
+471,Williamsburg Area Transit Authority,Williamsburg,VA,30076,Full Reporter,75689,0,0,0,0,0,80657,37676,107167,190580,0,416080
+472,The Tri-State Transit Authority,Huntington,WV,30002,Full Reporter,202637,0,57950,0,0,377186,69867,0,442421,163525,0,1110949
+473,City of Rome Transit Department,Rome,GA,40058,Full Reporter,60851,0,0,14563,14092,60708,0,24623,55318,137571,0,306875
+477,Greater Lynchburg Transit Company,Lynchburg,VA,30008,Full Reporter,116636,0,104342,11275020,0,665831,0,0,0,7787,0,12052980
+479,Knoxville-Knox County Community Action Committee,Knoxville,TN,40171,Full Reporter,558696,0,0,0,0,743680,0,0,0,0,0,743680
+480,Metropolitan Evansville Transit System,Evansville,IN,50043,Full Reporter,229351,0,148851,12940,11862,1305603,33355,0,242148,12500,0,1767259
+481,Pomona Valley Transportation Authority,La Verne,CA,99425,Full Reporter,12150996,0,0,0,0,91416,0,0,0,0,0,91416
+482,Topeka Metropolitan Transit Authority,Topeka,KS,70014,Full Reporter,150003,0,106341,125505,7336,0,44900,0,219773,0,0,503855
+483,Tahoe Transportation District,Zephyr Cove,NV,91092,Full Reporter,210000,0,61835,0,0,388120,0,0,89868,0,0,539823
+484,Transit Services of Frederick County,Frederick,MD,30072,Full Reporter,141576,0,0,0,0,2988803,0,0,0,0,0,2988803
+486,Bloomington-Normal Public Transit System,Normal,IL,50047,Full Reporter,132600,0,0,190661,0,2248246,0,612418,0,62776,0,3114101
+487,Unitrans - City of Davis/ASUCD,Davis,CA,90142,Full Reporter,72794,0,0,0,487685,3388,0,0,109722,44046,0,644841
+488,Muncie Indiana Transit System,Muncie,IN,50054,Full Reporter,90580,0,49990,22009,0,0,0,0,8100,0,0,80099
+490,"City of Fargo, DBA: Metropolitan Area Transit",Fargo,ND,80003,Full Reporter,176676,0,70171,0,0,1112334,0,0,0,0,0,1182505
+493,Bay County Transportation Planning Organization,Panama City,FL,40185,Full Reporter,143280,0,36645,431467,376092,90979,0,0,59868,175489,0,1170540
+499,Altoona Metro Transit,Altoona,PA,30011,Full Reporter,79930,0,1809,0,27547,509362,27762,0,0,56112,0,622592
+501,City of Glendale,Glendale,CA,99423,Full Reporter,12150996,0,0,0,531882,4910119,0,0,0,0,0,5442001
+503,Yuba-Sutter Transit Authority,Marysville,CA,90061,Full Reporter,116719,0,0,0,0,0,0,0,0,40826,0,40826
+505,"Woods Hole, Martha's Vineyard and Nantucket Steamship Authority",Woods Hole,MA,10183,Full Reporter,246695,0,1469742,0,348981,18824749,673428,117868,157630,0,0,21592398
+510,City of Santa Rosa,Santa Rosa,CA,90017,Full Reporter,308231,0,0,0,0,2031347,0,0,0,0,0,2031347
+511,Missoula Urban Transportation District,Missoula,MT,80009,Full Reporter,82157,0,65320,0,25000,9753,0,0,22109,0,0,122182
+513,City of Brownsville - Brownsville Metro,Brownsville,TX,60014,Full Reporter,217585,0,32450,0,0,1302631,0,0,0,145295,0,1480376
+515,"Council on Aging of St. Lucie, Inc.",Fort Pierce,FL,40097,Full Reporter,376047,0,5829,15800,0,1138841,0,0,187167,215598,0,1563235
+517,Washington County Transit,West Bend,WI,50160,Full Reporter,1376476,0,0,0,0,217852,0,0,0,0,0,217852
+519,North Township of Lake County Dial-A-Ride,Hammond,IN,50103,Full Reporter,8608208,0,0,0,0,60904,0,0,0,0,0,60904
+521,"Western Maine Transportation Services, Inc.",Auburn,ME,10098,Full Reporter,59397,0,0,0,0,370880,0,0,0,0,0,370880
+523,"City of Huntsville, Alabama - Public Transportation Division",Huntsville,AL,40071,Full Reporter,286692,0,0,0,0,315468,0,0,0,33877,0,349345
+524,El Dorado County Transit Authority,Diamond Springs,CA,90229,Full Reporter,1723634,0,0,35036,242248,0,0,0,345913,16752,0,639949
+527,Northern Arizona Intergovernmental Public Transportation Authority,Flagstaff,AZ,90219,Full Reporter,71957,0,0,0,788607,1310806,105458,94507,156001,269207,0,2724586
+528,The Woodlands Township,The Woodlands,TX,60134,Full Reporter,239938,0,0,0,0,1211234,0,0,0,0,0,1211234
+529,Fayette Area Coordinated Transportation,Lemont Furnace,PA,30087,Full Reporter,51370,0,0,0,0,763589,0,36254,0,0,0,799843
+531,Monsey New Square Trails Corporation,Spring Valley,NY,20135,Full Reporter,18351295,0,0,0,0,198100,0,0,0,0,0,198100
+532,Billings Metropolitan Transit,Billings,MT,80004,Full Reporter,114773,0,0,0,0,1293033,0,0,0,0,0,1293033
+533,Decatur Public Transit System,Decatur,IL,50061,Full Reporter,93863,0,0,0,0,0,33694,0,0,0,0,33694
+543,Virgin Islands Department of Public Works,St. Thomas,VI,40188,Reduced Reporter,106405,0,0,0,0,0,0,0,0,0,1073262,1073262
+552,Ozaukee County Transit Services,Port Washington,WI,50161,Full Reporter,1376476,0,0,0,0,103028,0,0,43688,0,0,146716
+553,Mecklenburg County DSS,Charlotte,NC,40228,Reduced Reporter,1249442,0,0,0,0,0,0,0,0,0,110311,110311
+556,City of Kokomo,Kokomo,IN,50145,Full Reporter,62182,0,0,0,0,1110336,0,0,8830,0,0,1119166
+563,Gaston County,Gastonia,NC,40221,Reduced Reporter,169495,0,0,0,0,0,0,0,0,0,155379,155379
+565,Cedar Rapids Transit,Cedar Rapids,IA,70008,Full Reporter,177844,0,613979,0,0,71468,0,0,0,0,0,685447
+566,City of Pasadena,Pasadena,CA,99424,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,299858,299858
+567,"Jalbert Leasing, Inc.",Portsmouth,NH,10122,Reduced Reporter,88200,0,0,0,0,0,0,0,0,0,799602,799602
+569,New York City Department of Transportation,New York,NY,20082,Full Reporter,18351295,0,38226130,0,0,0,0,0,0,0,0,38226130
+572,Indian River County,Vero Beach,FL,40104,Full Reporter,149422,0,0,0,0,895992,0,0,24764,108411,0,1029167
+573,Redding Area Bus Authority,Redding,CA,90093,Full Reporter,117731,568200,348316,6427,31881,0,0,0,8374,469,0,963667
+574,County of Mercer,Trenton,NJ,20211,Reduced Reporter,296668,0,0,0,0,0,0,0,0,0,7795,7795
+576,Cape Girardeau County Transit Authority,Cape Girardeau,MO,70051,Reduced Reporter,52900,0,0,0,0,0,0,0,0,0,187747,187747
+577,Iredell County Area Transportation Services,Statesville,NC,40205,Reduced Reporter,1249442,0,0,0,0,0,0,0,0,0,294050,294050
+578,City of Pocatello,Pocatello,ID,22,Reduced Reporter,69809,0,0,0,0,0,0,0,0,0,17684,17684
+580,Golden Crescent Regional Planning Commission,Victoria,TX,60095,Reduced Reporter,63683,0,0,0,0,0,0,0,0,0,75783,75783
+581,Thousand Oaks Transit,Thousand Oaks,CA,90165,Reduced Reporter,214811,0,0,0,0,0,0,0,0,0,49891,49891
+583,Jackson County Mass Transit District,Carbondale,IL,50204,Reduced Reporter,67821,0,0,0,0,0,0,0,0,0,224754,224754
+588,Flint Hills Area Transportation,Manhattan,KS,70053,Reduced Reporter,54622,0,0,0,0,0,0,0,0,0,486909,486909
+590,Ozark Regional Transit,Springdale,AR,60072,Full Reporter,295083,0,0,12376,10989,115275,0,0,0,0,0,138640
+591,City of San Juan,San Juan,PR,40112,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,23106,23106
+592,East Alabama Regional Planning and Development Commission,Anniston,AL,40064,Reduced Reporter,79796,0,0,0,0,0,0,0,0,0,443817,443817
+593,Santa Maria Area Transit,Santa Maria,CA,90087,Full Reporter,130447,0,0,0,865289,51979,0,107861,849442,161882,0,2036453
+595,Charlotte County Transit Division,Punta Gorda,FL,40129,Full Reporter,169541,0,0,0,78166,0,25981,0,0,0,0,104147
+598,Public Transit Services,Mineral Wells,TX,60115,Reduced Reporter,5121892,0,0,0,0,0,0,0,0,0,213669,213669
+599,Cleveland Area Rapid Transit, Norman,OK,60096,Reduced Reporter,103898,0,0,0,0,0,0,0,0,0,1136753,1136753
+600,Metropolitan Transit Authority of Black Hawk County,Waterloo,IA,70013,Reduced Reporter,113418,0,0,0,0,0,0,0,0,0,453448,453448
+601,Stanislaus County Public Works - Transit,Modesto,CA,90236,Reduced Reporter,358172,0,0,0,0,0,0,0,0,0,5255990,5255990
+603,Johnson City Transit System,Johnson City,TN,40054,Reduced Reporter,120415,0,0,0,0,0,0,0,0,0,1746003,1746003
+604,Las Cruces Area Transit,Las Cruces,NM,60049,Reduced Reporter,128600,0,0,0,0,0,0,0,0,0,1087553,1087553
+606,Alamance County Transportation Authority,Burlington,NC,40225,Reduced Reporter,119911,0,0,0,0,0,0,0,0,0,429226,429226
+608,City of Montgomery-Montgomery Area Transit System,Montgomery,AL,40044,Full Reporter,263907,0,0,0,0,412102,0,0,162901,0,0,575003
+610,Fond du Lac Area Transit,Fond du Lac,WI,50171,Reduced Reporter,54901,0,0,0,0,0,0,0,0,0,62977,62977
+611,"City of Jackson, Department of Planning and Development, Transit Services Division",Jackson,MS,40015,Full Reporter,351478,0,0,904566,84366,328390,82098,596685,115650,0,0,2111755
+614,Handitran Special Transit Division - City of Arlington,Arlington,TX,60041,Full Reporter,5121892,0,0,0,0,751492,0,0,0,0,0,751492
+616,Shenango Valley Shuttle Service,Hermitage,PA,30055,Full Reporter,387550,0,6301,0,0,355281,82866,0,0,84313,0,528761
+619,"County Commissioners of Charles County, MD",Port Tobacco,MD,30088,Full Reporter,109919,0,260002,0,0,0,0,0,0,248228,0,508230
+622,Special Programs for Aging Needs,Denton,TX,60116,Reduced Reporter,366174,0,0,0,0,0,0,0,0,0,341296,341296
+624,Cabarrus County Transportation Services,Kannapolis,NC,40214,Reduced Reporter,214881,0,0,0,0,0,0,0,0,0,285500,285500
+625,Williamsport Bureau of Transportation,Williamsport,PA,30026,Full Reporter,56142,0,6096003,0,0,0,0,0,0,0,0,6096003
+628,"Regional Transportation Program, Inc.",Portland,ME,10069,Reduced Reporter,203914,0,0,0,0,0,0,0,0,0,451827,451827
+629,"Harris County Community Services Department, Office of Transit Services",Houston,TX,60108,Reduced Reporter,4944332,0,0,0,0,0,0,0,0,0,75750,75750
+631,Sioux City Transit System,Sioux City,IA,70012,Full Reporter,106494,0,111607,0,0,175665,0,0,0,0,0,287272
+632,Greater Portland Transit District,Portland,ME,10016,Full Reporter,203914,0,0,109898,0,542273,0,0,118034,327152,0,1097357
+635,"Adirondack Transit Lines, Inc,",Hurley,NY,20177,Full Reporter,18351295,0,0,0,0,245395,43013,0,0,101995,0,390403
+642,Clarksville Transit System,Clarksville,TN,40092,Reduced Reporter,158655,0,0,0,0,0,0,0,0,0,2499454,2499454
+644,Harford Transit,Abingdon,MD,30074,Reduced Reporter,213751,0,0,0,0,0,0,0,0,0,457072,457072
+645,Town of Oro Valley - Transit Services Division,Oro Valley,AZ,90191,Reduced Reporter,843168,0,0,0,0,0,0,0,0,0,232352,232352
+647,Imperial County Transportation Commission,El Centro,CA,90226,Full Reporter,107672,0,0,0,0,3211455,0,0,0,0,0,3211455
+648,Altamont Corridor Express,Stockton,CA,90182,Full Reporter,370583,26904,16554,0,2149350,7011685,0,1550,0,0,0,9206043
+651,Twin Cities Area Transportation Authority,Benton Harbor,MI,50132,Reduced Reporter,61022,0,0,0,0,0,0,0,0,0,357658,357658
+653,City of Riverside Special Transportation,Riverside,CA,90086,Full Reporter,1932666,0,0,512688,0,834335,0,0,0,0,0,1347023
+657,Berkshire Regional Transit Authority,Pittsfield,MA,10007,Full Reporter,59124,0,0,172486,0,458918,23700,0,77367,0,0,732471
+658,University Of New Hampshire - University Transportation Services,Durham,NH,10119,Full Reporter,88087,0,0,0,0,112350,24889,0,0,0,0,137239
+663,CityLink Transit,Abilene,TX,60040,Reduced Reporter,110421,0,0,0,0,0,0,0,0,0,480508,480508
+664,"Waco Transit System, Inc.",Waco,TX,60012,Full Reporter,172378,0,51192,0,0,0,0,0,0,0,0,51192
+665,Macon-Bibb County Transit Authority,Macon,GA,40130,Reduced Reporter,137570,0,0,0,0,0,0,0,0,0,574079,574079
+666,Union County Transportation,Monroe,NC,40215,Reduced Reporter,1249442,0,0,0,0,0,0,0,0,0,48309,48309
+669,Athens Transit System,Athens,GA,40047,Full Reporter,128754,0,0,0,0,801831,54308,0,98126,198999,0,1153264
+671,Fargo Park District/ Valley Senior Services dba Valley Senior Services,Fargo,ND,80110,Reduced Reporter,176676,0,0,0,0,0,0,0,0,0,135402,135402
+677,Flagler Co. Public Transportation,Bunnell,FL,41068,Full Reporter,349064,0,0,0,0,322756,0,0,0,0,0,322756
+678,University of Minnesota Transit,Minneapolis,MN,50515,Full Reporter,2650890,144349,0,0,0,26280,6181,0,125086,27333,0,329229
+679,County of Lebanon Transit Authority,Lebanon,PA,30095,Full Reporter,77086,0,0,0,0,295606,74068,0,1584,0,0,371258
+680,Las Vegas Monorail Company,Las Vegas,NV,90242,Full Reporter,1886011,0,0,23863,0,0,18227,146801,47977,1222420,0,1459288
+681,Norwalk Transit System,Norwalk,CA,90022,Full Reporter,12150996,0,0,2283451,664474,2333122,33137,0,0,318296,0,5632480
+683,Bis-Man Transit Board,Bismarck,ND,80019,Reduced Reporter,81955,0,0,0,0,0,0,0,0,0,753694,753694
+689,"Boston Express Bus, Inc.",Concord,NH,10133,Reduced Reporter,4181019,0,0,0,0,0,0,0,0,0,303363,303363
+692,Berkeley Charleston Dorchester RTMA,Moncks Corner,SC,40206,Reduced Reporter,548404,0,0,0,0,0,0,0,0,0,425742,425742
+695,City Utilities of Springfield,Springfield,MO,70003,Full Reporter,273724,0,1547176,0,0,1576,0,0,0,89208,0,1637960
+697,C-TRAN,Elmira,NY,20005,Reduced Reporter,67983,0,0,0,0,0,0,0,0,0,485141,485141
+698,Lima Allen County Regional Transit Authority,Lima,OH,50093,Reduced Reporter,72852,0,0,0,0,0,0,0,0,0,391038,391038
+699,Mid Mon Valley Transit Authority,Charleroi,PA,30061,Full Reporter,66086,0,38272,0,0,3620416,0,72509,0,219303,0,3950500
+702,"University of Arkansas, Fayetteville",Fayetteville,AR,60062,Reduced Reporter,295083,0,0,0,0,0,0,0,0,0,824239,824239
+704,RiverCities Transit,Longview,WA,16,Full Reporter,63952,0,0,0,30912,53797,0,0,0,0,0,84709
+706,City of Lompoc - Lompoc Transit,Lompoc,CA,90149,Reduced Reporter,51509,0,0,0,0,0,0,0,0,0,782721,782721
+709,Livingston Essential Transportation Service,Howell,MI,50180,Reduced Reporter,119509,0,0,0,0,0,0,0,0,0,866663,866663
+717,"Metra Transit System (Columbus, GA)",Columbus,GA,40024,Reduced Reporter,253602,0,0,0,0,0,0,0,0,0,4018943,4018943
+718,Pee Dee Regional Transportation Authority,Florence,SC,40056,Reduced Reporter,89557,0,0,0,0,0,0,0,0,0,168336,168336
+723,Muskegon Area Transit System,Muskegon Heights,MI,50037,Reduced Reporter,161280,0,0,0,0,0,0,0,0,0,123798,123798
+724,Southeast Area Transit,Preston,CT,10040,Full Reporter,209190,0,2610,0,358311,434496,22497,0,122572,38257,0,978743
+725,Roseville Transit,Roseville,CA,90168,Reduced Reporter,1723634,0,0,0,0,0,0,0,0,0,98503,98503
+732,Charlottesville Area Transit,Charlottesville,VA,30036,Reduced Reporter,92359,0,0,0,0,0,0,0,0,0,1364638,1364638
+733,Pitt Area Transit System,Greenville,NC,40220,Reduced Reporter,117798,0,0,0,0,0,0,0,0,0,6279,6279
+734,Ulster County Area Transit,Kingston,NY,20178,Full Reporter,423566,0,0,0,0,139988,0,0,0,0,0,139988
+737,Craven County,New Bern,NC,40210,Reduced Reporter,50503,0,0,0,0,0,0,0,0,0,291915,291915
+739,Monongalia County Urban Mass Transit Authority,Morgantown,WV,30089,Reduced Reporter,70350,0,0,0,0,0,0,0,0,0,357818,357818
+740,Huntington Area Rapid Transit,Huntington Station,NY,20071,Full Reporter,18351295,0,0,60642,0,58946,0,0,1849,401978,0,523415
+744,Cache Valley Transit District,Logan,UT,80028,Full Reporter,94983,0,0,0,94760,145880,20930,0,0,0,0,261570
+748,Tar River Transit,Rocky Mount,NC,40096,Reduced Reporter,68243,0,0,0,0,0,0,0,0,0,620026,620026
+749,Midland-Odessa Urban Transit District,Midland,TX,60097,Reduced Reporter,126405,0,0,0,0,0,0,0,0,0,626882,626882
+755,York County Community Action Corporation,Sanford,ME,10099,Reduced Reporter,88200,0,0,0,0,0,0,0,0,0,54148,54148
+756,Valley Transit,Walla Walla,WA,64,Reduced Reporter,55805,0,0,0,0,0,0,0,0,0,999698,999698
+757,Lancaster County Council on Aging,Lancaster,SC,40237,Reduced Reporter,1249442,0,0,0,0,0,0,0,0,0,220610,220610
+760,City of Tyler,Tyler,TX,60089,Reduced Reporter,130247,0,0,0,0,0,0,0,0,0,33700,33700
+761,Battle Creek Transit,Battle Creek,MI,50030,Reduced Reporter,78393,0,0,0,0,0,0,0,0,0,172741,172741
+762,Iowa City Transit,Iowa City,IA,70018,Full Reporter,106621,0,0,0,0,374083,0,0,0,0,0,374083
+764,Henry County Transit,McDonough,GA,40181,Reduced Reporter,4515419,0,0,0,0,0,0,0,0,0,306738,306738
+770,Kings County Area Public Transit Agency,Hanford,CA,90200,Full Reporter,87941,0,0,148404,73476,2935864,0,0,136202,716489,0,4010435
+772,County of Hunterdon,Flemington,NJ,20212,Reduced Reporter,18351295,0,0,0,0,0,0,0,0,0,211731,211731
+773,Macatawa Area Express Transportation Authority,Holland,MI,50184,Full Reporter,99941,0,0,0,0,1517472,0,0,21031,34981,0,1573484
+774,Fredericksburg Regional Transit,Fredericksburg,VA,30079,Reduced Reporter,141238,0,0,0,0,0,0,0,0,0,513217,513217
+775,The Transportation Management Association Group,Franklin,TN,40178,Full Reporter,969587,0,0,0,0,269,0,0,0,0,0,269
+777,Benton County,Corvallis,OR,65,Reduced Reporter,62433,0,0,0,0,0,0,0,0,0,45338,45338
+780,City of Greeley - Transit Services,Greeley,CO,80010,Reduced Reporter,117825,0,0,0,0,0,0,0,0,0,1238983,1238983
+787,Rapid Transit System,Rapid City,SD,80014,Reduced Reporter,81251,0,0,0,0,0,0,0,0,0,309848,309848
+789,Unified Government Transit Department,Kansas City,KS,70047,Reduced Reporter,1519417,0,0,0,0,0,0,0,0,0,44278,44278
+791,Greenville Transit Authority,Greenville,SC,40053,Full Reporter,400492,0,0,19849,9540,16773,16789,0,0,6068,0,69019
+794,Goldsboro-Wayne Transportation Authority,Goldsboro,NC,40132,Reduced Reporter,61054,0,0,0,0,0,0,0,0,0,570589,570589
+796,Gary Public Transportation Corporation,Gary,IN,50045,Full Reporter,8608208,0,0,0,0,252653,62241,0,0,0,0,314894
+798,City of Jackson Transportation Authority,Jackson,MI,50034,Full Reporter,90057,0,109885,0,0,360360,0,0,29579,92335,0,592159
+800,City of Radford,Radford,VA,30200,Reduced Reporter,88542,0,0,0,0,0,0,0,0,0,264024,264024
+802,Great Falls Transit District,Great Falls,MT,80012,Full Reporter,65207,0,22892,0,2850,0,0,0,0,0,0,25742
+808,Amarillo City Transit,Amarillo,TX,60001,Reduced Reporter,196651,0,0,0,0,0,0,0,0,0,519341,519341
+810,Northern New England Passenger Rail Authority,Portland,ME,10115,Full Reporter,203914,2628104,0,0,10042223,0,0,0,0,0,0,12670327
+812,City of Union City Transit Division,Union City,CA,90161,Reduced Reporter,3281212,0,0,0,0,0,0,0,0,0,2225656,2225656
+818,Mid-Ohio Valley Transit Authority,Parkersburg,WV,30003,Reduced Reporter,67229,0,0,0,0,0,0,0,0,0,782370,782370
+819,Washington State Ferries,Seattle,WA,35,Full Reporter,3059393,0,50546355,0,0,126048916,0,0,1070982,0,0,177666253
+821,City of Dubuque,Dubuque,IA,70011,Reduced Reporter,67818,0,0,0,0,0,0,0,0,0,36000,36000
+823,Rowan Transit System,Salisbury,NC,40217,Reduced Reporter,214881,0,0,0,0,0,0,0,0,0,195737,195737
+824,Cape Ann Transportation Authority,Gloucester,MA,10053,Full Reporter,4181019,0,0,37500,0,731111,37406,17482,0,15267,0,838766
+825,Harbor Transit Multi-Modal Transportation System,Grand Haven,MI,50196,Reduced Reporter,161280,0,0,0,0,0,0,0,0,0,282270,282270
+832,Augusta Richmond County Transit Department,Augusta,GA,40023,Full Reporter,386787,0,0,488091,0,1320959,0,0,365163,0,0,2174213
+833,Warren County Transit Services,Lebanon,OH,50200,Reduced Reporter,1624827,0,0,0,0,0,0,0,0,0,89845,89845
+834,Lafayette Transit System,Lafayette,LA,60038,Full Reporter,252720,0,0,0,0,962292,0,0,0,0,0,962292
+839,Delaware County Transit Board,Delaware,OH,50199,Full Reporter,1368035,0,0,0,0,0,268828,0,0,184534,0,453362
+842,Waccamaw Regional Transportation Authority,Conway,SC,40102,Reduced Reporter,215304,0,0,0,0,0,0,0,0,0,357226,357226
+851,Cities Area Transit,Grand Forks,ND,80008,Full Reporter,61270,0,0,1864,135046,76915,0,88147,51313,7573,0,360858
+854,Petersburg Area Transit,Petersburg,VA,30009,Reduced Reporter,953556,0,0,0,0,0,0,0,0,0,970115,970115
+858,City of Glendale Transit,Glendale,AZ,90034,Full Reporter,3629114,0,1107231,0,0,218888,0,0,0,0,0,1326119
+866,South Metro Area Regional Transit,Wilsonville,OR,46,Reduced Reporter,1849898,0,0,0,0,0,0,0,0,0,419995,419995
+868,Davenport Public Transit,Davenport,IA,70009,Reduced Reporter,280051,0,0,0,0,0,0,0,0,0,22500,22500
+869,Central Florida Commuter Rail,Sanford,FL,40232,Full Reporter,1510516,34709077,7353438,0,0,269280,0,1354816,1667752,0,0,45354363
+872,Southeast Tennessee Human Resource Agency -Cleveland Urban Area Transit System Division,Cleveland,TN,40170,Reduced Reporter,66777,0,0,0,0,0,0,0,0,0,887096,887096
+873,Cooperative Alliance for Seacoast Transportation,Dover,NH,10086,Full Reporter,88087,0,0,27105,0,1809954,0,0,0,62404,0,1899463
+878,City of Jefferson,Jefferson City,MO,70043,Reduced Reporter,58533,0,0,0,0,0,0,0,0,0,192814,192814
+880,City of Huntington Park,Huntington Park,CA,90267,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,252908,252908
+881,Greater Mankato Transit System,Mankato ,MN,50205,Reduced Reporter,57584,0,0,0,0,0,0,0,0,0,587186,587186
+882,Manchester Transit Authority,Manchester,NH,10002,Reduced Reporter,158377,0,0,0,0,0,0,0,0,0,10417,10417
+884,Medina County Public Transit,Medina,OH,50198,Full Reporter,1780673,0,0,0,0,103953,0,7500,0,0,0,111453
+892,City of Avalon,Avalon,CA,90249,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,1391580,1391580
+893,Miami County Public Transit,Troy,OH,50169,Full Reporter,724091,0,0,0,0,118628,0,0,0,0,0,118628
+899,St. Mary's Transit System -Dept. of Public Works and Transit,California ,MD,30109,Reduced Reporter,58875,0,0,0,0,0,0,0,0,0,94000,94000
+900,Plymouth & Brockton Street Railway Company,Plymouth,MA,10117,Reduced Reporter,4181019,0,0,0,0,0,0,0,0,0,33027,33027
+910,Mesa County,Grand Junction,CO,80016,Reduced Reporter,128124,0,0,0,0,0,0,0,0,0,608021,608021
+917,River Valley Metro Mass Transit District,Bourbonnais,IL,50159,Full Reporter,81926,0,51070,0,0,8660,0,0,0,20500,0,80230
+920,Michiana Area Council of Governments,South Bend,IN,50149,Full Reporter,143592,0,0,0,0,1190442,0,0,62925,52354,0,1305721
+921,City of Lodi - Transit Division,Lodi,CA,90175,Full Reporter,68738,0,433921,0,37789,0,46203,48213,72357,13078,0,651561
+923,Ohio Valley Regional Transportation Authority,Wheeling,WV,30035,Full Reporter,81249,0,0,0,0,0,0,0,0,9103,0,9103
+924,Josephine County,Grants Pass,OR,59,Reduced Reporter,50520,0,0,0,0,0,0,0,0,0,907297,907297
+925,"St Johns County, Florida, Board of County Commissioners",St. Augustine,FL,40155,Reduced Reporter,69173,0,0,0,0,0,0,0,0,0,773158,773158
+926,City of Cleburne,Cleburne,TX,60113,Reduced Reporter,5121892,0,0,0,0,0,0,0,0,0,101851,101851
+931,City of Portland,Portland,OR,58,Full Reporter,1849898,290644,0,0,0,590880,0,0,0,0,0,881524
+932,City of Monroe Transit System,Monroe,LA,60026,Reduced Reporter,116533,0,0,0,0,0,0,0,0,0,224040,224040
+933,Janesville Transit System,Janesville,WI,50108,Reduced Reporter,69658,0,0,0,0,0,0,0,0,0,106092,106092
+935,Richland County Transit,Mansfield,OH,50090,Reduced Reporter,75250,0,0,0,0,0,0,0,0,0,111366,111366
+939,City of Clemson/ Clemson Area Transit,Clemson,SC,40208,Full Reporter,400492,0,0,0,0,405000,0,0,0,123735,0,528735
+941,Middletown Transit District,Middletown,CT,10063,Full Reporter,924859,0,73489,0,223599,1397896,0,13720,31305,0,0,1740009
+942,City of Petaluma,Petaluma,CA,90213,Full Reporter,64078,0,0,0,3342,0,0,0,515481,0,0,518823
+952,Simi Valley Transit,Simi Valley,CA,90050,Reduced Reporter,125206,0,0,0,0,0,0,0,0,0,2328343,2328343
+957,Fairbanks North Star Borough Transit,Fairbanks,AK,45,Reduced Reporter,64513,0,0,0,0,0,0,0,0,0,276701,276701
+958,City of Fort Lauderdale,Fort Lauderdale,FL,44929,Full Reporter,5502379,0,0,0,0,0,0,1467,6398,0,0,7865
+963,City of Anderson Transportation System,Anderson,IN,50041,Reduced Reporter,88133,0,0,0,0,0,0,0,0,0,279172,279172
+973,Jackson Transit Authority,Jackson,TN,40057,Full Reporter,71880,0,0,0,0,165106,0,0,0,0,0,165106
+976,City of Corona,Corona,CA,90052,Reduced Reporter,1932666,0,0,0,0,0,0,0,0,0,3314737,3314737
+977,Camarillo Area Transit,Camarillo,CA,90163,Reduced Reporter,71772,0,0,0,0,0,0,0,0,0,415399,415399
+981,City of Vacaville,Vacaville,CA,90155,Reduced Reporter,93141,0,0,0,0,0,0,0,0,0,1959917,1959917
+982,Nashua Transit System,Nashua,NH,10087,Full Reporter,226400,0,0,0,300784,0,26999,0,0,0,0,327783
+990,City of Scottsdale - Scottsdale Trolley,Scottsdale,AZ,90131,Full Reporter,3629114,0,791442,0,0,0,0,0,0,54513,0,845955
+993,Autauga County Commission,Prattville,AL,40213,Reduced Reporter,263907,0,0,0,0,0,0,0,0,0,10000,10000
+994,City of Irvine,Irvine,CA,90231,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,415286,415286
+1002,Albany Transit System,Albany,GA,40021,Full Reporter,95779,0,58192,104139,5662,426377,37032,24570,25953,84439,0,766364
+1005,The City of Cheyenne Transit Program,Cheyenne,WY,80020,Reduced Reporter,73588,0,0,0,0,0,0,0,0,0,596114,596114
+1014,Cherokee County Board of Commissioners,Canton,GA,40161,Reduced Reporter,4515419,0,0,0,0,0,0,0,0,0,122076,122076
+1015,City of Casper,Casper,WY,80013,Reduced Reporter,64548,0,0,0,0,0,0,0,0,0,56197,56197
+1016,City of Commerce Municipal Buslines,Commerce,CA,90043,Full Reporter,12150996,0,289833,0,0,0,0,0,364796,0,0,654629
+1018,City of Bangor - BAT Community Connector,Bangor,ME,10096,Reduced Reporter,61210,0,0,0,0,0,0,0,0,0,111032,111032
+1021,Milford Transit District,Milford,CT,10107,Full Reporter,923311,0,0,6170,98398,657229,0,0,0,0,0,761797
+1023,City of West Bend,West Bend,WI,50202,Reduced Reporter,68444,0,0,0,0,0,0,0,0,0,73239,73239
+1026,Municipality of Guaynabo,Guaynabo,PR,40201,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,544228,544228
+1029,"South Lake County Community Services, Inc.",Crown Point,IN,50167,Full Reporter,8608208,0,0,0,0,84109,0,0,0,0,0,84109
+1030,City of McAllen - McAllen Express Transit,McAllen,TX,60099,Reduced Reporter,728825,0,0,0,0,0,0,0,0,0,622606,622606
+1040,City of Danville/Danville Mass Transit,Danville,IL,50174,Reduced Reporter,50996,0,0,0,0,0,0,0,0,0,1147189,1147189
+1052,City of Glendora,Glendora,CA,90266,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,381937,381937
+1059,Kingsport Area Transit System,Kingsport,TN,40080,Reduced Reporter,106571,0,0,0,0,0,0,0,0,0,182127,182127
+1071,Annapolis Department of Transportation,Annapolis,MD,30040,Reduced Reporter,2203663,0,0,0,0,0,0,0,0,0,1056207,1056207
+1074,City of Albany,Albany,OR,61,Reduced Reporter,56997,0,0,0,0,0,0,0,0,0,5000,5000
+1078,City of Porterville,Porterville,CA,90198,Reduced Reporter,70272,0,0,0,0,0,0,0,0,0,2632971,2632971
+1080,Tuscaloosa County Parking and Transit Authority,Tuscaloosa,AL,40045,Reduced Reporter,139114,0,0,0,0,0,0,0,0,0,295211,295211
+1095,Hernando County Board of County Commissioners,Brooksville,FL,40146,Reduced Reporter,148220,0,0,0,0,0,0,0,0,0,1021841,1021841
+1108,Jonesboro Economical Transportation System,Jonesboro,AR,60104,Reduced Reporter,65419,0,0,0,0,0,0,0,0,0,121546,121546
+1109,Gadsden Transportation Services - City of Gadsden,Gadsden,AL,40049,Reduced Reporter,64172,0,0,0,0,0,0,0,0,0,353157,353157
+1114,Valley Transit District,Derby,CT,10042,Full Reporter,923311,0,0,80639,0,0,0,0,3449,0,0,84088
+1115,Monroe Bus Corporation,Brooklyn,NY,20137,Full Reporter,423566,0,0,0,152391,101409,0,0,0,0,0,253800
+1117,Lorain County Transit,Elyria,OH,50095,Reduced Reporter,180956,0,0,0,0,0,0,0,0,0,88555,88555
+1120,The City of Bowling Green/Community Action of Southern Kentucky,Bowling Green,KY,40184,Reduced Reporter,78306,0,0,0,0,0,0,0,0,0,293949,293949
+1126,Midland Dial-A-Ride,Midland,MI,50207,Reduced Reporter,59014,0,0,0,0,0,0,0,0,0,602725,602725
+1131,Greenville Area Transit,Greenville,NC,40095,Reduced Reporter,117798,0,0,0,0,0,0,0,0,0,1162263,1162263
+1132,Biddeford-Saco-Old Orchard Beach Transit Committee Shuttle Bus,Biddeford,ME,10114,Reduced Reporter,203914,0,0,0,0,0,0,0,0,0,400728,400728
+1136,Allegany County Transit,Cumberland,MD,30041,Reduced Reporter,51899,0,0,0,0,0,0,0,0,0,2021,2021
+1150,Martin County,Stuart,FL,40192,Full Reporter,376047,0,0,0,0,392643,0,0,114273,0,0,506916
+1161,City of Jacksonville,Jacksonville,NC,40166,Reduced Reporter,105419,0,0,0,0,0,0,0,0,0,58533,58533
+1162,"City of Moorhead, DBA: Metropolitan Area Transit",Moorhead,MN,50026,Full Reporter,176676,0,0,0,0,1773180,0,0,0,0,0,1773180
+1164,Terre Haute Transit Utility,Terre Haute,IN,50053,Full Reporter,92742,0,0,0,4010,248878,0,0,0,0,0,252888
+1166,Hoke County,Raeford,NC,40209,Reduced Reporter,310282,0,0,0,0,0,0,0,0,0,70442,70442
+1169,Lawrence County Port Authority,Ironton,OH,50186,Reduced Reporter,202637,0,0,0,0,0,0,0,0,0,88820,88820
+1175,City of Corvallis,Corvallis,OR,47,Full Reporter,62433,0,0,0,0,15991,0,0,0,0,0,15991
+1177,City of Folsom,Folsom,CA,90220,Reduced Reporter,1723634,0,0,0,0,0,0,0,0,0,1420387,1420387
+1190,Cecil County Government - SSCT,Elkton,MD,30108,Reduced Reporter,5441567,0,0,0,0,0,0,0,0,0,161122,161122
+1198,City of Tulare,Tulare,CA,90244,Full Reporter,219454,0,8423,0,208323,1913439,0,0,0,0,0,2130185
+1200,San Francisco Bay Area Water Emergency Transportation Authority,San Francisco,CA,90225,Full Reporter,3281212,0,5045996,0,11856465,21725260,0,0,0,2103622,0,40731343
+1203,Orange Public Transportation,Hillsborough,NC,40231,Reduced Reporter,347602,0,0,0,0,0,0,0,0,0,211324,211324
+1211,Ashland Bus System,Ashland,KY,40016,Reduced Reporter,202637,0,0,0,0,0,0,0,0,0,276356,276356
+1215,Detroit Transportation Corporation,Detroit,MI,50141,Full Reporter,3734090,0,317093,65584,0,11875,0,0,35301,24872,0,454725
+1222,Terrebonne Parish Consolidated Government,Houma,LA,60080,Reduced Reporter,144875,0,0,0,0,0,0,0,0,0,70936,70936
+1229,San Marcos Urban Transit District,Austin,TX,60131,Reduced Reporter,52826,0,0,0,0,0,0,0,0,0,1581319,1581319
+1234,City of Farmington dba: Red Apple Transit,Farmington,NM,60100,Reduced Reporter,53049,0,0,0,0,0,0,0,0,0,368506,368506
+1242,Fort Smith Transit,Fort Smith,AR,60086,Reduced Reporter,122947,0,0,0,0,0,0,0,0,0,341420,341420
+1248,City of San Luis Obispo,San Luis Obispo,CA,90156,Full Reporter,59219,0,0,0,6222,0,0,0,0,26453,0,32675
+1251,City of Alexandria,Alexandria,LA,60025,Reduced Reporter,82804,0,0,0,0,0,0,0,0,0,224994,224994
+1259,Municipality of Bayamon,Bayamon,PR,40137,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,659904,659904
+1266,City of St. George,St. George,UT,80026,Reduced Reporter,98370,0,0,0,0,0,0,0,0,0,249889,249889
+1269,Washington County Transit,Hagerstown,MD,30042,Reduced Reporter,182696,0,0,0,0,0,0,0,0,0,109668,109668
+1280,City of Grand Prairie Transportation Services Department,Grand Prairie,TX,60068,Reduced Reporter,5121892,0,0,0,0,0,0,0,0,0,888457,888457
+1302,City of Joplin Metro Area Public,Joplin,MO,70040,Reduced Reporter,82775,0,0,0,0,0,0,0,0,0,287713,287713
+1307,Lewiston-Auburn Transit Committee,Auburn,ME,10015,Reduced Reporter,59397,0,0,0,0,0,0,0,0,0,723896,723896
+1318,Texarkana Urban Transit District,Texarkana,TX,60093,Reduced Reporter,78162,0,0,0,0,0,0,0,0,0,1200000,1200000
+1319,"Community Services, Inc.",Corsicana ,TX,60260,Reduced Reporter,5121892,0,0,0,0,0,0,0,0,0,134050,134050
+1322,City of Edmond,Edmond,OK,60118,Reduced Reporter,861505,0,0,0,0,0,0,0,0,0,66339,66339
+1326,Municipality of San Lorenzo,San Lorenzo,PR,40195,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,502970,502970
+1328,ColumBUS Transit,Columbus,IN,50177,Reduced Reporter,54933,0,0,0,0,0,0,0,0,0,188758,188758
+1333,"Center for Pan Asian Community Services, Inc.",Chamblee,GA,40246,Reduced Reporter,4515419,0,0,0,0,0,0,0,0,0,109953,109953
+1339,City of Monterey Park,Monterey Park,CA,90286,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,340161,340161
+1341,Onalaska Shared Ride Taxi City of Onalaska,Onalaska,WI,50152,Reduced Reporter,100868,0,0,0,0,0,0,0,0,0,98664,98664
+1346,City of Delano,Delano,CA,90238,Reduced Reporter,54372,0,0,0,0,0,0,0,0,0,634534,634534
+1363,Longview Transit,Longview,TX,60081,Reduced Reporter,98884,0,0,0,0,0,0,0,0,0,543207,543207
+1369,City of Fairfax CUE Bus,Fairfax,VA,30058,Full Reporter,4586770,0,0,0,0,2536210,0,0,22000,0,0,2558210
+1370,South Portland Bus Service,South Portland,ME,10112,Reduced Reporter,203914,0,0,0,0,0,0,0,0,0,234849,234849
+1374,Spartanburg Transit System,Spartanburg,SC,40101,Reduced Reporter,180786,0,0,0,0,0,0,0,0,0,242428,242428
+1378,Carson Area Metropolitan Planning Organization,Carson City,NV,90215,Reduced Reporter,58079,0,0,0,0,0,0,0,0,0,371113,371113
+1386,Chippewa Falls General Public Shared-Ride Taxi System,Chippewa Falls,WI,50133,Reduced Reporter,102852,0,0,0,0,0,0,0,0,0,65776,65776
+1391,Michigan City Transit,Michigan City,IN,50098,Reduced Reporter,66025,0,0,0,0,0,0,0,0,0,135614,135614
+1392,City of Turlock,Turlock,CA,90201,Full Reporter,99904,0,184405,0,0,872585,0,350879,0,74786,0,1482655
+1398,Autonomous Municipality of Ponce,Ponce,PR,40234,Reduced Reporter,149539,0,0,0,0,0,0,0,0,0,901832,901832
+1402,St. Bernard Urban Rapid Transit,Chalmette,LA,60058,Reduced Reporter,899703,0,0,0,0,0,0,0,0,0,178570,178570
+1403,City of West Covina,West Covina,CA,90293,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,214474,214474
+1417,City of Sierra Vista,Sierra Vista,AZ,90239,Reduced Reporter,52745,0,0,0,0,0,0,0,0,0,19978,19978
+1422,Municipality of Hormigueros,Hormigueros,PR,40121,Reduced Reporter,109572,0,0,0,0,0,0,0,0,0,49850,49850
+1428,Suffolk Transit,Suffolk,VA,30198,Reduced Reporter,1439666,0,0,0,0,0,0,0,0,0,79503,79503
+1433,City of Valparaiso,Valparaiso,IN,50183,Full Reporter,8608208,0,0,0,11774,0,0,0,0,0,0,11774
+1434,Greater Derry Salem Cooperative Alliance for Regional Transportation,Salem,NH,10123,Reduced Reporter,4181019,0,0,0,0,0,0,0,0,0,39223,39223
+1436,City of Seattle - Seattle Center Monorail Transit,Seattle,WA,23,Full Reporter,3059393,161831,17560,0,0,27255,0,0,0,0,0,206646
+1442,Steel Valley Regional Transit Authority,Steubenville,OH,50142,Reduced Reporter,70889,0,0,0,0,0,0,0,0,0,147537,147537
+1445,Lake Charles Transit System,Lake Charles,LA,60023,Reduced Reporter,143440,0,0,0,0,0,0,0,0,0,164690,164690
+1457,Lower Savannah COG,Aiken,SC,40156,Reduced Reporter,386787,0,0,0,0,0,0,0,0,0,65796,65796
+1460,City of Manteca,Manteca,CA,90217,Reduced Reporter,83578,0,0,0,0,0,0,0,0,0,37225,37225
+1464,Franklin Transit Authority,Franklin,TN,40162,Reduced Reporter,969587,0,0,0,0,0,0,0,0,0,162285,162285
+1465,Hub City Transit,Hattiesburg,MS,40060,Reduced Reporter,80358,0,0,0,0,0,0,0,0,0,132475,132475
+1471,Concord Kannapolis Area Transit,Concord,NC,40167,Reduced Reporter,214881,0,0,0,0,0,0,0,0,0,337244,337244
+1487,City of Murfreesboro,Murfreesboro,TN,40186,Reduced Reporter,133228,0,0,0,0,0,0,0,0,0,42627,42627
+1493,"Porter County Aging and Community Services, Inc.",Valparaiso,IN,50179,Full Reporter,8608208,0,0,0,0,17769,0,0,0,0,0,17769
+1496,"Martz Group, National Coach Works of Virginia",Fredericksburg,VA,30103,Full Reporter,4586770,0,0,0,0,0,0,0,0,22808,0,22808
+1503,Link Transit - Burlington,Burlington,NC,40252,Reduced Reporter,119911,0,0,0,0,0,0,0,0,0,1066114,1066114
+1525,City of Maple Grove,Maple Grove,MN,50517,Full Reporter,2650890,0,27042,0,0,0,0,0,0,0,0,27042
+1527,City of Winchester,Winchester,VA,30099,Reduced Reporter,69449,0,0,0,0,0,0,0,0,0,25775,25775
+1528,Coralville Transit System,Coralville,IA,70030,Full Reporter,106621,0,1682539,0,0,0,0,0,33821,0,0,1716360
+1546,Borough of Pottstown - Pottstown Area Rapid Transit,Pottstown,PA,30077,Full Reporter,107682,0,26046,0,0,0,0,0,0,70033,0,96079
+1578,Intracity Transit,Hot Springs,AR,60105,Reduced Reporter,55121,0,0,0,0,0,0,0,0,0,175649,175649
+1591,Municipality of Juncos,Juncos,PR,40165,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,16650,16650
+1606,Greater Glens Falls Transit System,Queensbury,NY,20120,Reduced Reporter,65443,0,0,0,0,0,0,0,0,0,170236,170236
+1648,Watertown CitiBus,Watertown,NY,20215,Reduced Reporter,57840,0,0,0,0,0,0,0,0,0,26529,26529
+1655,Municipality of Vega Baja,Vega Baja,PR,40117,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,106153,106153
+1666,Anderson Transit Authority,Anderson,SC,40081,Reduced Reporter,75702,0,0,0,0,0,0,0,0,0,1225724,1225724
+1668,The University of Montana - ASUM Transportation,Missoula,MT,80107,Full Reporter,82157,0,0,0,26771,0,0,0,0,0,0,26771
+1678,TransPorte,Laporte,IN,50162,Reduced Reporter,66025,0,0,0,0,0,0,0,0,0,234476,234476
+1684,Peoria Transit,Peoria,AZ,90140,Full Reporter,3629114,0,0,0,0,138215,0,0,90536,0,0,228751
+1695,City of Middletown - Middletown Transit System,Middletown,OH,50019,Reduced Reporter,97503,0,0,0,0,0,0,0,0,0,2386537,2386537
+1699,Municipality of Cayey,Cayey,PR,40122,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,265000,265000
+1708,Niles Dial-A-Ride,Niles,MI,50038,Reduced Reporter,278165,0,0,0,0,0,0,0,0,0,112378,112378
+1715,City of South Pasadena,South Pasadena,CA,90292,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,116956,116956
+1723,Municipality of Hatillo,Hatillo,PR,40151,Reduced Reporter,139171,0,0,0,0,0,0,0,0,0,42053,42053
+1743,Coeur d'Alene Tribe dba Citylink Transit,Worley,ID,53,Reduced Reporter,98378,0,0,0,0,0,0,0,0,0,240798,240798
+1778,Lewiston Transit System,Lewiston,ID,48,Reduced Reporter,51924,0,0,0,0,0,0,0,0,0,434350,434350
+1784,City of Manhattan Beach Dial A Ride,Manhattan Beach,CA,90283,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,87464,87464
+1788,City of Bellflower,Bellflower,CA,90254,Reduced Reporter,12150996,0,0,0,0,0,0,0,0,0,110835,110835
+1798,Casco Bay Island Transit District,Portland,ME,10088,Full Reporter,203914,0,0,0,0,418058,72029,10481,40413,0,0,540981
+1800,Municipality of Manati,Manati,PR,40145,Reduced Reporter,2148346,0,0,0,0,0,0,0,0,0,19400,19400
+1810,City of Conroe,Conroe,TX,60129,Reduced Reporter,239938,0,0,0,0,0,0,0,0,0,1304906,1304906
+1828,Weirton Transit Corporation,Weirton,WV,30066,Reduced Reporter,70889,0,0,0,0,0,0,0,0,0,14975,14975
+1849,Bristol Virginia Transit,Bristol,VA,30053,Reduced Reporter,69501,0,0,0,0,0,0,0,0,0,75973,75973
+1867,Davis Community Transit,Davis,CA,90167,Reduced Reporter,72794,0,0,0,0,0,0,0,0,0,85410,85410
+1919,The Mashpee Wampanoag Tribe,Mashpee,MA,10184,Reduced Reporter,246695,0,0,0,0,0,0,0,0,0,6000,6000
+1930,River Parishes Transit Authority,LaPlace,LA,60112,Reduced Reporter,899703,0,0,0,0,0,0,0,0,0,102956,102956
+1951,New York City Economic Development Corporation,New York,NY,22930,Full Reporter,18351295,0,4595424,0,363265,0,0,0,0,0,0,4958689
+1969,McKinney Avenue Transit Authority,Dallas,TX,60133,Full Reporter,5121892,122000,0,0,0,95391,0,0,0,0,0,217391
+2035,Pierce County Ferry Operations,Tacoma,WA,28,Full Reporter,3059393,0,534713,0,0,0,0,0,0,0,0,534713
+2092,City of Moorpark,Moorpark,CA,90227,Reduced Reporter,214811,0,0,0,0,0,0,0,0,0,921696,921696
+2118,Brunswick Transit Alternative,Brunswick,OH,50143,Full Reporter,1780673,0,0,0,0,188823,0,0,0,0,0,188823
+2222,Stateline Mass Transit District,Rockton ,IL,50212,Separate Service,63835,0,0,0,0,283280,0,0,0,0,0,283280
+2224,Greater Southeast Management District,Houston,TX,60121,Building Reporter,4944332,0,0,0,0,0,0,0,0,2950,0,2950
+2226,City of Cincinnati,Cincinnati,OH,55311,Building Reporter,1624827,14451927,0,0,54437,10114056,0,339306,0,0,0,24959726
+2227,Westchase District,Houston,TX,60120,Building Reporter,4944332,0,0,0,0,0,0,0,0,1268006,0,1268006
+2229,City of Marietta,Marietta,GA,40236,Building Reporter,4515419,0,0,0,0,0,0,0,0,463211,0,463211
+2231,Metropolitan Washington Airports Authority,Washington,DC,30104,Building Reporter,4586770,82270778,49067307,0,48504701,50646909,0,0,39373344,279328746,0,549191785
+2233,Harris County Improvement District 1 a.k.a. Uptown-Houston,Houston,TX,60119,Building Reporter,4944332,1312500,562500,0,0,0,0,0,0,0,0,1875000
+2234,Sonoma-Marin Area Rail Transit District,Petaluma,CA,90299,Building Reporter,3281212,17409414,14126531,0,331586,10017888,282845,905656,13138681,34776012,0,90988613
+2235,Midtown Management District,Houston,TX,66270,Building Reporter,4944332,0,0,0,0,0,0,0,0,1254896,0,1254896
+2237,"Kansas City, City of Missouri",Kansas City,MO,70271,Building Reporter,1519417,2592042,1766454,0,3951704,12697920,0,0,480307,23815348,0,45303775
+2238,DeKalb County,Sycamore,IL,50214,Separate Service,68545,0,0,0,0,47720,0,0,0,0,0,47720
+2239,Loop Trolley Transportation Development District,St. Louis,MO,70057,Building Reporter,2150706,11182266,0,0,6976753,67675,0,0,0,2353423,0,20580117
+2240,City of Stamford,Stamford,CT,10127,Building Reporter,923311,295258,0,0,0,0,0,0,0,5877632,0,6172890
+2242,M-1 Rail,Detroit,MI,50213,Building Reporter,3734090,24648803,1174707,0,4803545,10892208,0,0,32873,12931950,0,54484086
+2244,City of Milwaukee,Milwaukee,WI,55312,Building Reporter,1376476,7173752,0,0,0,0,3087446,0,0,8635751,0,18896949
+2245,Riverside County Transportation Commission,Riverside,CA,90218,Building Reporter,1932666,65782033,0,0,0,0,0,0,0,0,0,65782033
