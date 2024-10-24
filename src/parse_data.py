@@ -82,6 +82,13 @@ def main():
         codes=list(census_data.index)
     )
     upt_data.to_csv(paths.data / 'UPT.csv')
+    # Unlinked passenger trips (UPT)
+    pmt_data = read_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'PMT',
+        codes=list(census_data.index)
+    )
+    pmt_data.to_csv(paths.data / 'PMT.csv')
     # Operations funding
     opfund_data = read_time_series(
         '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
