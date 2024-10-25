@@ -258,7 +258,7 @@ def uza_population_estimates(codes, years, extrapolate=True):
             years, census_years, census_data[census_years].loc[code]
         ).astype(int)
     # Package nicely
-    df = pd.DataFrame(interp_data, index=pd.Series(codes, name='UACE'), 
+    df = pd.DataFrame(interp_data, index=pd.Series(codes, name='UACE Code'), 
                       columns=years, dtype=int)
     df.insert(0, 'Name', census_data['Name'].loc[codes])
     return df
