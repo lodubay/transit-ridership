@@ -11,20 +11,22 @@ import paths
 
 def main():
     census_data = import_census_data()
+    years = list(range(1991, 2020))
     # Operating expenses
     opexp_total_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'OpExp Total',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     opexp_total_data.to_csv(paths.data / 'OpExp_Total.csv')
     year_cols = [c for c in opexp_total_data.columns if is_year(c)]
-    years = [int(c) for c in year_cols]
     # Operating expenses - fraction for vehicle operations (VO)
     opexp_vo_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'OpExp VO',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     opexp_vo_frac = opexp_vo_data.copy()
     opexp_vo_frac[year_cols] = opexp_vo_data[year_cols] / opexp_total_data[year_cols]
@@ -33,7 +35,8 @@ def main():
     opexp_vm_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'OpExp VM',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     opexp_vm_frac = opexp_vm_data.copy()
     opexp_vm_frac[year_cols] = opexp_vm_data[year_cols] / opexp_total_data[year_cols]
@@ -42,7 +45,8 @@ def main():
     opexp_ga_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'OpExp GA',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     opexp_ga_frac = opexp_ga_data.copy()
     opexp_ga_frac[year_cols] = opexp_ga_data[year_cols] / opexp_total_data[year_cols]
@@ -51,56 +55,64 @@ def main():
     fare_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'FARES',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     fare_data.to_csv(paths.data / 'FARES.csv')
     # Vehicles operated in maximum service (VOMS)
     voms_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'VOMS',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     voms_data.to_csv(paths.data / 'VOMS.csv')
     # Vehicle revenue miles (VRM)
     vrm_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'VRM',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     vrm_data.to_csv(paths.data / 'VRM.csv')
     # Vehicle revenue hours (VRH)
     vrh_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'VRH',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     vrh_data.to_csv(paths.data / 'VRH.csv')
     # Unlinked passenger trips (UPT)
     upt_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'UPT',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     upt_data.to_csv(paths.data / 'UPT.csv')
     # Unlinked passenger trips (UPT)
     pmt_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'PMT',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     pmt_data.to_csv(paths.data / 'PMT.csv')
     # Operations funding
     opfund_data = read_time_series(
         '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
         'Operating Total',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     opfund_data.to_csv(paths.data / 'OpFund_Total.csv')
     # Capital funding
     capfund_data = read_time_series(
         '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
         'Capital Total',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     capfund_data.to_csv(paths.data / 'CapFund_Total.csv')
     # Operations funding fraction
@@ -113,12 +125,14 @@ def main():
     totfund_data = read_time_series(
         '2023 TS1.1 Total Funding Time Series_0.xlsx', 
         'Total',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     fedfund_data = read_time_series(
         '2023 TS1.1 Total Funding Time Series_0.xlsx', 
         'Federal',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     fedfund_frac = fedfund_data.copy()
     fedfund_frac[year_cols] = fedfund_data[year_cols] / totfund_data[year_cols]
@@ -127,7 +141,8 @@ def main():
     stfund_data = read_time_series(
         '2023 TS1.1 Total Funding Time Series_0.xlsx', 
         'Federal',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     stfund_frac = stfund_data.copy()
     stfund_frac[year_cols] = stfund_data[year_cols] / totfund_data[year_cols]
@@ -136,12 +151,14 @@ def main():
     locfund_data = read_time_series(
         '2023 TS1.1 Total Funding Time Series_0.xlsx', 
         'Local',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     otherfund_data = read_time_series(
         '2023 TS1.1 Total Funding Time Series_0.xlsx', 
         'Other',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years
     )
     locfund_frac = locfund_data.copy()
     locfund_frac[year_cols] = (
@@ -152,7 +169,8 @@ def main():
     capexp_data = read_time_series(
         '2023 TS3.1 Capital Expenditures Time Series.xlsx',
         'Total',
-        codes=list(census_data.index)
+        codes=list(census_data.index),
+        select_years=years[1:] # Capital expenditures data begins in 1992
     )
     capexp_data.insert(8, '1991', np.nan * np.ones(capexp_data.shape[0]))
     # Data has multiple entries (different modes) per agency
@@ -170,7 +188,8 @@ def main():
     pop_est.to_csv(paths.data / 'UZA_population.csv')
 
 
-def read_time_series(fname, sheet_name, codes=[], dir=paths.data/'time_series'):
+def read_time_series(fname, sheet_name, codes=[], dir=paths.data/'time_series',
+                     select_years=[], require_all_years=True):
     """
     Import time-series data from Excel file.
     
@@ -184,6 +203,13 @@ def read_time_series(fname, sheet_name, codes=[], dir=paths.data/'time_series'):
         List of UACE codes to limit the data, if provided.
     dir : str or pathlib.Path [default: '../data/time_series/']
         Path to directory containing time-series data.
+    select_years : list of ints or strings [default : []]
+        Import data from these years only. If empty list, all years with data
+        will be included.
+    require_all_years : bool [default: True]
+        If True, limit to agencies with data available for all years. If 
+        select_years is provided, limit to agencies with data all provided
+        years.
     
     Returns
     -------
@@ -202,6 +228,16 @@ def read_time_series(fname, sheet_name, codes=[], dir=paths.data/'time_series'):
                       (ts_data['Agency Status'] == 'Active') &
                       (ts_data['Reporter Type'] == 'Full Reporter') &
                       (ts_data['Reporting Module'] == 'Urban')].copy()
+    # Get data columns
+    all_years = [c for c in ts_data.columns if is_year(c)]
+    if len(select_years) > 0:
+        year_cols = [str(y) for y in select_years if str(y) in ts_data.columns]
+        drop_years = [y for y in all_years if not y in year_cols]
+        ts_data.drop(columns=drop_years, inplace=True)
+    year_cols = [c for c in ts_data.columns if is_year(c)]
+    # Limit to cities with data for all years
+    if require_all_years:
+        ts_data.dropna(axis=0, how='any', subset=year_cols, inplace=True)
     # Remove cities we don't have full census data for
     unique_city_codes = pd.unique(ts_data['UACE Code']).tolist()
     cities_in_census = [c for c in unique_city_codes if c in codes]
