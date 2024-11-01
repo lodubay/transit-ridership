@@ -16,7 +16,32 @@ def main():
     population = uza_population_estimates(years)
 
     def parse_service_data(sheet, year_range=(1991, 2019), export=True,
-                            per_capita=False, inflation_adjusted=False):
+                           per_capita=False, inflation_adjusted=False):
+        """
+        Utility function to parse data from the Service & Operating Expenses
+        table.
+
+        Parameters
+        ----------
+        sheet : str
+            Name of sheet in the Excel spreadsheet to import.
+        year_range : tuple of ints [default: (1991, 2019)]
+            Start and end year (inclusive) of full data.
+        export : bool [default: True]
+            Whether to export the test and training data to separate CSVs.
+        per_capita : bool [default: False]
+            If True, normalize time-series data by population each year.
+        inflation_adjusted : bool [default: False]
+            If True, adjust monetary time-series data for inflation
+        
+        Returns
+        -------
+        train : pandas.DataFrame
+            Years of training data per city.
+        test : pandas.DataFrame
+            Year(s) of test data per city.
+        
+        """
         years = list(range(year_range[0], year_range[1]+1))
         fname = sheet.replace(' ', '_')
         agency_data = read_time_series(
