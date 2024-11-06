@@ -72,6 +72,8 @@ def main():
             select_years=years
         )
         city_data = consolidate_city_data(agency_data)
+        # Replace 0 with na
+        city_data.replace(0, np.nan, inplace=True)
         # Insert null data for missing years
         for i, year in enumerate(years):
             if str(year) not in city_data.columns:
