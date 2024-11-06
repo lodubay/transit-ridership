@@ -2,93 +2,20 @@
 This script parses and cleans transit data from the various Excel files.
 """
 
-import re
+from functools import reduce
 from pathlib import Path
 import numpy as np
 import pandas as pd
 import paths
+from utils import is_year, train_test_split
 
 
 def main():
     years = list(range(1991, 2020))
-    # census_data = import_census_data()
     inflation = import_inflation_data()
     population = uza_population_estimates(years)
 
-    def parse_service_data(sheet, year_range=(1991, 2019), export=True,
-                           per_capita=False, inflation_adjusted=False):
-        """
-        Utility function to parse data from the Service & Operating Expenses
-        table.
-
-        Parameters
-        ----------
-        sheet : str
-            Name of sheet in the Excel spreadsheet to import.
-        year_range : tuple of ints [default: (1991, 2019)]
-            Start and end year (inclusive) of full data.
-        export : bool [default: True]
-            Whether to export the test and training data to separate CSVs.
-        per_capita : bool [default: False]
-            If True, normalize time-series data by population each year.
-        inflation_adjusted : bool [default: False]
-            If True, adjust monetary time-series data for inflation
-        
-        Returns
-        -------
-        train : pandas.DataFrame
-            Years of training data per city.
-        test : pandas.DataFrame
-            Year(s) of test data per city.
-        
-        """
-        years = list(range(year_range[0], year_range[1]+1))
-        fname = sheet.replace(' ', '_')
-        agency_data = read_time_series(
-            '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
-            sheet,
-            codes=list(population.index),
-            select_years=years
-        )
-        city_data = consolidate_city_data(agency_data)
-        if inflation_adjusted:
-            city_data = adjust_for_inflation(city_data, inflation)
-            fname += '_infladj'
-        if per_capita:
-            city_data = normalize_population(city_data, population)
-            fname += '_percap'
-        train, test = train_test_split(city_data)
-        fname += '.csv'
-        if export:
-            train.to_csv(paths.data / 'train' / fname)
-            test.to_csv(paths.data / 'test' / fname)
-        return train, test
-
-    #################################
-    ### Vehicle & Ridership Stats ###
-    #################################
-
-    # Fare revenue
-    parse_service_data('FARES', per_capita=True, inflation_adjusted=True)
-    # Vehicles operated in maximum service (VOMS)
-    parse_service_data('VOMS', per_capita=True)
-    # Vehicle revenue miles (VRM)
-    parse_service_data('VRM', per_capita=True)
-    # Vehicle revenue hours (VRH)
-    parse_service_data('VRH', per_capita=True)
-    # Unlinked passenger trips (UPT)
-    parse_service_data('UPT', per_capita=True)
-    # Passenger Miles Traveled (PMT)
-    parse_service_data('PMT', per_capita=True)
-
-    ##########################
-    ### Operating Expenses ###
-    ##########################
-
-    # Total
-    parse_service_data('OpExp Total', per_capita=True, inflation_adjusted=True)
-
-    # Operating expenses
+    # Agency and city reference info
     opexp_total_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
         'OpExp Total',
@@ -99,149 +26,274 @@ def main():
     other_cols = [c for c in opexp_total_data.columns if not is_year(c)]
     agency_info = opexp_total_data[other_cols].copy()
     agency_info.to_csv(paths.data / 'Agencies.csv')
-    opexp_city_data = consolidate_city_data(opexp_total_data)
-    # print(adjust_for_inflation(opexp_total_data, inflation))
-    opexp_total_data.to_csv(paths.data / 'OpExp_Total.csv')
+    city_info = agency_info.drop(columns=['Agency Name']).set_index('UACE Code', drop=True)
+    city_info.drop_duplicates(inplace=True)
+    city_info.to_csv(paths.data / 'Cities.csv')
+
+    def parse_time_series(file, sheet, year_range=(1991, 2019), export=True,
+                          per_capita=False, inflation_adjusted=False,
+                          fname=''):
+        """
+        Utility function to parse and export data from a time series table.
+
+        Parameters
+        ----------
+        file : str
+            Name of Excel spreadsheet file with time series data to import.
+        sheet : str
+            Name of sheet in the Excel spreadsheet to import.
+        year_range : tuple of ints [default: (1991, 2019)]
+            Start and end year (inclusive) of full data.
+        export : bool [default: True]
+            Whether to export the test and training data to separate CSVs.
+        per_capita : bool [default: False]
+            If True, normalize time-series data by population each year.
+        inflation_adjusted : bool [default: False]
+            If True, adjust monetary time-series data for inflation
+        fname : str [default: '']
+            Name of output data file. If none provided, one will be generated
+            based on the sheet name.
+        
+        Returns
+        -------
+        train : pandas.DataFrame
+            Years of training data per city.
+        test : pandas.DataFrame
+            Year(s) of test data per city.
+        
+        """
+        years = list(range(year_range[0], year_range[1]+1))
+        if fname == '':
+            fname = sheet.replace(' ', '_') + '.csv'
+        agency_data = read_time_series(
+            file, 
+            sheet,
+            codes=list(population.index),
+            select_years=years
+        )
+        city_data = consolidate_city_data(agency_data)
+        # Insert null data for missing years
+        for i, year in enumerate(years):
+            if str(year) not in city_data.columns:
+                city_data.insert(i, str(year), np.nan * np.ones(city_data.shape[0]))
+        if inflation_adjusted:
+            city_data = adjust_for_inflation(city_data, inflation)
+            fname = fname.replace('.csv', '_infladj.csv')
+        if per_capita:
+            city_data = normalize_population(city_data, population)
+            fname = fname.replace('.csv', '_percap.csv')
+        train, test = train_test_split(city_data)
+        if export:
+            train.to_csv(paths.data / 'train' / fname)
+            test.to_csv(paths.data / 'test' / fname)
+        return train, test
+
+    def parse_time_series_fraction(file, partial_sheet, total_sheet, 
+                                   year_range=(1991, 2019), export=True,
+                                   fname=''):
+        """
+        Utility function to calculate funding or expenditure fractions.
+
+        Parameters
+        ----------
+        file : str
+            Name of Excel spreadsheet with time series data to import.
+        partial_sheet : str
+            Name of sheet in Excel file with partial (numerator) data.
+        total_sheet : str or list
+            Name(s) of sheet(s) in Excel file with total (denominator) data.
+            If a list, data from all sheets will be summed.
+        year_range : tuple of ints [default: (1991, 2019)]
+            Start and end year (inclusive) of full data.
+        export : bool [default: True]
+            Whether to export the test and training data to separate CSVs.
+        
+        Returns
+        -------
+        train : pandas.DataFrame
+            Years of training data per city.
+        test : pandas.DataFrame
+            Year(s) of test data per city.
+        
+        """
+        partial_train, partial_test = parse_time_series(
+            file, 
+            partial_sheet, 
+            year_range=year_range, 
+            export=False, 
+            per_capita=False, 
+            inflation_adjusted=False
+        )
+        # The total can be the sum of multiple sheets, so we need to import
+        # each one and sum them together.
+        if isinstance(total_sheet, str):
+            total_sheet = [total_sheet]
+        all_train = []
+        all_test = []
+        for sheet in total_sheet:
+            train, test = parse_time_series(
+                file, 
+                sheet, 
+                year_range=year_range, 
+                export=False, 
+                per_capita=False, 
+                inflation_adjusted=False
+            )
+            all_train.append(train)
+            all_test.append(test)
+        total_train = reduce(lambda x, y: x.add(y, fill_value=0), all_train)
+        total_test = reduce(lambda x, y: x.add(y, fill_value=0), all_test)
+        # Calculate fractions
+        frac_train = partial_train / total_train
+        frac_test = partial_test / total_test
+        if export:
+            if fname == '':
+                fname = partial_sheet.replace(' ', '_') + '_frac.csv'
+            frac_train.to_csv(paths.data / 'train' / fname)
+            frac_test.to_csv(paths.data / 'test' / fname)
+        return frac_train, frac_test
+
+    #################################
+    ### Vehicle & Ridership Stats ###
+    #################################
+
+    # Fare revenue
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'FARES', 
+        per_capita=True, 
+        inflation_adjusted=True
+    )
+    # Vehicles operated in maximum service (VOMS)
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'VOMS', 
+        per_capita=True
+    )
+    # Vehicle revenue miles (VRM)
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'VRM', 
+        per_capita=True
+    )
+    # Vehicle revenue hours (VRH)
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'VRH', 
+        per_capita=True
+    )
+    # Unlinked passenger trips (UPT)
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'UPT', 
+        per_capita=True
+    )
+    # Passenger Miles Traveled (PMT)
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'PMT', 
+        per_capita=True
+    )
+
+    ##########################
+    ### Operating Expenses ###
+    ##########################
+
+    # Total
+    parse_time_series(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'OpExp Total', 
+        per_capita=True, 
+        inflation_adjusted=True
+    )
+
     # Operating expenses - fraction for vehicle operations (VO)
-    # opexp_vo_data = read_time_series(
-    #     '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
-    #     'OpExp VO',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # opexp_vo_frac = opexp_vo_data.copy()
-    # opexp_vo_frac[year_cols] = opexp_vo_data[year_cols] / opexp_total_data[year_cols]
-    # opexp_vo_frac.to_csv(paths.data / 'OpExp_VO_Frac.csv')
-    # # Operating expenses - fraction for vehicle maintenance (VM)
-    # opexp_vm_data = read_time_series(
-    #     '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
-    #     'OpExp VM',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # opexp_vm_frac = opexp_vm_data.copy()
-    # opexp_vm_frac[year_cols] = opexp_vm_data[year_cols] / opexp_total_data[year_cols]
-    # opexp_vm_frac.to_csv(paths.data / 'OpExp_VM_Frac.csv')
-    # # Operating expenses - fraction for general administration (GA)
-    # opexp_ga_data = read_time_series(
-    #     '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
-    #     'OpExp GA',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # opexp_ga_frac = opexp_ga_data.copy()
-    # opexp_ga_frac[year_cols] = opexp_ga_data[year_cols] / opexp_total_data[year_cols]
-    # opexp_ga_frac.to_csv(paths.data / 'OpExp_GA_Frac.csv')
-    # # Operations funding
-    # opfund_data = read_time_series(
-    #     '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
-    #     'Operating Total',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # opfund_data.to_csv(paths.data / 'OpFund_Total.csv')
-    # # Capital funding
-    # capfund_data = read_time_series(
-    #     '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
-    #     'Capital Total',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # capfund_data.to_csv(paths.data / 'CapFund_Total.csv')
-    # # Operations funding fraction
-    # opfund_frac = opfund_data.copy()
-    # opfund_frac[year_cols] = opfund_data[year_cols] / (
-    #     opfund_data[year_cols] + capfund_data[year_cols]
-    # )
-    # opfund_frac.to_csv(paths.data / 'OpFund_Frac.csv')
-    # # Federal funding fraction
-    # totfund_data = read_time_series(
-    #     '2023 TS1.1 Total Funding Time Series_0.xlsx', 
-    #     'Total',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # fedfund_data = read_time_series(
-    #     '2023 TS1.1 Total Funding Time Series_0.xlsx', 
-    #     'Federal',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # fedfund_frac = fedfund_data.copy()
-    # fedfund_frac[year_cols] = fedfund_data[year_cols] / totfund_data[year_cols]
-    # fedfund_frac.to_csv(paths.data / 'FedFund_Frac.csv')
-    # # State funding fraction
-    # stfund_data = read_time_series(
-    #     '2023 TS1.1 Total Funding Time Series_0.xlsx', 
-    #     'Federal',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # stfund_frac = stfund_data.copy()
-    # stfund_frac[year_cols] = stfund_data[year_cols] / totfund_data[year_cols]
-    # stfund_frac.to_csv(paths.data / 'StateFund_Frac.csv')
-    # # Local/other funding fraction
-    # locfund_data = read_time_series(
-    #     '2023 TS1.1 Total Funding Time Series_0.xlsx', 
-    #     'Local',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # otherfund_data = read_time_series(
-    #     '2023 TS1.1 Total Funding Time Series_0.xlsx', 
-    #     'Other',
-    #     codes=list(census_data.index),
-    #     select_years=years
-    # )
-    # locfund_frac = locfund_data.copy()
-    # locfund_frac[year_cols] = (
-    #     locfund_data[year_cols] + otherfund_data[year_cols]
-    # ) / totfund_data[year_cols]
-    # locfund_frac.to_csv(paths.data / 'LocalOtherFund_Frac.csv')
-    # # Capital expenditures
-    # capexp_data = read_time_series(
-    #     '2023 TS3.1 Capital Expenditures Time Series.xlsx',
-    #     'Total',
-    #     codes=list(census_data.index),
-    #     select_years=years[1:] # Capital expenditures data begins in 1992
-    # )
-    # capexp_data.insert(8, '1991', np.nan * np.ones(capexp_data.shape[0]))
-    # # Data has multiple entries (different modes) per agency
-    # capexp_group = capexp_data.groupby('NTD ID')
-    # capexp_sum = capexp_group[year_cols].sum()
-    # capexp_data = capexp_data.reset_index().drop_duplicates(subset='NTD ID').drop(columns=['Mode'])
-    # capexp_data[year_cols] = capexp_sum[year_cols]
-    # capexp_data.set_index('NTD ID', inplace=True)
-    # drop_rows = [c for c in capexp_data.index if c not in upt_data.index]
-    # capexp_data.drop(index=drop_rows, inplace=True)
-    # capexp_data.to_csv(paths.data / 'CapExp_Total.csv')
-    # # Estimate population over time
-    # cities_in_ts = pd.unique(upt_data['UACE Code']).tolist()
-    # pop_est = uza_population_estimates(cities_in_ts, years)
-    # pop_est.to_csv(paths.data / 'UZA_population.csv')
+    parse_time_series_fraction(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'OpExp VO',
+        'OpExp Total'
+    )
 
+    # Operating expenses - fraction for vehicle maintenance (VM)
+    parse_time_series_fraction(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'OpExp VM',
+        'OpExp Total'
+    )
 
-def train_test_split(data, n_years=1):
-    """
-    Split the last N years off as a testing set.
-    
-    Parameters
-    ----------
-    data : pandas.DataFrame
-        Time-series data with years as columns. Other columns are discarded.
-    n_years : int [default: 1]
-        Number of years at the end to reserve for testing.
-    
-    Returns
-    -------
-    train : pandas.DataFrame
-        Time-series data for training
-    test : pandas.DataFrame
-        Time-series data for testing.
-    
-    """
-    year_cols = [c for c in data.columns if is_year(c)]
-    return data[year_cols[:-n_years]].copy(), data[year_cols[-n_years:]].copy()
+    # Operating expenses - fraction for general administration (GA)
+    parse_time_series_fraction(
+        '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
+        'OpExp GA',
+        'OpExp Total'
+    )
+
+    ######################################
+    ### Operations and Capital Funding ###
+    ######################################
+
+    # Total operations funding per capita, inflation-adjusted
+    parse_time_series(
+        '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
+        'Operating Total',
+        per_capita=True,
+        inflation_adjusted=True,
+        fname='OpFund.csv'
+    )
+
+    # Capital funding per capita, inflation-adjusted
+    parse_time_series(
+        '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
+        'Operating Total',
+        per_capita=True,
+        inflation_adjusted=True,
+        fname='CapFund.csv'
+    )
+
+    # Fraction of total funding for operating expenses
+    parse_time_series_fraction(
+        '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
+        'Operating Total',
+        ['Operating Total', 'Capital Total'],
+        fname='OpFund_frac.csv'
+    )
+
+    ################################
+    ### Funding Source Fractions ###
+    ################################
+
+    # Total funding per capita, inflation-adjusted
+    parse_time_series(
+        '2023 TS1.1 Total Funding Time Series_0.xlsx',
+        'Total',
+        per_capita=True,
+        inflation_adjusted=True,
+        fname='TotalFund.csv'
+    )
+
+    # Federal funding fraction
+    parse_time_series_fraction(
+        '2023 TS1.1 Total Funding Time Series_0.xlsx',
+        'Federal',
+        'Total',
+        fname='FedFund_frac.csv'
+    )
+
+    # State funding fraction
+    parse_time_series_fraction(
+        '2023 TS1.1 Total Funding Time Series_0.xlsx',
+        'State',
+        'Total',
+        fname='StateFund_frac.csv'
+    )
+
+    # Local funding fraction
+    parse_time_series_fraction(
+        '2023 TS1.1 Total Funding Time Series_0.xlsx',
+        'Local',
+        'Total',
+        fname='LocalFund_frac.csv'
+    )
 
 
 def adjust_for_inflation(ts_data, inflation_data):
@@ -266,7 +318,7 @@ def import_inflation_data():
     """
     Import and properly format inflation data.
     """
-    inflation_data = pd.read_csv(paths.data / 'inflation.csv', index_col=0).T
+    inflation_data = pd.read_csv(paths.data / 'Inflation.csv', index_col=0).T
     inflation_data.columns = [str(c) for c in inflation_data.columns]
     return inflation_data
 
@@ -486,14 +538,6 @@ def standardize_uace_code(code):
     code = str(code)
     code = '0' * (5 - len(code)) + code
     return code
-
-
-def is_year(val):
-    """
-    Determine if the given string represents a year.
-    """
-    match = re.match(r'([1-2][0-9]{3})', val)
-    return (match is not None) and (len(val) == 4)
 
 
 if __name__ == '__main__':
