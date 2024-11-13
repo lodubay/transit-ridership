@@ -246,7 +246,7 @@ def main():
     # Capital funding per capita, inflation-adjusted
     parse_time_series(
         '2023 TS1.2 Operating and Capital Funding Time Series.xlsx', 
-        'Operating Total',
+        'Capital Total',
         per_capita=True,
         inflation_adjusted=True,
         fname='CapFund.csv'
