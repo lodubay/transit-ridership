@@ -4,6 +4,98 @@ This file contains general utility functions for the repository.
 
 import re
 import pandas as pd
+import paths
+
+
+def get_city_code(name, city_info=None):
+    """
+    Convert urbanized area name to UACE code.
+    
+    Parameters
+    ----------
+    name : str
+        Name of urbanized area.
+    city_info : pandas.DataFrame, optional
+        DataFrame containing city names and codes. If None, import from 
+        ../data/Cities.csv
+    
+    Returns
+    -------
+    str
+        UACE code.
+    """
+    if city_info is None:
+        city_info = pd.read_csv(
+            paths.data / 'Cities.csv', 
+            index_col='UACE Code', 
+            dtype={'UACE Code': str}
+        )
+    return city_info[city_info['Primary UZA Name'] == name].index[0]
+
+def get_city_name(code, city_info=None):
+    """
+    Convert UACE code to urbanized area name.
+    
+    Parameters
+    ----------
+    code : str
+        Five-digit UACE code, including leading zeroes.
+    city_info : pandas.DataFrame, optional
+        DataFrame containing city names and codes. If None, import from 
+        ../data/Cities.csv
+    
+    Returns
+    -------
+    str
+        Urbanized area name.
+    """
+    if city_info is None:
+        city_info = pd.read_csv(
+            paths.data / 'Cities.csv', 
+            index_col='UACE Code', 
+            dtype={'UACE Code': str}
+        )
+    return city_info.loc[code]['Primary UZA Name'].iloc[0]
+
+
+def read_training_data(feature):
+    """
+    Import parsed training data for all cities.
+
+    Parameters
+    ----------
+    feature : str
+        Name of the parsed training data file, excluding the extension.
+    
+    Returns
+    -------
+    pandas.DataFrame
+    """
+    return pd.read_csv(
+        paths.data / 'train' / ('%s.csv' % feature), 
+        index_col='UACE Code', 
+        dtype={'UACE Code': str}
+    )
+
+
+def read_testing_data(feature):
+    """
+    Import parsed training data for all cities.
+
+    Parameters
+    ----------
+    feature : str
+        Name of the parsed training data file, excluding the extension.
+    
+    Returns
+    -------
+    pandas.DataFrame
+    """
+    return pd.read_csv(
+        paths.data / 'test' / ('%s.csv' % feature), 
+        index_col='UACE Code', 
+        dtype={'UACE Code': str}
+    )
 
 
 def is_year(val):
