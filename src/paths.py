@@ -12,3 +12,6 @@ src = root / 'src'
 
 # Absolute path to the `data` directory
 data = root / 'data'
+
+# Absolute path to the `plots` directory
+plots = root / 'plots'
