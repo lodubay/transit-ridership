@@ -19,16 +19,11 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 00415,Ada County Highway District (ACHD CR),Boise,ID,"Boise City, ID",08785,139.23,433180
 00012,Municipality of Anchorage - Public Transportation,Anchorage,AK,"Anchorage, AK",02305,91.69,249252
 00041,Alaska Railroad Corporation (ARRC),Anchorage,AK,"Anchorage, AK",02305,91.69,249252
-00016,City of Longview (RCT) - Transit Division,Longview,WA,"Longview, WA--OR",51283,35.19,69841
-00018,Ben Franklin Transit (BFT),Richland,WA,"Kennewick--Richland--Pasco, WA",44479,112.21,255401
 00019,Intercity Transit (I.T.),Olympia,WA,"Olympia--Lacey, WA",65242,106.21,208157
 00020,Kitsap County Public Transportation Benefit Area Authority (KT ),Bremerton,WA,"Bremerton, WA",09946,146.91,224449
 00021,Whatcom Transportation Authority (WTA),Bellingham,WA,"Bellingham, WA",06652,50.13,128979
 00025,Salem Area Mass Transit District (SAMTD or SKT),Salem,OR,"Salem, OR",78229,72.68,268331
 00034,Rogue Valley Transportation District (RVTD),Medford,OR,"Medford, OR",55981,63.02,171640
-00043,Chelan Douglas PTBA ,Wenatchee,WA,"Wenatchee, WA",93862,32.6,78142
-00044,Skagit Transit (SKT),Burlington,WA,"Mount Vernon, WA",60490,30.66,66825
-00057,Central Oregon Intergovernmental Council (CET) - Cascades East Transit,Bend,OR,"Bend, OR",06868,42.41,106988
 10001,Rhode Island Public Transit Authority (RIPTA),Providence,RI,"Providence, RI--MA",72505,544.25,1285806
 10064,Greater Attleboro-Taunton Regional Transit Authority (GATRA),Taunton,MA,"Providence, RI--MA",72505,544.25,1285806
 11147,Rhode Island Department of Transportation (RIDOT),Providence,RI,"Providence, RI--MA",72505,544.25,1285806
@@ -38,8 +33,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 10013,Merrimack Valley Regional Transit Authority (MEVA),Haverhill,MA,"Boston, MA--NH",09271,1655.89,4382009
 10053,Cape Ann Transportation Authority (CATA),Gloucester,MA,"Boston, MA--NH",09271,1655.89,4382009
 10118,MetroWest Regional Transit Authority (MWRTA),Framingham,MA,"Boston, MA--NH",09271,1655.89,4382009
-10006,Southeastern Regional Transit Authority (SRTA),New Bedford,MA,"New Bedford, MA",61786,59.31,155491
-10007,Berkshire Regional Transit Authority (BRTA),Pittsfield,MA,"Pittsfield, MA",69778,30.46,50720
 10008,Pioneer Valley Transit Authority (PVTA),Springfield,MA,"Springfield, MA--CT",83926,201.77,442145
 10014,Worcester Regional Transit Authority (WRTA),Worcester,MA,"Worcester, MA--CT",97291,260.29,482085
 10016,Greater Portland Transit District (GPTD),Portland,ME,"Portland, ME",71263,123.88,205356
@@ -50,7 +43,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 10048,Connecticut Department of Transportation - CTTRANSIT - Hartford Division - Hartford,Hartford,CT,"Hartford, CT",37243,535.93,977158
 10102,Connecticut Department of Transportation (CDOT),Newington,CT,"Hartford, CT",37243,535.93,977158
 10130,Connecticut Department of Transportation -CTTRANSIT New Britain - New Britain,Berlin,CT,"Hartford, CT",37243,535.93,977158
-10040,Southeast Area Transit District (SEAT),Preston,CT,"Norwich--New London, CT",64135,116.72,167432
 10042,Valley Transit District (VTD),Derby,CT,"Bridgeport--Stamford, CT--NY",10162,397.29,916408
 10050,Greater Bridgeport Transit Authority (GBT),Bridgeport,CT,"Bridgeport--Stamford, CT--NY",10162,397.29,916408
 10056,Connecticut Department of Transportation - CTTRANSIT Stamford Division - Stamford,Hartford,CT,"Bridgeport--Stamford, CT--NY",10162,397.29,916408
@@ -61,13 +53,7 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 10051,Housatonic Area Regional Transit ,Danbury,CT,"Danbury, CT--NY",22096,118.49,171680
 10061,Montachusett Regional Transit Authority (MART),Fitchburg,MA,"Leominster--Fitchburg, MA",49096,52.93,111790
 10066,Green Mountain Transit Authority (GMT),Burlington,VT,"Burlington, VT",11755,62.01,118032
-10086,Cooperative Alliance for Seacoast Transportation (COAST),Dover,NH,"Dover--Rochester, NH--ME",24607,52.31,72391
 10087,City of Nashua (NTS) - Transportation Department,Nashua,NH,"Nashua, NH--MA",61165,195.56,242984
-10098,"Western Maine Transportation Services, Inc. (WMTS) - Transportation",Auburn,ME,"Lewiston, ME",49339,31.42,60743
-10105,Cape Cod Regional Transit Authority (CCRTA),Hyannis,MA,"Barnstable Town, MA",05167,341.28,303269
-10183,"Woods Hole, Martha's Vineyard and Nantucket Steamship Authority",Falmouth,MA,"Barnstable Town, MA",05167,341.28,303269
-11239,"Hyannis Harbor Tours, Inc. ",Hyannis,MA,"Barnstable Town, MA",05167,341.28,303269
-10128,Connecticut Department of Transportation- CTTransit Waterbury- NET (NET) - Waterbury - NET,Watertown,CT,"Waterbury, CT",92485,92.44,199317
 20003,Broome County (BCDPT) - Department of Public Transportation,Binghamton,NY,"Binghamton, NY",07732,69.73,155942
 20004,Niagara Frontier Transportation Authority (NFTA),Buffalo,NY,"Buffalo, NY",11350,340.5,948864
 20006,City of Long Beach - Transportation ,Long Beach,NY,"New York--Jersey City--Newark, NY--NJ",63217,3248.12,19426449
@@ -111,7 +97,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 30075,Delaware Transit Corporation (DTC),Dover,DE,"Philadelphia, PA--NJ--DE--MD",69076,1898.19,5696125
 30077,Borough of Pottstown (PART) - Transit,Pottstown,PA,"Philadelphia, PA--NJ--DE--MD",69076,1898.19,5696125
 20113,Regional Transit Service (RTS) - Monroe County,Rochester,NY,"Rochester, NY",75664,291.83,704327
-20145,Tompkins Consolidated Area Transit (TCAT),Ithaca,NY,"Ithaca, NY",41914,24.56,59102
 30001,Kanawha Valley Regional Transportation Authority (KVRTA),Charleston,WV,"Charleston, WV",15481,92.92,140958
 30002,The Tri-State Transit Authority (TTA),Huntington,WV,"Huntington, WV--KY--OH",40753,128.87,200157
 30006,Greater Richmond Transit Company (GRTC),Richmond,VA,"Richmond, VA",74746,512.35,1059150
@@ -146,16 +131,7 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 30201,City of Baltimore (CCC) - Department of Transportation,Baltimore,MD,"Baltimore, MD",04843,654.93,2212038
 30205,"Transit Management of Central Maryland, Inc. (RTA)",Annapolis Junction,MD,"Baltimore, MD",04843,654.93,2212038
 30035,Ohio Valley Regional Transportation Authority (OVRTA / EORTA),Wheeling,WV,"Wheeling, WV--OH",94726,36.81,57695
-30045,"JAUNT, Inc.",Charlottesville,VA,"Charlottesville, VA",15724,36.87,104191
 30054,Centre Area Transportation Authority (CATA),State College,PA,"State College, PA",84493,25.92,83674
-30072,"Frederick County, Maryland - Transit Services",Frederick,MD,"Frederick, MD",31519,80.29,176456
-30083,Transportation District Commission of Hampton Roads (HRT),Hampton,VA,"Virginia Beach--Norfolk, VA",90892,481.67,1451578
-30091,Town of Blacksburg (BT) - Transit,Blacksburg,VA,"Blacksburg--Christiansburg, VA",08002,33.98,72400
-30094,City of Harrisonburg (HDPT) - Department of Public Transportation,Harrisonburg,VA,"Harrisonburg, VA",37162,31.1,73377
-30095,County of Lebanon Transit Authority (LT),Lebanon,PA,"Lebanon, PA",48664,32.71,75485
-30096,The Tri-County Council for the Lower Eastern Shore of Maryland - Shore Transit,Salisbury,MD,"Salisbury, MD--DE",78364,48.39,78075
-30107,West Virginia University - Transportation,Morgantown,WV,"Morgantown, WV",59275,40.7,77620
-30202,South Central Transit Authority (SCTA),Lancaster,PA,"Lancaster--Manheim, PA",47530,181.53,394530
 40001,Chattanooga Area Regional Transportation Authority (CARTA),Chattanooga,TN,"Chattanooga, TN--GA",15832,291.7,398569
 40002,City of Knoxville (KAT) - Mass Transit,Knoxville,TN,"Knoxville, TN",45640,431.91,597257
 40171,Knoxville-Knox County Community Action Committee (KCCT) - CAC Transit,Knoxville,TN,"Knoxville, TN",45640,431.91,597257
@@ -173,7 +149,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 40228,Mecklenburg County (MCTS) - Services for Adults,Charlotte,NC,"Charlotte, NC--SC",15670,657.61,1379873
 40009,City of Fayetteville (FAST) - Transit,Fayetteville,NC,"Fayetteville, NC",29440,195.92,325008
 40012,City of Winston Salem (WSTA) - Department of Transportation,Winston Salem,NC,"Winston-Salem, NC",96670,310.79,420924
-40014,Ms Coast Transportation Authority (CTA),Gulfport,MS,"Gulfport--Biloxi, MS",35920,168.64,236344
 40015,"City of Jackson, MS (JTRAN) - Planning/Transit Services",Jackson,MS,"Jackson, MS",42211,237.16,347693
 40017,Lexington Transit Authority,Lexington,KY,"Lexington-Fayette, KY",49582,83.99,315631
 40019,Transit Authority of Northern Kentucky (TANK),Covington,KY,"Cincinnati, OH--KY",16885,752.28,1686744
@@ -206,8 +181,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 40036,City of Tallahassee - StarMetro,Tallahassee,FL,"Tallahassee, FL",86464,125.46,252934
 40038,"Escambia County Board of County Commissioners, FL (ECAT)",Pensacola,FL,"Pensacola, FL--AL",68482,262.54,390172
 40040,Jacksonville Transportation Authority (JTA),Jacksonville,FL,"Jacksonville, FL",42346,573.27,1247374
-40042,Birmingham-Jefferson County Transit Authority (MAX),Birmingham,AL,"Birmingham, AL",07786,509.27,774956
-40169,Regional Planning Commission of Greater Birmingham (RPCGB) - Planning,Birmingham,AL,"Birmingham, AL",07786,509.27,774956
 40043,City of Mobile (WTS),Mobile,AL,"Mobile, AL",57925,220.75,321907
 40044,City of Montgomery - Montgomery Transit,Montgomery,AL,"Montgomery, AL",58600,145.1,254348
 40047,Athens-Clarke County Unified Government (ACCTD) - Transit Department,Athens,GA,"Athens-Clarke County, GA",03763,91.85,143213
@@ -215,7 +188,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 40051,Town of Chapel Hill - Transit,Chapel Hill,NC,"Durham, NC",25228,183.36,396118
 40087,City of Durham - Transportation Department,Durham,NC,"Durham, NC",25228,183.36,396118
 40108,Research Triangle Regional Public Transportation Authority,Durham,NC,"Durham, NC",25228,183.36,396118
-40053,Greenville Transit Authority (GTA),Greenville,SC,"Greenville, SC",35461,262.17,387271
 40057,Jackson Transit Authority (JTA),Jackson,TN,"Jackson, TN",42265,47.74,72809
 40058,City of Rome (RTD) - Transit Department,Rome,GA,"Rome, GA",76204,44.89,60403
 40063,Brevard Board of County Commissioners (SCAT),Titusville,FL,"Palm Bay--Melbourne, FL",67105,250.55,510675
@@ -224,26 +196,10 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 40094,Alternativa de Transporte Integrado (PRHTA),San Juan,PR,"San Juan, PR",79093,763.6,1844410
 40105,Puerto Rico Highway and Transportation Authority – Público (PRHTA) - Publico,San Juan,PR,"San Juan, PR",79093,763.6,1844410
 40175,Puerto Rico Maritime Transport Authority (PRMTA),San Juan,PR,"San Juan, PR",79093,763.6,1844410
-40093,City of Greensboro (GTA) - Transit,Greensboro,NC,"Greensboro, NC",35164,169.31,338928
-40173,Piedmont Authority for Regional Transportation (PART),Greensboro,NC,"Greensboro, NC",35164,169.31,338928
-40100,Santee Wateree Regional Transportation Authority (SWRTA),Sumter,SC,"Sumter, SC",85708,57.65,68825
-40110,Charleston Area Regional Transportation Authority (CARTA),North Charleston,SC,"Charleston, SC",15508,339.06,684773
-40140,Collier County (CAT) - Public Transit & Neighborhood Enhancement Divsion / Transportation Management Services Department,Naples,FL,"Bonita Springs--Estero, FL",08974,242.96,425675
-40141,Central Midlands Regional Transportation Authority (CMRTA),Columbia,SC,"Columbia, SC",18964,367.5,590407
-40158,Lake County Board of County Commissioners (LCBOCC) - Office of Transit Services,Tavares,FL,"Leesburg--Eustis--Tavares, FL",48799,86.09,151523
-40172,Western Piedmont Regional Transit Authority (WPRTA),Conover,NC,"Hickory, NC",38647,221.34,201511
-40192,"Martin County (MCBOCC) - Public Works Department, Transit Division",Stuart,FL,"Port St. Lucie, FL",71479,224.23,437745
-41199,Board of County Commissioners of St. Lucie County (SLCART) - Transit Department,Fort Pierce,FL,"Port St. Lucie, FL",71479,224.23,437745
-40244,"Spartanburg Regional Health Services, Inc. (SRHS)",Spartanburg,SC,"Spartanburg, SC",83548,181.0,196943
-40265,North Central Alabama Regional Council of Governments (NARCOG) - Transportation,Decatur,AL,"Decatur, AL",22690,43.47,60458
-40950,First Tennessee Human Resource Agency (N.E.T. Trans) - Grants and Compliance Manager at NetTrans,Johnson City,TN,"Johnson City, TN",43210,106.03,128519
-41105,"Audubon Area Community Services, Inc. (AACS) - Transportation",Owensboro,KY,"Owensboro, KY",66484,36.4,76433
 50001,City of Appleton - Valley Transit,Appleton,WI,"Appleton, WI",02764,107.78,230967
 50002,City of Green Bay (GBM) - Transit,Green Bay,WI,"Green Bay, WI",34813,113.66,224156
-50003,City of Kenosha (KAT) - Transit,Kenosha,WI,"Kenosha, WI",44506,56.17,125865
 50004,City of La Crosse (MTU) - Municipal Transit Utility,La Crosse,WI,"La Crosse, WI--MN",45910,42.24,98872
 50005,City of Madison - Metro Transit,Madison,WI,"Madison, WI",53200,149.7,450305
-50006,"City of Racine, Wisconsin - Transit",Racine,WI,"Racine, WI",73153,52.26,134877
 50008,Milwaukee County (MCTS) - Transportation - Transit,Milwaukee,WI,"Milwaukee, WI",57466,463.68,1306795
 50096,City of Waukesha - Transit Commission,Waukesha,WI,"Milwaukee, WI",57466,463.68,1306795
 50160,County of Washington - Transit,West Bend,WI,"Milwaukee, WI",57466,463.68,1306795
@@ -264,8 +220,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 50022,Toledo Area Regional Transit Authority (TARTA),Toledo,OH,"Toledo, OH--MI",87868,240.71,497952
 50024,Western Reserve Transit Authority (WRTA),Youngstown,OH,"Youngstown, OH",97831,195.96,320901
 50025,Duluth Transit Authority (DTA),Duluth,MN,"Duluth, MN--WI",24850,66.87,119411
-50026,City of Moorhead - Mass Transit,Moorhead,MN,"Fargo, ND--MN",29089,77.73,216214
-80003,City of Fargo (MATBUS) - Transit Department,Fargo,ND,"Fargo, ND--MN",29089,77.73,216214
 50027,Metro Transit ,Minneapolis,MN,"Minneapolis--St. Paul, MN",57628,1014.79,2914866
 50154,Metropolitan Council (MC) - Metropolitan Transportation Services,Minneapolis,MN,"Minneapolis--St. Paul, MN",57628,1014.79,2914866
 50515,University of Minnesota (UMN) - Parking and Transportation Services,Minneapolis,MN,"Minneapolis--St. Paul, MN",57628,1014.79,2914866
@@ -285,10 +239,8 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 50034,City of Jackson Transportation Authority (JATA),Jackson,MI,"Jackson, MI",42157,52.03,84307
 50035,Central County Transportation Authority (CCTA),Kalamazoo,MI,"Kalamazoo, MI",43723,109.46,204562
 50036,Capital Area Transportation Authority (CATA),Lansing,MI,"Lansing, MI",47719,155.83,318300
-50039,Saginaw Transit Authority Regional Service (STARS),Saginaw,MI,"Saginaw, MI",77149,65.73,116058
 50040,Ann Arbor Area Transportation Authority (AAATA),Ann Arbor,MI,"Ann Arbor, MI",02602,143.45,317689
 50158,"University of Michigan Parking and Transportation Services (UMTS) - Logisitics, Transportation & Parking",Ann Arbor,MI,"Ann Arbor, MI",02602,143.45,317689
-50043,City of Evansville (METS) - Metropolitan Evansville Transit System,Evansville,IN,"Evansville, IN",28333,112.75,206855
 50044,Fort Wayne Public Transportation Corporation (FWPTC),Fort Wayne,IN,"Fort Wayne, IN",31087,163.6,335934
 50045,Gary Public Transportation Corporation (GPTC),Gary,IN,"Chicago, IL--IN",16264,2337.89,8671746
 50066,Chicago Transit Authority (CTA),Chicago,IL,"Chicago, IL--IN",16264,2337.89,8671746
@@ -315,17 +267,9 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 50092,"City of Rochester, Minnesota (RPT) - Public Transit",Rochester,MN,"Rochester, MN",75637,51.59,121587
 50099,City of Eau Claire (ECT) - Transit,Eau Claire,WI,"Eau Claire, WI",26038,62.5,105475
 50110,Bloomington Public Transportation Corporation (BT),Bloomington,IN,"Bloomington, IN",08380,43.04,110103
-50145,City of Kokomo (COK) - Transit,Kokomo,IN,"Kokomo, IN",45694,32.5,62576
 50146,Madison County Transit District (MCT),Pontoon Beach,IL,"St. Louis, MO--IL",77770,910.37,2156323
 70006,Bi-State Development Agency of the Missouri-Illinois Metropolitan District,Saint Louis,MO,"St. Louis, MO--IL",77770,910.37,2156323
 70057,Loop Trolley Transportation Development District,Saint Louis,MO,"St. Louis, MO--IL",77770,910.37,2156323
-50148,Blue Water Area Transportation Commission (BWATC),Port Huron,MI,"Port Huron, MI",71155,52.51,82226
-50149,Michiana Area Council of Governments (MACOG),South Bend,IN,"Elkhart, IN--MI",26794,94.94,148199
-50159,River Valley Metro Mass Transit District (RVMMTD),Bourbonnais,IL,"Kankakee, IL",43885,31.66,66530
-50163,"Licking County, Ohio (LCT) - Public Transportation",Newark,OH,"Newark, OH",61705,44.09,81223
-50176,City of DeKalb (CDPT ) - Public Transit ,Dekalb,IL,"DeKalb, IL",22960,25.63,64736
-50184,Macatawa Area Express Transportation Authority (MAX),Holland,MI,"Holland, MI",39430,64.8,107034
-50522,Lake Erie Transportation Commission (LET) - Operations,Monroe,MI,"Monroe, MI",58357,35.35,57260
 60006,City of El Paso - Mass Transit Department,El Paso,TX,"El Paso, TX--NM",27253,255.88,854584
 60007,Fort Worth Transportation Authority (FWTA),Fort Worth,TX,"Dallas--Fort Worth--Arlington, TX",22042,1746.9,5732354
 60041,City of Arlington (ADOT) - Transportation Department,Arlington,TX,"Dallas--Fort Worth--Arlington, TX",22042,1746.9,5732354
@@ -339,8 +283,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 60010,City of Lubbock,Lubbock,TX,"Lubbock, TX",51877,106.27,272280
 60011,VIA Metropolitan Transit,San Antonio,TX,"San Antonio, TX",78580,613.44,1992689
 60012,City of Waco (WTS) - Transit System,Waco,TX,"Waco, TX",91027,89.88,192844
-60014,City of Brownsville (BMetro) - Multimodal Transportation,Brownsville,TX,"Brownsville, TX",10972,62.1,216444
-60015,City of Galveston (GIT),Galveston,TX,"Galveston--Texas City, TX",32491,108.98,191863
 60016,City of Beaumont (BMT) - Transit,Beaumont,TX,"Beaumont, TX",06058,96.1,146649
 60017,Central Oklahoma Transportation and Parking Authority (COTPA),Oklahoma City,OK,"Oklahoma City, OK",65080,421.73,982276
 60018,Metropolitan Tulsa Transit Authority (MTTA),Tulsa,OK,"Tulsa, OK",88948,338.32,722810
@@ -353,18 +295,8 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 60276,"Plaquemines Port, Harbor and Terminal District (PPHTD)",Belle Chasse,LA,"New Orleans, LA",62677,270.27,963212
 60033,Rock Region Metropolitan Transit Authority,North Little Rock,AR,"Little Rock, AR",50392,267.82,461864
 60038,Lafayette City-Parish Consolidated Government (LTS),Lafayette,LA,"Lafayette, LA",46045,161.2,227316
-60048,Capital Metropolitan Transportation Authority (CMTA),Austin,TX,"Austin, TX",04384,619.62,1809888
 60051,Corpus Christi Regional Transportation Authority (CCRTA),Corpus Christi,TX,"Corpus Christi, TX",20287,129.27,339066
 60059,Brazos Transit District (BTD),Bryan,TX,"College Station--Bryan, TX",18748,81.63,206137
-60077,City of Santa Fe (SFT) - Transit,Santa Fe,NM,"Santa Fe, NM",79363,46.8,94241
-60090,Lower Rio Grande Valley Development Council (LRGVDC) - Valley Metro,Weslaco,TX,"McAllen, TX",52390,326.22,779553
-60273,University of Texas Rio Grande Valley (UTRGV) - Parking & Transportation Services,Edinburg,TX,"McAllen, TX",52390,326.22,779553
-60091,Hill Country Transit District,Belton,TX,"Killeen, TX",44992,100.42,257222
-60095,Golden Crescent Regional Planning Commission (GCRPC),Victoria,TX,"Victoria, TX",90514,33.6,65986
-60101,Denton County Transportation Authority (DCTA),Lewisville,TX,"Denton--Lewisville, TX",23500,150.48,429461
-60102,Concho Valley Transit District (CVTD),San Angelo,TX,"San Angelo, TX",78553,49.27,99982
-60107,"Texoma Area Paratransit System, Inc (TAPS)",Sherman,TX,"Sherman--Denison, TX",81631,38.49,66691
-66339,New Mexico Department of Transportation (NMDOT),Santa Fe,NM,"Las Cruces, NM",47935,64.47,139338
 70001,City of Lincoln - Transportation & Utilities,Lincoln,NE,"Lincoln, NE",49933,94.17,291217
 70002,Transit Authority of Omaha,Omaha,NE,"Omaha, NE--IA",65269,270.81,819508
 70275,Nebraska Department of Transportation (NDOT) - Local Assistance Division,Lincoln,NE,"Omaha, NE--IA",65269,270.81,819508
@@ -374,7 +306,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 70271,"Kansas City, City of Missouri (KCMO) - Multimodal Division / Public Works Department",Kansas City,MO,"Kansas City, MO--KS",43912,714.1,1674218
 70008,City of Cedar Rapids (CRT) - Transit Division,Cedar Rapids,IA,"Cedar Rapids, IA",14752,86.03,192844
 70010,Des Moines Area Regional Transit Authority (DART),Des Moines,IA,"Des Moines, IA",23743,224.74,542486
-70012,City of Sioux City (SCTS) - Transit,Sioux City,IA,"Sioux City, IA--NE--SD",82225,55.03,113066
 70014,Topeka Metropolitan Transit Authority (TMTA),Topeka,KS,"Topeka, KS",88084,84.24,148956
 70015,City of Wichita (WT) - Transportation,Wichita,KS,"Wichita, KS",95077,226.84,500231
 70016,City of Columbia (COMO) - GoCOMO,Columbia,MO,"Columbia, MO",18937,67.2,141831
@@ -382,10 +313,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 70019,University of Iowa (CAMBUS) - Parking and Transportation Department,Iowa City,IA,"Iowa City, IA",41590,50.83,126810
 70030,City of Coralville (CTS) - Transit and Parking,Coralville,IA,"Iowa City, IA",41590,50.83,126810
 70045,"County of Johnson, Iowa (SEATS)",Iowa City,IA,"Iowa City, IA",41590,50.83,126810
-70041,Ames Transit Agency,Ames,IA,"Ames, IA",02062,22.36,66342
-70066,Heart of Iowa Regional Transit Agency (HIRTA),Urbandale,IA,"Ames, IA",02062,22.36,66342
-70044,University of Kansas (KUTS) - Transportation Services,Lawrence,KS,"Lawrence, KS",48232,29.92,94998
-70048,City of Lawrence - Lawrence Transit,Lawrence,KS,"Lawrence, KS",48232,29.92,94998
 80001,Utah Transit Authority (UTA),Salt Lake City,UT,"Salt Lake City, UT",78499,300.42,1178533
 80002,City of Sioux Falls (SAM),Sioux Falls,SD,"Sioux Falls, SD",82252,67.9,194283
 80004,City of Billings (MET) - MET Transit,Billings,MT,"Billings, MT",07705,54.7,128787
@@ -399,9 +326,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 80011,City of Fort Collins - Transfort,Fort Collins,CO,"Fort Collins, CO",30628,117.98,326332
 80025,"City of Loveland, Colorado (COLT) - Public Works/Transit",Loveland,CO,"Fort Collins, CO",30628,117.98,326332
 80106,North Front Range Transportation and Air Quality Planning Council (NFRMPO),Fort Collins,CO,"Fort Collins, CO",30628,117.98,326332
-80012,Great Falls Transit District (GFTD),Great Falls,MT,"Great Falls, MT",34759,30.3,67097
-80028,Cache Valley Transit District (CVTD),Logan,UT,"Logan, UT",50959,47.72,113927
-80285,Via Mobility Services,Boulder,CO,"Boulder, CO",09298,25.45,120828
 90001,Regional Transportation Commission of Washoe County (RTC),Reno,NV,"Reno, NV--CA",74179,165.43,446529
 90003,San Francisco Bay Area Rapid Transit District (BART),Oakland,CA,"San Francisco--Oakland, CA",78904,513.8,3515933
 90009,San Mateo County Transit District (SMCTD),San Carlos,CA,"San Francisco--Oakland, CA",78904,513.8,3515933
@@ -470,21 +394,6 @@ NTD ID,Agency Name,City,State,Primary UZA Name,UACE Code,UZA Area SQ Miles,UZA P
 90078,Central Contra Costa Transit Authority (CCCTA),Concord,CA,"Concord--Walnut Creek, CA",19504,175.76,538583
 90079,SunLine Transit Agency,Thousand Palms,CA,"Indio--Palm Desert--Palm Springs, CA",41347,151.82,361075
 90087,City of Santa Maria (SMRT),Santa Maria,CA,"Santa Maria, CA",79417,27.06,143609
-90088,Napa Valley Transportation Authority (NVTA),Napa,CA,"Napa, CA",61057,20.35,84619
 90091,City of Visalia (VT) - Transportation ,Visalia,CA,"Visalia, CA",90946,37.7,160578
 90310,Tulare County Regional Transit Agency (TCRTA),Visalia,CA,"Visalia, CA",90946,37.7,160578
 90092,"City of Fairfield, California - Transportation Division/Public Works Department",Fairfield,CA,"Fairfield, CA",28657,40.81,150122
-90142,"University of California, Davis (ASUCD) - Associated Students of the University of California, Davis",Davis,CA,"Davis, CA",22420,12.16,77034
-90148,Victor Valley Transit Authority (VVTA),Hesperia,CA,"Victorville--Hesperia--Apple Valley, CA",90541,131.77,355816
-90156,City of San Luis Obispo - Public Works,San Luis Obispo,CA,"San Luis Obispo, CA",79147,14.11,56904
-90206,San Luis Obispo Regional Transit Authority (SLORTA),San Luis Obispo,CA,"San Luis Obispo, CA",79147,14.11,56904
-90162,The Eastern Contra Costa Transit Authority,Antioch,CA,"Antioch, CA",02683,73.35,326205
-90171,"City of Santa Clarita (SCT) - Economic Development, Transit Division",Santa Clarita,CA,"Santa Clarita, CA",79309,77.85,278031
-90173,Transit Joint Powers Authority for Merced County,Merced,CA,"Merced, CA",56251,43.08,150052
-90201,City of Turlock - Transit,Turlock,CA,"Turlock, CA",89083,16.89,79203
-90208,Butte County Association of Governments (BCAG),Chico,CA,"Chico, CA",16318,33.72,111411
-90213,City of Petaluma - Transit,Petaluma,CA,"Petaluma, CA",68887,20.96,65227
-90219,Northern Arizona Intergovernmental Public Transportation Authority (NAIPTA),Flagstaff,AZ,"Flagstaff, AZ",29818,29.26,79842
-90232,Solano County Transit,Vallejo,CA,"Vallejo, CA",90028,39.64,175132
-90233,Yuma County Intergovernmental Public Transportation Authority (YCAT),Yuma,AZ,"Yuma, AZ--CA",98020,52.96,135717
-90306,Stanislaus Regional Transit Authority,Modesto,CA,"Modesto, CA",58006,70.38,357301

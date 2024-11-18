@@ -13,16 +13,11 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 08785,Meridian,ID,"Boise City, ID",139.23,433180
 08785,Boise,ID,"Boise City, ID",139.23,433180
 02305,Anchorage,AK,"Anchorage, AK",91.69,249252
-51283,Longview,WA,"Longview, WA--OR",35.19,69841
-44479,Richland,WA,"Kennewick--Richland--Pasco, WA",112.21,255401
 65242,Olympia,WA,"Olympia--Lacey, WA",106.21,208157
 09946,Bremerton,WA,"Bremerton, WA",146.91,224449
 06652,Bellingham,WA,"Bellingham, WA",50.13,128979
 78229,Salem,OR,"Salem, OR",72.68,268331
 55981,Medford,OR,"Medford, OR",63.02,171640
-93862,Wenatchee,WA,"Wenatchee, WA",32.6,78142
-60490,Burlington,WA,"Mount Vernon, WA",30.66,66825
-06868,Bend,OR,"Bend, OR",42.41,106988
 72505,Providence,RI,"Providence, RI--MA",544.25,1285806
 72505,Taunton,MA,"Providence, RI--MA",544.25,1285806
 09271,Boston,MA,"Boston, MA--NH",1655.89,4382009
@@ -31,8 +26,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 09271,Haverhill,MA,"Boston, MA--NH",1655.89,4382009
 09271,Gloucester,MA,"Boston, MA--NH",1655.89,4382009
 09271,Framingham,MA,"Boston, MA--NH",1655.89,4382009
-61786,New Bedford,MA,"New Bedford, MA",59.31,155491
-69778,Pittsfield,MA,"Pittsfield, MA",30.46,50720
 83926,Springfield,MA,"Springfield, MA--CT",201.77,442145
 97291,Worcester,MA,"Worcester, MA--CT",260.29,482085
 71263,Portland,ME,"Portland, ME",123.88,205356
@@ -40,7 +33,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 37243,New Britain,CT,"Hartford, CT",535.93,977158
 37243,Newington,CT,"Hartford, CT",535.93,977158
 37243,Berlin,CT,"Hartford, CT",535.93,977158
-64135,Preston,CT,"Norwich--New London, CT",116.72,167432
 10162,Derby,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
 10162,Bridgeport,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
 10162,Hartford,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
@@ -51,12 +43,7 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 22096,Danbury,CT,"Danbury, CT--NY",118.49,171680
 49096,Fitchburg,MA,"Leominster--Fitchburg, MA",52.93,111790
 11755,Burlington,VT,"Burlington, VT",62.01,118032
-24607,Dover,NH,"Dover--Rochester, NH--ME",52.31,72391
 61165,Nashua,NH,"Nashua, NH--MA",195.56,242984
-49339,Auburn,ME,"Lewiston, ME",31.42,60743
-05167,Hyannis,MA,"Barnstable Town, MA",341.28,303269
-05167,Falmouth,MA,"Barnstable Town, MA",341.28,303269
-92485,Watertown,CT,"Waterbury, CT",92.44,199317
 07732,Binghamton,NY,"Binghamton, NY",69.73,155942
 11350,Buffalo,NY,"Buffalo, NY",340.5,948864
 63217,Long Beach,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
@@ -94,7 +81,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 69076,Dover,DE,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
 69076,Pottstown,PA,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
 75664,Rochester,NY,"Rochester, NY",291.83,704327
-41914,Ithaca,NY,"Ithaca, NY",24.56,59102
 15481,Charleston,WV,"Charleston, WV",92.92,140958
 40753,Huntington,WV,"Huntington, WV--KY--OH",128.87,200157
 74746,Richmond,VA,"Richmond, VA",512.35,1059150
@@ -124,16 +110,7 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 04843,Annapolis,MD,"Baltimore, MD",654.93,2212038
 04843,Annapolis Junction,MD,"Baltimore, MD",654.93,2212038
 94726,Wheeling,WV,"Wheeling, WV--OH",36.81,57695
-15724,Charlottesville,VA,"Charlottesville, VA",36.87,104191
 84493,State College,PA,"State College, PA",25.92,83674
-31519,Frederick,MD,"Frederick, MD",80.29,176456
-90892,Hampton,VA,"Virginia Beach--Norfolk, VA",481.67,1451578
-08002,Blacksburg,VA,"Blacksburg--Christiansburg, VA",33.98,72400
-37162,Harrisonburg,VA,"Harrisonburg, VA",31.1,73377
-48664,Lebanon,PA,"Lebanon, PA",32.71,75485
-78364,Salisbury,MD,"Salisbury, MD--DE",48.39,78075
-59275,Morgantown,WV,"Morgantown, WV",40.7,77620
-47530,Lancaster,PA,"Lancaster--Manheim, PA",181.53,394530
 15832,Chattanooga,TN,"Chattanooga, TN--GA",291.7,398569
 45640,Knoxville,TN,"Knoxville, TN",431.91,597257
 56116,Memphis,TN,"Memphis, TN--MS--AR",491.27,1056190
@@ -145,7 +122,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 15670,Charlotte,NC,"Charlotte, NC--SC",657.61,1379873
 29440,Fayetteville,NC,"Fayetteville, NC",195.92,325008
 96670,Winston Salem,NC,"Winston-Salem, NC",310.79,420924
-35920,Gulfport,MS,"Gulfport--Biloxi, MS",168.64,236344
 42211,Jackson,MS,"Jackson, MS",237.16,347693
 49582,Lexington,KY,"Lexington-Fayette, KY",83.99,315631
 16885,Covington,KY,"Cincinnati, OH--KY",752.28,1686744
@@ -174,37 +150,20 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 86464,Tallahassee,FL,"Tallahassee, FL",125.46,252934
 68482,Pensacola,FL,"Pensacola, FL--AL",262.54,390172
 42346,Jacksonville,FL,"Jacksonville, FL",573.27,1247374
-07786,Birmingham,AL,"Birmingham, AL",509.27,774956
 57925,Mobile,AL,"Mobile, AL",220.75,321907
 58600,Montgomery,AL,"Montgomery, AL",145.1,254348
 03763,Athens,GA,"Athens-Clarke County, GA",91.85,143213
 25228,Chapel Hill,NC,"Durham, NC",183.36,396118
 25228,Durham,NC,"Durham, NC",183.36,396118
-35461,Greenville,SC,"Greenville, SC",262.17,387271
 42265,Jackson,TN,"Jackson, TN",47.74,72809
 76204,Rome,GA,"Rome, GA",44.89,60403
 67105,Titusville,FL,"Palm Bay--Melbourne, FL",250.55,510675
 40780,Huntsville,AL,"Huntsville, AL",214.77,329066
 79093,San Juan,PR,"San Juan, PR",763.6,1844410
-35164,Greensboro,NC,"Greensboro, NC",169.31,338928
-85708,Sumter,SC,"Sumter, SC",57.65,68825
-15508,North Charleston,SC,"Charleston, SC",339.06,684773
-08974,Naples,FL,"Bonita Springs--Estero, FL",242.96,425675
-18964,Columbia,SC,"Columbia, SC",367.5,590407
-48799,Tavares,FL,"Leesburg--Eustis--Tavares, FL",86.09,151523
-38647,Conover,NC,"Hickory, NC",221.34,201511
-71479,Stuart,FL,"Port St. Lucie, FL",224.23,437745
-71479,Fort Pierce,FL,"Port St. Lucie, FL",224.23,437745
-83548,Spartanburg,SC,"Spartanburg, SC",181.0,196943
-22690,Decatur,AL,"Decatur, AL",43.47,60458
-43210,Johnson City,TN,"Johnson City, TN",106.03,128519
-66484,Owensboro,KY,"Owensboro, KY",36.4,76433
 02764,Appleton,WI,"Appleton, WI",107.78,230967
 34813,Green Bay,WI,"Green Bay, WI",113.66,224156
-44506,Kenosha,WI,"Kenosha, WI",56.17,125865
 45910,La Crosse,WI,"La Crosse, WI--MN",42.24,98872
 53200,Madison,WI,"Madison, WI",149.7,450305
-73153,Racine,WI,"Racine, WI",52.26,134877
 57466,Milwaukee,WI,"Milwaukee, WI",463.68,1306795
 57466,Waukesha,WI,"Milwaukee, WI",463.68,1306795
 57466,West Bend,WI,"Milwaukee, WI",463.68,1306795
@@ -223,8 +182,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 87868,Toledo,OH,"Toledo, OH--MI",240.71,497952
 97831,Youngstown,OH,"Youngstown, OH",195.96,320901
 24850,Duluth,MN,"Duluth, MN--WI",66.87,119411
-29089,Moorhead,MN,"Fargo, ND--MN",77.73,216214
-29089,Fargo,ND,"Fargo, ND--MN",77.73,216214
 57628,Minneapolis,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
 57628,Maple Grove,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
 57628,Eden Prairie,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
@@ -238,9 +195,7 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 42157,Jackson,MI,"Jackson, MI",52.03,84307
 43723,Kalamazoo,MI,"Kalamazoo, MI",109.46,204562
 47719,Lansing,MI,"Lansing, MI",155.83,318300
-77149,Saginaw,MI,"Saginaw, MI",65.73,116058
 02602,Ann Arbor,MI,"Ann Arbor, MI",143.45,317689
-28333,Evansville,IN,"Evansville, IN",112.75,206855
 31087,Fort Wayne,IN,"Fort Wayne, IN",163.6,335934
 16264,Gary,IN,"Chicago, IL--IN",2337.89,8671746
 16264,Chicago,IL,"Chicago, IL--IN",2337.89,8671746
@@ -263,16 +218,8 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 75637,Rochester,MN,"Rochester, MN",51.59,121587
 26038,Eau Claire,WI,"Eau Claire, WI",62.5,105475
 08380,Bloomington,IN,"Bloomington, IN",43.04,110103
-45694,Kokomo,IN,"Kokomo, IN",32.5,62576
 77770,Pontoon Beach,IL,"St. Louis, MO--IL",910.37,2156323
 77770,Saint Louis,MO,"St. Louis, MO--IL",910.37,2156323
-71155,Port Huron,MI,"Port Huron, MI",52.51,82226
-26794,South Bend,IN,"Elkhart, IN--MI",94.94,148199
-43885,Bourbonnais,IL,"Kankakee, IL",31.66,66530
-61705,Newark,OH,"Newark, OH",44.09,81223
-22960,Dekalb,IL,"DeKalb, IL",25.63,64736
-39430,Holland,MI,"Holland, MI",64.8,107034
-58357,Monroe,MI,"Monroe, MI",35.35,57260
 27253,El Paso,TX,"El Paso, TX--NM",255.88,854584
 22042,Fort Worth,TX,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354
 22042,Arlington,TX,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354
@@ -284,8 +231,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 51877,Lubbock,TX,"Lubbock, TX",106.27,272280
 78580,San Antonio,TX,"San Antonio, TX",613.44,1992689
 91027,Waco,TX,"Waco, TX",89.88,192844
-10972,Brownsville,TX,"Brownsville, TX",62.1,216444
-32491,Galveston,TX,"Galveston--Texas City, TX",108.98,191863
 06058,Beaumont,TX,"Beaumont, TX",96.1,146649
 65080,Oklahoma City,OK,"Oklahoma City, OK",421.73,982276
 88948,Tulsa,OK,"Tulsa, OK",338.32,722810
@@ -297,18 +242,8 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 62677,Belle Chasse,LA,"New Orleans, LA",270.27,963212
 50392,North Little Rock,AR,"Little Rock, AR",267.82,461864
 46045,Lafayette,LA,"Lafayette, LA",161.2,227316
-04384,Austin,TX,"Austin, TX",619.62,1809888
 20287,Corpus Christi,TX,"Corpus Christi, TX",129.27,339066
 18748,Bryan,TX,"College Station--Bryan, TX",81.63,206137
-79363,Santa Fe,NM,"Santa Fe, NM",46.8,94241
-52390,Weslaco,TX,"McAllen, TX",326.22,779553
-52390,Edinburg,TX,"McAllen, TX",326.22,779553
-44992,Belton,TX,"Killeen, TX",100.42,257222
-90514,Victoria,TX,"Victoria, TX",33.6,65986
-23500,Lewisville,TX,"Denton--Lewisville, TX",150.48,429461
-78553,San Angelo,TX,"San Angelo, TX",49.27,99982
-81631,Sherman,TX,"Sherman--Denison, TX",38.49,66691
-47935,Santa Fe,NM,"Las Cruces, NM",64.47,139338
 49933,Lincoln,NE,"Lincoln, NE",94.17,291217
 65269,Omaha,NE,"Omaha, NE--IA",270.81,819508
 65269,Lincoln,NE,"Omaha, NE--IA",270.81,819508
@@ -317,15 +252,11 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 43912,Olathe,KS,"Kansas City, MO--KS",714.1,1674218
 14752,Cedar Rapids,IA,"Cedar Rapids, IA",86.03,192844
 23743,Des Moines,IA,"Des Moines, IA",224.74,542486
-82225,Sioux City,IA,"Sioux City, IA--NE--SD",55.03,113066
 88084,Topeka,KS,"Topeka, KS",84.24,148956
 95077,Wichita,KS,"Wichita, KS",226.84,500231
 18937,Columbia,MO,"Columbia, MO",67.2,141831
 41590,Iowa City,IA,"Iowa City, IA",50.83,126810
 41590,Coralville,IA,"Iowa City, IA",50.83,126810
-02062,Ames,IA,"Ames, IA",22.36,66342
-02062,Urbandale,IA,"Ames, IA",22.36,66342
-48232,Lawrence,KS,"Lawrence, KS",29.92,94998
 78499,Salt Lake City,UT,"Salt Lake City, UT",300.42,1178533
 82252,Sioux Falls,SD,"Sioux Falls, SD",67.9,194283
 07705,Billings,MT,"Billings, MT",54.7,128787
@@ -336,9 +267,6 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 57736,Missoula,MT,"Missoula, MT",44.29,88109
 30628,Fort Collins,CO,"Fort Collins, CO",117.98,326332
 30628,Loveland,CO,"Fort Collins, CO",117.98,326332
-34759,Great Falls,MT,"Great Falls, MT",30.3,67097
-50959,Logan,UT,"Logan, UT",47.72,113927
-09298,Boulder,CO,"Boulder, CO",25.45,120828
 74179,Reno,NV,"Reno, NV--CA",165.43,446529
 78904,Oakland,CA,"San Francisco--Oakland, CA",513.8,3515933
 78904,San Carlos,CA,"San Francisco--Oakland, CA",513.8,3515933
@@ -389,19 +317,5 @@ UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
 19504,Concord,CA,"Concord--Walnut Creek, CA",175.76,538583
 41347,Thousand Palms,CA,"Indio--Palm Desert--Palm Springs, CA",151.82,361075
 79417,Santa Maria,CA,"Santa Maria, CA",27.06,143609
-61057,Napa,CA,"Napa, CA",20.35,84619
 90946,Visalia,CA,"Visalia, CA",37.7,160578
 28657,Fairfield,CA,"Fairfield, CA",40.81,150122
-22420,Davis,CA,"Davis, CA",12.16,77034
-90541,Hesperia,CA,"Victorville--Hesperia--Apple Valley, CA",131.77,355816
-79147,San Luis Obispo,CA,"San Luis Obispo, CA",14.11,56904
-02683,Antioch,CA,"Antioch, CA",73.35,326205
-79309,Santa Clarita,CA,"Santa Clarita, CA",77.85,278031
-56251,Merced,CA,"Merced, CA",43.08,150052
-89083,Turlock,CA,"Turlock, CA",16.89,79203
-16318,Chico,CA,"Chico, CA",33.72,111411
-68887,Petaluma,CA,"Petaluma, CA",20.96,65227
-29818,Flagstaff,AZ,"Flagstaff, AZ",29.26,79842
-90028,Vallejo,CA,"Vallejo, CA",39.64,175132
-98020,Yuma,AZ,"Yuma, AZ--CA",52.96,135717
-58006,Modesto,CA,"Modesto, CA",70.38,357301

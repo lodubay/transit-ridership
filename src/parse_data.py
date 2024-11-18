@@ -16,15 +16,21 @@ def main():
     population = uza_population_estimates(years)
 
     # Agency and city reference info
-    opexp_total_data = read_time_series(
+    upt_data = read_time_series(
         '2023 TS2.2 Service Data and Operating Expenses Time Series by System.xlsx', 
-        'OpExp Total',
+        'UPT',
         codes=list(population.index),
         select_years=years
     )
-    year_cols = [c for c in opexp_total_data.columns if is_year(c)]
-    other_cols = [c for c in opexp_total_data.columns if not is_year(c)]
-    agency_info = opexp_total_data[other_cols].copy()
+    year_cols = [c for c in upt_data.columns if is_year(c)]
+    other_cols = [c for c in upt_data.columns if not is_year(c)]
+    # Limit to cities with ridership data for all years
+    upt_city_data = consolidate_city_data(upt_data)
+    upt_city_data = upt_city_data.replace(0, np.nan).dropna(how='any', subset=year_cols)
+    cities = list(upt_city_data.index.drop_duplicates())
+    upt_data = upt_data[upt_data['UACE Code'].isin(cities)]
+    # Separate reference tables with transit agency and city info
+    agency_info = upt_data[other_cols].copy()
     agency_info.to_csv(paths.data / 'Agencies.csv')
     city_info = agency_info.drop(columns=['Agency Name']).set_index('UACE Code', drop=True)
     city_info.drop_duplicates(inplace=True)
@@ -32,7 +38,7 @@ def main():
 
     def parse_time_series(file, sheet, year_range=(1991, 2019), export=True,
                           per_capita=False, inflation_adjusted=False,
-                          fname=''):
+                          fname='', codes=cities):
         """
         Utility function to parse and export data from a time series table.
 
@@ -53,6 +59,8 @@ def main():
         fname : str [default: '']
             Name of output data file. If none provided, one will be generated
             based on the sheet name.
+        codes : list of strings [default: ``cities``]
+            List of UACE city codes to limit the data to.
         
         Returns
         -------
@@ -68,7 +76,7 @@ def main():
         agency_data = read_time_series(
             file, 
             sheet,
-            codes=list(population.index),
+            codes=codes,
             select_years=years
         )
         city_data = consolidate_city_data(agency_data)
