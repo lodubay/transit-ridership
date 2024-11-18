@@ -78,7 +78,7 @@ def read_training_data(feature):
     )
 
 
-def read_testing_data(feature):
+def read_data(feature, dir='train'):
     """
     Import parsed training data for all cities.
 
@@ -92,7 +92,7 @@ def read_testing_data(feature):
     pandas.DataFrame
     """
     return pd.read_csv(
-        paths.data / 'test' / ('%s.csv' % feature), 
+        paths.data / dir / ('%s.csv' % feature), 
         index_col='UACE Code', 
         dtype={'UACE Code': str}
     )
