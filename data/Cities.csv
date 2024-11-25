@@ -1,321 +1,183 @@
-UACE Code,City,State,Primary UZA Name,UZA Area SQ Miles,UZA Population
-80389,Seattle,WA,"Seattle--Tacoma, WA",982.52,3544011
-80389,Lakewood,WA,"Seattle--Tacoma, WA",982.52,3544011
-80389,Everett,WA,"Seattle--Tacoma, WA",982.52,3544011
-80389,Tacoma,WA,"Seattle--Tacoma, WA",982.52,3544011
-80389,Olympia,WA,"Seattle--Tacoma, WA",982.52,3544011
-83764,Spokane,WA,"Spokane, WA",171.67,447279
-97507,Yakima,WA,"Yakima, WA",55.77,133145
-28117,Eugene,OR,"Eugene, OR",73.49,270179
-71317,Portland,OR,"Portland, OR--WA",519.3,2104238
-71317,Vancouver,WA,"Portland, OR--WA",519.3,2104238
-71317,Wilsonville,OR,"Portland, OR--WA",519.3,2104238
-08785,Meridian,ID,"Boise City, ID",139.23,433180
-08785,Boise,ID,"Boise City, ID",139.23,433180
-02305,Anchorage,AK,"Anchorage, AK",91.69,249252
-65242,Olympia,WA,"Olympia--Lacey, WA",106.21,208157
-09946,Bremerton,WA,"Bremerton, WA",146.91,224449
-06652,Bellingham,WA,"Bellingham, WA",50.13,128979
-78229,Salem,OR,"Salem, OR",72.68,268331
-55981,Medford,OR,"Medford, OR",63.02,171640
-72505,Providence,RI,"Providence, RI--MA",544.25,1285806
-72505,Taunton,MA,"Providence, RI--MA",544.25,1285806
-09271,Boston,MA,"Boston, MA--NH",1655.89,4382009
-09271,Brockton,MA,"Boston, MA--NH",1655.89,4382009
-09271,Lowell,MA,"Boston, MA--NH",1655.89,4382009
-09271,Haverhill,MA,"Boston, MA--NH",1655.89,4382009
-09271,Gloucester,MA,"Boston, MA--NH",1655.89,4382009
-09271,Framingham,MA,"Boston, MA--NH",1655.89,4382009
-83926,Springfield,MA,"Springfield, MA--CT",201.77,442145
-97291,Worcester,MA,"Worcester, MA--CT",260.29,482085
-71263,Portland,ME,"Portland, ME",123.88,205356
-37243,Hartford,CT,"Hartford, CT",535.93,977158
-37243,New Britain,CT,"Hartford, CT",535.93,977158
-37243,Newington,CT,"Hartford, CT",535.93,977158
-37243,Berlin,CT,"Hartford, CT",535.93,977158
-10162,Derby,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
-10162,Bridgeport,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
-10162,Hartford,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
-10162,Norwalk,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
-10162,Milford,CT,"Bridgeport--Stamford, CT--NY",397.29,916408
-62407,Hamden,CT,"New Haven, CT",298.01,561456
-62407,Hartford,CT,"New Haven, CT",298.01,561456
-22096,Danbury,CT,"Danbury, CT--NY",118.49,171680
-49096,Fitchburg,MA,"Leominster--Fitchburg, MA",52.93,111790
-11755,Burlington,VT,"Burlington, VT",62.01,118032
-61165,Nashua,NH,"Nashua, NH--MA",195.56,242984
-07732,Binghamton,NY,"Binghamton, NY",69.73,155942
-11350,Buffalo,NY,"Buffalo, NY",340.5,948864
-63217,Long Beach,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Brooklyn,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Huntington,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Yaphank,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,White Plains,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,New York,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Newark,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,New City,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Carmel,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Staten Island,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Hoboken,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Mahwah,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,New Brunswick,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Spring Valley,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Paramus,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Dover,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Elizabeth,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Bethlehem,PA,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Hurley,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Weehawken,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Hackensack,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Mineola,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Somerville,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Calverton,NY,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-63217,Atlantic Highlands,NJ,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449
-71803,Poughkeepsie,NY,"Poughkeepsie--Newburgh, NY",209.92,314766
-71803,Kingston,NY,"Poughkeepsie--Newburgh, NY",209.92,314766
-86302,Syracuse,NY,"Syracuse, NY",180.53,413660
-69076,Camden,NJ,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
-69076,Audubon,NJ,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
-69076,Philadelphia,PA,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
-69076,Harrisburg,PA,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
-69076,Dover,DE,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
-69076,Pottstown,PA,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125
-75664,Rochester,NY,"Rochester, NY",291.83,704327
-15481,Charleston,WV,"Charleston, WV",92.92,140958
-40753,Huntington,WV,"Huntington, WV--KY--OH",128.87,200157
-74746,Richmond,VA,"Richmond, VA",512.35,1059150
-75421,Roanoke,VA,"Roanoke, VA",125.5,217312
-52201,Lynchburg,VA,"Lynchburg, VA",91.6,125596
-01495,Allentown,PA,"Allentown--Bethlehem, PA--NJ",261.55,621703
-01792,Altoona,PA,"Altoona, PA",37.01,74426
-43291,Johnstown,PA,"Johnstown, PA",34.7,61521
-27766,Erie,PA,"Erie, PA",73.34,187820
-80227,Kingston,PA,"Scranton, PA",162.16,366713
-80227,Scranton,PA,"Scranton, PA",162.16,366713
-69697,Pittsburgh,PA,"Pittsburgh, PA",906.64,1745039
-69697,Rochester,PA,"Pittsburgh, PA",906.64,1745039
-69697,Greensburg,PA,"Pittsburgh, PA",906.64,1745039
-69697,Charleroi,PA,"Pittsburgh, PA",906.64,1745039
-69697,Washington,PA,"Pittsburgh, PA",906.64,1745039
-95455,Williamsport,PA,"Williamsport, PA",27.72,55344
-92242,Washington,DC,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Rockville,MD,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Fairfax,VA,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Woodbridge,VA,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Alexandria,VA,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Arlington,VA,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Leesburg,VA,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-92242,Upper Marlboro,MD,"Washington--Arlington, DC--VA--MD",1294.51,5174759
-04843,Baltimore,MD,"Baltimore, MD",654.93,2212038
-04843,Annapolis,MD,"Baltimore, MD",654.93,2212038
-04843,Annapolis Junction,MD,"Baltimore, MD",654.93,2212038
-94726,Wheeling,WV,"Wheeling, WV--OH",36.81,57695
-84493,State College,PA,"State College, PA",25.92,83674
-15832,Chattanooga,TN,"Chattanooga, TN--GA",291.7,398569
-45640,Knoxville,TN,"Knoxville, TN",431.91,597257
-56116,Memphis,TN,"Memphis, TN--MS--AR",491.27,1056190
-61273,Madison,TN,"Nashville-Davidson, TN",584.95,1158642
-61273,Franklin,TN,"Nashville-Davidson, TN",584.95,1158642
-03358,Asheville,NC,"Asheville, NC",248.58,285776
-95833,Wilmington,NC,"Wilmington, NC",142.25,255329
-73261,Raleigh,NC,"Raleigh, NC",554.82,1106646
-15670,Charlotte,NC,"Charlotte, NC--SC",657.61,1379873
-29440,Fayetteville,NC,"Fayetteville, NC",195.92,325008
-96670,Winston Salem,NC,"Winston-Salem, NC",310.79,420924
-42211,Jackson,MS,"Jackson, MS",237.16,347693
-49582,Lexington,KY,"Lexington-Fayette, KY",83.99,315631
-16885,Covington,KY,"Cincinnati, OH--KY",752.28,1686744
-16885,Cincinnati,OH,"Cincinnati, OH--KY",752.28,1686744
-16885,Hamilton,OH,"Cincinnati, OH--KY",752.28,1686744
-16885,Batavia,OH,"Cincinnati, OH--KY",752.28,1686744
-00901,Albany,GA,"Albany, GA",66.51,85960
-03817,Atlanta,GA,"Atlanta, GA",2553.04,5100112
-03817,Marietta,GA,"Atlanta, GA",2553.04,5100112
-03817,Douglasville,GA,"Atlanta, GA",2553.04,5100112
-03817,Lawrenceville,GA,"Atlanta, GA",2553.04,5100112
-04222,Augusta,GA,"Augusta-Richmond County, GA--SC",273.29,431480
-79768,Savannah,GA,"Savannah, GA",205.85,309466
-86599,Saint Petersburg,FL,"Tampa--St. Petersburg, FL",968.94,2783045
-86599,Tampa,FL,"Tampa--St. Petersburg, FL",968.94,2783045
-86599,New Port Richey,FL,"Tampa--St. Petersburg, FL",968.94,2783045
-13510,Fort Myers,FL,"Cape Coral, FL",331.8,599242
-56602,Fort Lauderdale,FL,"Miami--Fort Lauderdale, FL",1244.18,6077522
-56602,Miami,FL,"Miami--Fort Lauderdale, FL",1244.18,6077522
-56602,West Palm Beach,FL,"Miami--Fort Lauderdale, FL",1244.18,6077522
-56602,Pompano Beach,FL,"Miami--Fort Lauderdale, FL",1244.18,6077522
-32167,Gainesville,FL,"Gainesville, FL",87.7,213748
-46828,Lakeland,FL,"Lakeland, FL",145.93,277915
-65863,Orlando,FL,"Orlando, FL",644.61,1853896
-65863,Tallahassee,FL,"Orlando, FL",644.61,1853896
-86464,Tallahassee,FL,"Tallahassee, FL",125.46,252934
-68482,Pensacola,FL,"Pensacola, FL--AL",262.54,390172
-42346,Jacksonville,FL,"Jacksonville, FL",573.27,1247374
-57925,Mobile,AL,"Mobile, AL",220.75,321907
-58600,Montgomery,AL,"Montgomery, AL",145.1,254348
-03763,Athens,GA,"Athens-Clarke County, GA",91.85,143213
-25228,Chapel Hill,NC,"Durham, NC",183.36,396118
-25228,Durham,NC,"Durham, NC",183.36,396118
-42265,Jackson,TN,"Jackson, TN",47.74,72809
-76204,Rome,GA,"Rome, GA",44.89,60403
-67105,Titusville,FL,"Palm Bay--Melbourne, FL",250.55,510675
-40780,Huntsville,AL,"Huntsville, AL",214.77,329066
-79093,San Juan,PR,"San Juan, PR",763.6,1844410
-02764,Appleton,WI,"Appleton, WI",107.78,230967
-34813,Green Bay,WI,"Green Bay, WI",113.66,224156
-45910,La Crosse,WI,"La Crosse, WI--MN",42.24,98872
-53200,Madison,WI,"Madison, WI",149.7,450305
-57466,Milwaukee,WI,"Milwaukee, WI",463.68,1306795
-57466,Waukesha,WI,"Milwaukee, WI",463.68,1306795
-57466,West Bend,WI,"Milwaukee, WI",463.68,1306795
-57466,Port Washington,WI,"Milwaukee, WI",463.68,1306795
-00766,Akron,OH,"Akron, OH",300.64,541879
-00766,Kent,OH,"Akron, OH",300.64,541879
-13375,Canton,OH,"Canton, OH",180.19,295319
-17668,Cleveland,OH,"Cleveland, OH",713.81,1712178
-17668,Painesville,OH,"Cleveland, OH",713.81,1712178
-17668,Medina,OH,"Cleveland, OH",713.81,1712178
-19234,Columbus,OH,"Columbus, OH",516.16,1567254
-19234,Delaware,OH,"Columbus, OH",516.16,1567254
-22528,Dayton,OH,"Dayton, OH",319.89,674046
-22528,Xenia,OH,"Dayton, OH",319.89,674046
-22528,Troy,OH,"Dayton, OH",319.89,674046
-87868,Toledo,OH,"Toledo, OH--MI",240.71,497952
-97831,Youngstown,OH,"Youngstown, OH",195.96,320901
-24850,Duluth,MN,"Duluth, MN--WI",66.87,119411
-57628,Minneapolis,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
-57628,Maple Grove,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
-57628,Eden Prairie,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
-57628,Burnsville,MN,"Minneapolis--St. Paul, MN",1014.79,2914866
-77338,Saint Cloud,MN,"St. Cloud, MN",53.97,117638
-05869,Bay City,MI,"Bay City, MI",39.93,68472
-23824,Detroit,MI,"Detroit, MI",1284.83,3776890
-23824,Lansing,MI,"Detroit, MI",1284.83,3776890
-29872,Flint,MI,"Flint, MI",205.46,298964
-34300,Grand Rapids,MI,"Grand Rapids, MI",274.36,605666
-42157,Jackson,MI,"Jackson, MI",52.03,84307
-43723,Kalamazoo,MI,"Kalamazoo, MI",109.46,204562
-47719,Lansing,MI,"Lansing, MI",155.83,318300
-02602,Ann Arbor,MI,"Ann Arbor, MI",143.45,317689
-31087,Fort Wayne,IN,"Fort Wayne, IN",163.6,335934
-16264,Gary,IN,"Chicago, IL--IN",2337.89,8671746
-16264,Chicago,IL,"Chicago, IL--IN",2337.89,8671746
-16264,Chesterton,IN,"Chicago, IL--IN",2337.89,8671746
-16264,Arlington Heights,IL,"Chicago, IL--IN",2337.89,8671746
-08407,Normal,IL,"Bloomington--Normal, IL",50.36,134100
-41212,Indianapolis,IN,"Indianapolis, IN",722.55,1699881
-41212,Danville,IN,"Indianapolis, IN",722.55,1699881
-46018,Lafayette,IN,"Lafayette, IN",68.74,157100
-83116,South Bend,IN,"South Bend, IN--MI",147.93,278921
-87139,Terre Haute,IN,"Terre Haute, IN",46.83,79862
-60625,Muncie,IN,"Muncie, IN",48.2,84382
-68509,Peoria,IL,"Peoria, IL",145.79,259781
-22366,Moline,IL,"Davenport, IA--IL",134.86,285211
-22366,Davenport,IA,"Davenport, IA--IL",134.86,285211
-75718,Rockford,IL,"Rockford, IL",133.81,276443
-83899,Springfield,IL,"Springfield, IL",81.74,159265
-15211,Urbana,IL,"Champaign, IL",46.52,147452
-22717,Decatur,IL,"Decatur, IL",55.11,86287
-75637,Rochester,MN,"Rochester, MN",51.59,121587
-26038,Eau Claire,WI,"Eau Claire, WI",62.5,105475
-08380,Bloomington,IN,"Bloomington, IN",43.04,110103
-77770,Pontoon Beach,IL,"St. Louis, MO--IL",910.37,2156323
-77770,Saint Louis,MO,"St. Louis, MO--IL",910.37,2156323
-27253,El Paso,TX,"El Paso, TX--NM",255.88,854584
-22042,Fort Worth,TX,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354
-22042,Arlington,TX,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354
-22042,Dallas,TX,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354
-22042,Terrell,TX,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354
-40429,Houston,TX,"Houston, TX",1752.69,5853575
-40429,Richmond,TX,"Houston, TX",1752.69,5853575
-47854,Laredo,TX,"Laredo, TX",64.2,251462
-51877,Lubbock,TX,"Lubbock, TX",106.27,272280
-78580,San Antonio,TX,"San Antonio, TX",613.44,1992689
-91027,Waco,TX,"Waco, TX",89.88,192844
-06058,Beaumont,TX,"Beaumont, TX",96.1,146649
-65080,Oklahoma City,OK,"Oklahoma City, OK",421.73,982276
-88948,Tulsa,OK,"Tulsa, OK",338.32,722810
-01171,Albuquerque,NM,"Albuquerque, NM",263.07,769837
-05680,Baton Rouge,LA,"Baton Rouge, LA",396.34,631326
-81739,Shreveport,LA,"Shreveport, LA",180.84,288052
-62677,New Orleans,LA,"New Orleans, LA",270.27,963212
-62677,Gretna,LA,"New Orleans, LA",270.27,963212
-62677,Belle Chasse,LA,"New Orleans, LA",270.27,963212
-50392,North Little Rock,AR,"Little Rock, AR",267.82,461864
-46045,Lafayette,LA,"Lafayette, LA",161.2,227316
-20287,Corpus Christi,TX,"Corpus Christi, TX",129.27,339066
-18748,Bryan,TX,"College Station--Bryan, TX",81.63,206137
-49933,Lincoln,NE,"Lincoln, NE",94.17,291217
-65269,Omaha,NE,"Omaha, NE--IA",270.81,819508
-65269,Lincoln,NE,"Omaha, NE--IA",270.81,819508
-83953,Springfield,MO,"Springfield, MO",134.33,282651
-43912,Kansas City,MO,"Kansas City, MO--KS",714.1,1674218
-43912,Olathe,KS,"Kansas City, MO--KS",714.1,1674218
-14752,Cedar Rapids,IA,"Cedar Rapids, IA",86.03,192844
-23743,Des Moines,IA,"Des Moines, IA",224.74,542486
-88084,Topeka,KS,"Topeka, KS",84.24,148956
-95077,Wichita,KS,"Wichita, KS",226.84,500231
-18937,Columbia,MO,"Columbia, MO",67.2,141831
-41590,Iowa City,IA,"Iowa City, IA",50.83,126810
-41590,Coralville,IA,"Iowa City, IA",50.83,126810
-78499,Salt Lake City,UT,"Salt Lake City, UT",300.42,1178533
-82252,Sioux Falls,SD,"Sioux Falls, SD",67.9,194283
-07705,Billings,MT,"Billings, MT",54.7,128787
-18856,Colorado Springs,CO,"Colorado Springs, CO",200.36,632494
-23527,Denver,CO,"Denver--Aurora, CO",644.54,2686147
-72613,Pueblo,CO,"Pueblo, CO",54.7,120642
-34219,Grand Forks,ND,"Grand Forks, ND--MN",26.48,68160
-57736,Missoula,MT,"Missoula, MT",44.29,88109
-30628,Fort Collins,CO,"Fort Collins, CO",117.98,326332
-30628,Loveland,CO,"Fort Collins, CO",117.98,326332
-74179,Reno,NV,"Reno, NV--CA",165.43,446529
-78904,Oakland,CA,"San Francisco--Oakland, CA",513.8,3515933
-78904,San Carlos,CA,"San Francisco--Oakland, CA",513.8,3515933
-78904,San Francisco,CA,"San Francisco--Oakland, CA",513.8,3515933
-78904,Pinole,CA,"San Francisco--Oakland, CA",513.8,3515933
-78904,San Rafael,CA,"San Francisco--Oakland, CA",513.8,3515933
-04681,Bakersfield,CA,"Bakersfield, CA",132.12,570235
-79336,Santa Cruz,CA,"Santa Cruz, CA",60.45,169038
-51445,Santa Monica,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Torrance,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Norwalk,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Long Beach,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,La Mirada,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Orange,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Culver City,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Montebello,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Gardena,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Commerce,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,West Covina,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Los Angeles,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,El Monte,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Anaheim,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Redondo Beach,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Glendale,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,Pasadena,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-51445,La Verne,CA,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376
-85087,Stockton,CA,"Stockton, CA",92.46,414847
-79039,San Jose,CA,"San Jose, CA",285.48,1837446
-79498,Santa Rosa,CA,"Santa Rosa, CA",79.39,297329
-79498,Petaluma,CA,"Santa Rosa, CA",79.39,297329
-77068,Sacramento,CA,"Sacramento, CA",467.58,1946618
-77068,Woodland,CA,"Sacramento, CA",467.58,1946618
-77068,Auburn,CA,"Sacramento, CA",467.58,1946618
-79282,Santa Barbara,CA,"Santa Barbara, CA",54.81,202197
-78661,San Diego,CA,"San Diego, CA",674.72,3070300
-78661,Oceanside,CA,"San Diego, CA",674.72,3070300
-31843,Fresno,CA,"Fresno, CA",159.11,717589
-75340,San Bernardino,CA,"Riverside--San Bernardino, CA",608.56,2276703
-75340,Riverside,CA,"Riverside--San Bernardino, CA",608.56,2276703
-69184,Phoenix,AZ,"Phoenix--Mesa--Scottsdale, AZ",1110.48,3976313
-69184,Glendale,AZ,"Phoenix--Mesa--Scottsdale, AZ",1110.48,3976313
-69184,Scottsdale,AZ,"Phoenix--Mesa--Scottsdale, AZ",1110.48,3976313
-69184,Peoria,AZ,"Phoenix--Mesa--Scottsdale, AZ",1110.48,3976313
-88732,Tucson,AZ,"Tucson, AZ",357.35,875441
-66673,Oxnard,CA,"Oxnard--San Buenaventura (Ventura), CA",76.61,376117
-66673,Camarillo,CA,"Oxnard--San Buenaventura (Ventura), CA",76.61,376117
-80362,Monterey,CA,"Seaside--Monterey--Pacific Grove, CA",41.18,123495
-19504,Concord,CA,"Concord--Walnut Creek, CA",175.76,538583
-41347,Thousand Palms,CA,"Indio--Palm Desert--Palm Springs, CA",151.82,361075
-79417,Santa Maria,CA,"Santa Maria, CA",27.06,143609
-90946,Visalia,CA,"Visalia, CA",37.7,160578
-28657,Fairfield,CA,"Fairfield, CA",40.81,150122
+UACE Code,Primary UZA Name,UZA Area SQ Miles,UZA Population,Cities
+80389,"Seattle--Tacoma, WA",982.52,3544011,"Seattle WA, Lakewood WA, Everett WA, Tacoma WA, Olympia WA"
+83764,"Spokane, WA",171.67,447279,Spokane WA
+97507,"Yakima, WA",55.77,133145,Yakima WA
+28117,"Eugene, OR",73.49,270179,Eugene OR
+71317,"Portland, OR--WA",519.3,2104238,"Portland OR, Vancouver WA, Wilsonville OR"
+08785,"Boise City, ID",139.23,433180,"Meridian ID, Boise ID"
+02305,"Anchorage, AK",91.69,249252,Anchorage AK
+65242,"Olympia--Lacey, WA",106.21,208157,Olympia WA
+09946,"Bremerton, WA",146.91,224449,Bremerton WA
+06652,"Bellingham, WA",50.13,128979,Bellingham WA
+78229,"Salem, OR",72.68,268331,Salem OR
+55981,"Medford, OR",63.02,171640,Medford OR
+72505,"Providence, RI--MA",544.25,1285806,"Providence RI, Taunton MA"
+09271,"Boston, MA--NH",1655.89,4382009,"Boston MA, Brockton MA, Lowell MA, Haverhill MA, Gloucester MA, Framingham MA"
+83926,"Springfield, MA--CT",201.77,442145,Springfield MA
+97291,"Worcester, MA--CT",260.29,482085,Worcester MA
+71263,"Portland, ME",123.88,205356,Portland ME
+37243,"Hartford, CT",535.93,977158,"Hartford CT, New Britain CT, Newington CT, Berlin CT"
+10162,"Bridgeport--Stamford, CT--NY",397.29,916408,"Derby CT, Bridgeport CT, Hartford CT, Norwalk CT, Milford CT"
+62407,"New Haven, CT",298.01,561456,"Hamden CT, Hartford CT"
+22096,"Danbury, CT--NY",118.49,171680,Danbury CT
+49096,"Leominster--Fitchburg, MA",52.93,111790,Fitchburg MA
+11755,"Burlington, VT",62.01,118032,Burlington VT
+61165,"Nashua, NH--MA",195.56,242984,Nashua NH
+07732,"Binghamton, NY",69.73,155942,Binghamton NY
+11350,"Buffalo, NY",340.5,948864,Buffalo NY
+63217,"New York--Jersey City--Newark, NY--NJ",3248.12,19426449,"Long Beach NY, Brooklyn NY, Huntington NY, Yaphank NY, White Plains NY, New York NY, Newark NJ, New City NY, Carmel NY, Staten Island NY, Hoboken NJ, Mahwah NJ, New Brunswick NJ, Spring Valley NY, Paramus NJ, Dover NJ, Elizabeth NJ, Bethlehem PA, Hurley NY, Weehawken NJ, Hackensack NJ, Mineola NY, Somerville NJ, Calverton NY, Atlantic Highlands NJ"
+71803,"Poughkeepsie--Newburgh, NY",209.92,314766,"Poughkeepsie NY, Kingston NY"
+86302,"Syracuse, NY",180.53,413660,Syracuse NY
+69076,"Philadelphia, PA--NJ--DE--MD",1898.19,5696125,"Camden NJ, Audubon NJ, Philadelphia PA, Harrisburg PA, Dover DE, Pottstown PA"
+75664,"Rochester, NY",291.83,704327,Rochester NY
+15481,"Charleston, WV",92.92,140958,Charleston WV
+40753,"Huntington, WV--KY--OH",128.87,200157,Huntington WV
+74746,"Richmond, VA",512.35,1059150,Richmond VA
+75421,"Roanoke, VA",125.5,217312,Roanoke VA
+52201,"Lynchburg, VA",91.6,125596,Lynchburg VA
+01495,"Allentown--Bethlehem, PA--NJ",261.55,621703,Allentown PA
+01792,"Altoona, PA",37.01,74426,Altoona PA
+43291,"Johnstown, PA",34.7,61521,Johnstown PA
+27766,"Erie, PA",73.34,187820,Erie PA
+80227,"Scranton, PA",162.16,366713,"Kingston PA, Scranton PA"
+69697,"Pittsburgh, PA",906.64,1745039,"Pittsburgh PA, Rochester PA, Greensburg PA, Charleroi PA, Washington PA"
+95455,"Williamsport, PA",27.72,55344,Williamsport PA
+92242,"Washington--Arlington, DC--VA--MD",1294.51,5174759,"Washington DC, Rockville MD, Fairfax VA, Woodbridge VA, Alexandria VA, Arlington VA, Leesburg VA, Upper Marlboro MD"
+04843,"Baltimore, MD",654.93,2212038,"Baltimore MD, Annapolis MD, Annapolis Junction MD"
+94726,"Wheeling, WV--OH",36.81,57695,Wheeling WV
+84493,"State College, PA",25.92,83674,State College PA
+15832,"Chattanooga, TN--GA",291.7,398569,Chattanooga TN
+45640,"Knoxville, TN",431.91,597257,Knoxville TN
+56116,"Memphis, TN--MS--AR",491.27,1056190,Memphis TN
+61273,"Nashville-Davidson, TN",584.95,1158642,"Madison TN, Franklin TN"
+03358,"Asheville, NC",248.58,285776,Asheville NC
+95833,"Wilmington, NC",142.25,255329,Wilmington NC
+73261,"Raleigh, NC",554.82,1106646,Raleigh NC
+15670,"Charlotte, NC--SC",657.61,1379873,Charlotte NC
+29440,"Fayetteville, NC",195.92,325008,Fayetteville NC
+96670,"Winston-Salem, NC",310.79,420924,Winston Salem NC
+42211,"Jackson, MS",237.16,347693,Jackson MS
+49582,"Lexington-Fayette, KY",83.99,315631,Lexington KY
+16885,"Cincinnati, OH--KY",752.28,1686744,"Covington KY, Cincinnati OH, Hamilton OH, Batavia OH"
+00901,"Albany, GA",66.51,85960,Albany GA
+03817,"Atlanta, GA",2553.04,5100112,"Atlanta GA, Marietta GA, Douglasville GA, Lawrenceville GA"
+04222,"Augusta-Richmond County, GA--SC",273.29,431480,Augusta GA
+79768,"Savannah, GA",205.85,309466,Savannah GA
+86599,"Tampa--St. Petersburg, FL",968.94,2783045,"Saint Petersburg FL, Tampa FL, New Port Richey FL"
+13510,"Cape Coral, FL",331.8,599242,Fort Myers FL
+56602,"Miami--Fort Lauderdale, FL",1244.18,6077522,"Fort Lauderdale FL, Miami FL, West Palm Beach FL, Pompano Beach FL"
+32167,"Gainesville, FL",87.7,213748,Gainesville FL
+46828,"Lakeland, FL",145.93,277915,Lakeland FL
+65863,"Orlando, FL",644.61,1853896,"Orlando FL, Tallahassee FL"
+86464,"Tallahassee, FL",125.46,252934,Tallahassee FL
+68482,"Pensacola, FL--AL",262.54,390172,Pensacola FL
+42346,"Jacksonville, FL",573.27,1247374,Jacksonville FL
+57925,"Mobile, AL",220.75,321907,Mobile AL
+58600,"Montgomery, AL",145.1,254348,Montgomery AL
+03763,"Athens-Clarke County, GA",91.85,143213,Athens GA
+25228,"Durham, NC",183.36,396118,"Chapel Hill NC, Durham NC"
+42265,"Jackson, TN",47.74,72809,Jackson TN
+76204,"Rome, GA",44.89,60403,Rome GA
+67105,"Palm Bay--Melbourne, FL",250.55,510675,Titusville FL
+40780,"Huntsville, AL",214.77,329066,Huntsville AL
+79093,"San Juan, PR",763.6,1844410,San Juan PR
+02764,"Appleton, WI",107.78,230967,Appleton WI
+34813,"Green Bay, WI",113.66,224156,Green Bay WI
+45910,"La Crosse, WI--MN",42.24,98872,La Crosse WI
+53200,"Madison, WI",149.7,450305,Madison WI
+57466,"Milwaukee, WI",463.68,1306795,"Milwaukee WI, Waukesha WI, West Bend WI, Port Washington WI"
+00766,"Akron, OH",300.64,541879,"Akron OH, Kent OH"
+13375,"Canton, OH",180.19,295319,Canton OH
+17668,"Cleveland, OH",713.81,1712178,"Cleveland OH, Painesville OH, Medina OH"
+19234,"Columbus, OH",516.16,1567254,"Columbus OH, Delaware OH"
+22528,"Dayton, OH",319.89,674046,"Dayton OH, Xenia OH, Troy OH"
+87868,"Toledo, OH--MI",240.71,497952,Toledo OH
+97831,"Youngstown, OH",195.96,320901,Youngstown OH
+24850,"Duluth, MN--WI",66.87,119411,Duluth MN
+57628,"Minneapolis--St. Paul, MN",1014.79,2914866,"Minneapolis MN, Maple Grove MN, Eden Prairie MN, Burnsville MN"
+77338,"St. Cloud, MN",53.97,117638,Saint Cloud MN
+05869,"Bay City, MI",39.93,68472,Bay City MI
+23824,"Detroit, MI",1284.83,3776890,"Detroit MI, Lansing MI"
+29872,"Flint, MI",205.46,298964,Flint MI
+34300,"Grand Rapids, MI",274.36,605666,Grand Rapids MI
+42157,"Jackson, MI",52.03,84307,Jackson MI
+43723,"Kalamazoo, MI",109.46,204562,Kalamazoo MI
+47719,"Lansing, MI",155.83,318300,Lansing MI
+02602,"Ann Arbor, MI",143.45,317689,Ann Arbor MI
+31087,"Fort Wayne, IN",163.6,335934,Fort Wayne IN
+16264,"Chicago, IL--IN",2337.89,8671746,"Gary IN, Chicago IL, Chesterton IN, Arlington Heights IL"
+08407,"Bloomington--Normal, IL",50.36,134100,Normal IL
+41212,"Indianapolis, IN",722.55,1699881,"Indianapolis IN, Danville IN"
+46018,"Lafayette, IN",68.74,157100,Lafayette IN
+83116,"South Bend, IN--MI",147.93,278921,South Bend IN
+87139,"Terre Haute, IN",46.83,79862,Terre Haute IN
+60625,"Muncie, IN",48.2,84382,Muncie IN
+68509,"Peoria, IL",145.79,259781,Peoria IL
+22366,"Davenport, IA--IL",134.86,285211,"Moline IL, Davenport IA"
+75718,"Rockford, IL",133.81,276443,Rockford IL
+83899,"Springfield, IL",81.74,159265,Springfield IL
+15211,"Champaign, IL",46.52,147452,Urbana IL
+22717,"Decatur, IL",55.11,86287,Decatur IL
+75637,"Rochester, MN",51.59,121587,Rochester MN
+26038,"Eau Claire, WI",62.5,105475,Eau Claire WI
+08380,"Bloomington, IN",43.04,110103,Bloomington IN
+77770,"St. Louis, MO--IL",910.37,2156323,"Pontoon Beach IL, Saint Louis MO"
+27253,"El Paso, TX--NM",255.88,854584,El Paso TX
+22042,"Dallas--Fort Worth--Arlington, TX",1746.9,5732354,"Fort Worth TX, Arlington TX, Dallas TX, Terrell TX"
+40429,"Houston, TX",1752.69,5853575,"Houston TX, Richmond TX"
+47854,"Laredo, TX",64.2,251462,Laredo TX
+51877,"Lubbock, TX",106.27,272280,Lubbock TX
+78580,"San Antonio, TX",613.44,1992689,San Antonio TX
+91027,"Waco, TX",89.88,192844,Waco TX
+06058,"Beaumont, TX",96.1,146649,Beaumont TX
+65080,"Oklahoma City, OK",421.73,982276,Oklahoma City OK
+88948,"Tulsa, OK",338.32,722810,Tulsa OK
+01171,"Albuquerque, NM",263.07,769837,Albuquerque NM
+05680,"Baton Rouge, LA",396.34,631326,Baton Rouge LA
+81739,"Shreveport, LA",180.84,288052,Shreveport LA
+62677,"New Orleans, LA",270.27,963212,"New Orleans LA, Gretna LA, Belle Chasse LA"
+50392,"Little Rock, AR",267.82,461864,North Little Rock AR
+46045,"Lafayette, LA",161.2,227316,Lafayette LA
+20287,"Corpus Christi, TX",129.27,339066,Corpus Christi TX
+18748,"College Station--Bryan, TX",81.63,206137,Bryan TX
+49933,"Lincoln, NE",94.17,291217,Lincoln NE
+65269,"Omaha, NE--IA",270.81,819508,"Omaha NE, Lincoln NE"
+83953,"Springfield, MO",134.33,282651,Springfield MO
+43912,"Kansas City, MO--KS",714.1,1674218,"Kansas City MO, Olathe KS"
+14752,"Cedar Rapids, IA",86.03,192844,Cedar Rapids IA
+23743,"Des Moines, IA",224.74,542486,Des Moines IA
+88084,"Topeka, KS",84.24,148956,Topeka KS
+95077,"Wichita, KS",226.84,500231,Wichita KS
+18937,"Columbia, MO",67.2,141831,Columbia MO
+41590,"Iowa City, IA",50.83,126810,"Iowa City IA, Coralville IA"
+78499,"Salt Lake City, UT",300.42,1178533,Salt Lake City UT
+82252,"Sioux Falls, SD",67.9,194283,Sioux Falls SD
+07705,"Billings, MT",54.7,128787,Billings MT
+18856,"Colorado Springs, CO",200.36,632494,Colorado Springs CO
+23527,"Denver--Aurora, CO",644.54,2686147,Denver CO
+72613,"Pueblo, CO",54.7,120642,Pueblo CO
+34219,"Grand Forks, ND--MN",26.48,68160,Grand Forks ND
+57736,"Missoula, MT",44.29,88109,Missoula MT
+30628,"Fort Collins, CO",117.98,326332,"Fort Collins CO, Loveland CO"
+74179,"Reno, NV--CA",165.43,446529,Reno NV
+78904,"San Francisco--Oakland, CA",513.8,3515933,"Oakland CA, San Carlos CA, San Francisco CA, Pinole CA, San Rafael CA"
+04681,"Bakersfield, CA",132.12,570235,Bakersfield CA
+79336,"Santa Cruz, CA",60.45,169038,Santa Cruz CA
+51445,"Los Angeles--Long Beach--Anaheim, CA",1636.83,12237376,"Santa Monica CA, Torrance CA, Norwalk CA, Long Beach CA, La Mirada CA, Orange CA, Culver City CA, Montebello CA, Gardena CA, Commerce CA, West Covina CA, Los Angeles CA, El Monte CA, Anaheim CA, Redondo Beach CA, Glendale CA, Pasadena CA, La Verne CA"
+85087,"Stockton, CA",92.46,414847,Stockton CA
+79039,"San Jose, CA",285.48,1837446,San Jose CA
+79498,"Santa Rosa, CA",79.39,297329,"Santa Rosa CA, Petaluma CA"
+77068,"Sacramento, CA",467.58,1946618,"Sacramento CA, Woodland CA, Auburn CA"
+79282,"Santa Barbara, CA",54.81,202197,Santa Barbara CA
+78661,"San Diego, CA",674.72,3070300,"San Diego CA, Oceanside CA"
+31843,"Fresno, CA",159.11,717589,Fresno CA
+75340,"Riverside--San Bernardino, CA",608.56,2276703,"San Bernardino CA, Riverside CA"
+69184,"Phoenix--Mesa--Scottsdale, AZ",1110.48,3976313,"Phoenix AZ, Glendale AZ, Scottsdale AZ, Peoria AZ"
+88732,"Tucson, AZ",357.35,875441,Tucson AZ
+66673,"Oxnard--San Buenaventura (Ventura), CA",76.61,376117,"Oxnard CA, Camarillo CA"
+80362,"Seaside--Monterey--Pacific Grove, CA",41.18,123495,Monterey CA
+19504,"Concord--Walnut Creek, CA",175.76,538583,Concord CA
+41347,"Indio--Palm Desert--Palm Springs, CA",151.82,361075,Thousand Palms CA
+79417,"Santa Maria, CA",27.06,143609,Santa Maria CA
+90946,"Visalia, CA",37.7,160578,Visalia CA
+28657,"Fairfield, CA",40.81,150122,Fairfield CA

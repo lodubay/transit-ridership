@@ -32,8 +32,13 @@ def main():
     # Separate reference tables with transit agency and city info
     agency_info = upt_data[other_cols].copy()
     agency_info.to_csv(paths.data / 'Agencies.csv')
-    city_info = agency_info.drop(columns=['Agency Name']).set_index('UACE Code', drop=True)
-    city_info.drop_duplicates(inplace=True)
+    city_info = agency_info.drop(columns=['Agency Name']).drop_duplicates()
+    # Merge list of individual cities in each urbanized area
+    city_info['City State'] = city_info['City'].str.cat(city_info['State'], sep=' ')
+    city_lists = city_info.groupby('UACE Code')['City State'].apply(lambda x: ', '.join(x))
+    city_info = city_info.drop_duplicates(subset='UACE Code').set_index('UACE Code', drop=True)
+    city_info['Cities'] = city_lists
+    city_info = city_info.drop(columns=['City', 'State', 'City State'])
     city_info.to_csv(paths.data / 'Cities.csv')
 
     def parse_time_series(file, sheet, year_range=(1991, 2019), export=True,
