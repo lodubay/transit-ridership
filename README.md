@@ -9,13 +9,13 @@ slides](Transit_Ridership_Slides.pdf)
 
 ### The `src/` directory
 
-- The `src/parse_data.py` script imports time-series data from the Excel
+- The [`parse_data.py`](src/parse_data.py) script imports time-series data from the Excel
 spreadsheets and outputs the parsed and adjusted training and testing data.
-- The `src/EDA.ipynb` notebook contains exploratory data analysis.
-- The `src/City_Specific_Model.ipynb` notebook fits a regression for each city
-independently.
-- The `src/all_city_model.ipynb` notebook fits a single XGBoost regression
-model for all cities.
+- The [`EDA.ipynb`](src/EDA.ipynb) notebook contains exploratory data analysis.
+- The [`City_Specific_Model.ipynb`](src/City_Specific_Model.ipynb) notebook fits 
+a regression for each city independently.
+- The [`all_city_model.ipynb`](src/all_city_model.ipynb) notebook fits a single 
+XGBoost regression model for all cities.
 
 ### The `data/` directory
 
