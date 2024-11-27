@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import paths
-from utils import is_year, train_test_split
+from utils import is_year, train_test_year_split
 
 
 def main():
@@ -95,7 +95,7 @@ def main():
         if per_capita:
             city_data = normalize_population(city_data, population)
             fname = fname.replace('.csv', '_percap.csv')
-        train, test = train_test_split(city_data)
+        train, test = train_test_year_split(city_data)
         if export:
             train.to_csv(paths.data / 'train' / fname)
             test.to_csv(paths.data / 'test' / fname)

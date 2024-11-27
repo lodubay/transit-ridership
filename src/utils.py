@@ -3,6 +3,7 @@ This file contains general utility functions for the repository.
 """
 
 import re
+import numpy as np
 import pandas as pd
 import paths
 
@@ -106,7 +107,7 @@ def is_year(val):
     return (match is not None) and (len(val) == 4)
 
 
-def train_test_split(data, n_years=1):
+def train_test_year_split(data, n_years=1):
     """
     Split the last N years off as a testing set.
     
@@ -127,3 +128,61 @@ def train_test_split(data, n_years=1):
     """
     year_cols = [c for c in data.columns if is_year(c)]
     return data[year_cols[:-n_years]].copy(), data[year_cols[-n_years:]].copy()
+
+
+def train_test_city_split(data, test_size=0.2, seed=2024):
+    """
+    Randomly split data into training and testing cities.
+    
+    Note: train/test split is done by city and not by year.
+    
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        Data with all features and indexed by city.
+    test_size : float, optional [default: 0.2]
+        Fraction of cities to use for testing.
+    
+    Returns
+    -------
+    train : pandas.DataFrame
+    test : pandas.DataFrame
+    
+    """
+    rng = np.random.default_rng(seed=seed)
+    all_cities = np.unique(data.index.to_numpy())
+    test_cities = rng.choice(
+        all_cities, size=int(test_size * all_cities.shape[0]), replace=False
+    )
+    train_cities = np.array([c for c in all_cities if not c in test_cities])
+    assert test_cities.shape[0] + train_cities.shape[0] == all_cities.shape[0]
+    return data.loc[train_cities,:], data.loc[test_cities,:]
+
+
+def consolidate_features(features, dir='train'):
+    """
+    Combine multiple features into a single dataframe.
+    
+    Note: Resulting DataFrame is indexed by city, with year as an additional 
+    feature.
+
+    Parameters
+    ----------
+    features : list of strings
+        List of feature names to import and combine.
+    
+    Returns
+    -------
+    pandas.DataFrame
+        Dataframe indexed by city, with year as an additional feature.
+    """
+    df = pd.concat(
+        [read_data(feature, dir=dir).stack() for feature in features],
+        axis=1
+    )
+    df.columns = features
+    df.index.names = ['UACE Code', 'Year']
+    # Turn year into a feature
+    df = df.reset_index().set_index('UACE Code')
+    df = df.astype({'Year': int})
+    return df
