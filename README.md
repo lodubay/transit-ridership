@@ -1,6 +1,19 @@
 # transit-ridership
 
-Project for the Erdos Institute Fall 2024 Data Science Boot Camp: effectiveness of U.S. public transit agencies from the National Transit Database.
+A project for the Erdős Institute's Fall 2024 Data Science Boot Camp.
+
+## Overview
+
+Many cities across the U.S. are increasing investment in public transportation in order
+to reduce greenhouse gas emissions and improve transportation safety. Public transit is
+getting increasingly expensive, and large transit projects can cost many billions of
+dollars. To build a more effective transportation system with limited funding, it is
+important to understand the factors that have the largest effect on ridership. We develop
+two models to predict public transit ridership per capita for 182 cities based on a
+number of factors, such as vehicle statistics and funding allocation, from the U.S. 
+Department of Transportation's [National Transit Database](https://www.transit.dot.gov/ntd). 
+The first is a bespoke model trained on 28 years of data for each city, while the second 
+is trained on most city data at once.
 
 ## Repository Structure
 
@@ -19,8 +32,8 @@ XGBoost regression model for all cities.
 
 ### The `data/` directory
 
-- Excel time-series spreadsheets downloaded from the National Transit Database
-are located in `data/time_series`. 
+- Excel time-series spreadsheets downloaded from the [National Transit Database
+](https://www.transit.dot.gov/ntd) are located in `data/time_series`. 
 - Census data are located in `data/census`.
 - Parsed data are split between the `data/train` and `data/test` folders. The
 former contains adjusted data for all cities through 2018, and the latter
